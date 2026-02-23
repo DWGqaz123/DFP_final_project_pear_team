@@ -1,8 +1,10 @@
 ## Team Information
 
-*Team Name:* Pear Team 
+### Team Name:
+Pear Team 
 
-*Group Members:*
+### Group Members:
+
 •⁠  ⁠Rachel Chen (rachelc3)  
 •⁠  ⁠Chih-Yu Liu (chihyul3)  
 •⁠  ⁠Wenguang Dong (wenguand)  
