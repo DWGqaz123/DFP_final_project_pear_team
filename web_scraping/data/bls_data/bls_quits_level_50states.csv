@@ -1,0 +1,2401 @@
+state,year,month,period,period_name,date,quits_level_thousands
+Alabama,2022,1,M01,January,2022-01-01,69.0
+Alabama,2022,2,M02,February,2022-02-01,51.0
+Alabama,2022,3,M03,March,2022-03-01,68.0
+Alabama,2022,4,M04,April,2022-04-01,73.0
+Alabama,2022,5,M05,May,2022-05-01,64.0
+Alabama,2022,6,M06,June,2022-06-01,73.0
+Alabama,2022,7,M07,July,2022-07-01,70.0
+Alabama,2022,8,M08,August,2022-08-01,95.0
+Alabama,2022,9,M09,September,2022-09-01,72.0
+Alabama,2022,10,M10,October,2022-10-01,74.0
+Alabama,2022,11,M11,November,2022-11-01,64.0
+Alabama,2022,12,M12,December,2022-12-01,56.0
+Alabama,2023,1,M01,January,2023-01-01,57.0
+Alabama,2023,2,M02,February,2023-02-01,59.0
+Alabama,2023,3,M03,March,2023-03-01,61.0
+Alabama,2023,4,M04,April,2023-04-01,54.0
+Alabama,2023,5,M05,May,2023-05-01,74.0
+Alabama,2023,6,M06,June,2023-06-01,60.0
+Alabama,2023,7,M07,July,2023-07-01,64.0
+Alabama,2023,8,M08,August,2023-08-01,72.0
+Alabama,2023,9,M09,September,2023-09-01,56.0
+Alabama,2023,10,M10,October,2023-10-01,63.0
+Alabama,2023,11,M11,November,2023-11-01,47.0
+Alabama,2023,12,M12,December,2023-12-01,42.0
+Alabama,2024,1,M01,January,2024-01-01,51.0
+Alabama,2024,2,M02,February,2024-02-01,35.0
+Alabama,2024,3,M03,March,2024-03-01,47.0
+Alabama,2024,4,M04,April,2024-04-01,58.0
+Alabama,2024,5,M05,May,2024-05-01,57.0
+Alabama,2024,6,M06,June,2024-06-01,53.0
+Alabama,2024,7,M07,July,2024-07-01,59.0
+Alabama,2024,8,M08,August,2024-08-01,54.0
+Alabama,2024,9,M09,September,2024-09-01,49.0
+Alabama,2024,10,M10,October,2024-10-01,52.0
+Alabama,2024,11,M11,November,2024-11-01,41.0
+Alabama,2024,12,M12,December,2024-12-01,41.0
+Alabama,2025,1,M01,January,2025-01-01,45.0
+Alabama,2025,2,M02,February,2025-02-01,39.0
+Alabama,2025,3,M03,March,2025-03-01,46.0
+Alabama,2025,4,M04,April,2025-04-01,44.0
+Alabama,2025,5,M05,May,2025-05-01,57.0
+Alabama,2025,6,M06,June,2025-06-01,43.0
+Alabama,2025,7,M07,July,2025-07-01,51.0
+Alabama,2025,8,M08,August,2025-08-01,55.0
+Alabama,2025,9,M09,September,2025-09-01,48.0
+Alabama,2025,10,M10,October,2025-10-01,40.0
+Alabama,2025,11,M11,November,2025-11-01,40.0
+Alabama,2025,12,M12,December,2025-12-01,41.0
+Alaska,2022,1,M01,January,2022-01-01,11.0
+Alaska,2022,2,M02,February,2022-02-01,8.0
+Alaska,2022,3,M03,March,2022-03-01,10.0
+Alaska,2022,4,M04,April,2022-04-01,10.0
+Alaska,2022,5,M05,May,2022-05-01,13.0
+Alaska,2022,6,M06,June,2022-06-01,12.0
+Alaska,2022,7,M07,July,2022-07-01,10.0
+Alaska,2022,8,M08,August,2022-08-01,23.0
+Alaska,2022,9,M09,September,2022-09-01,20.0
+Alaska,2022,10,M10,October,2022-10-01,20.0
+Alaska,2022,11,M11,November,2022-11-01,16.0
+Alaska,2022,12,M12,December,2022-12-01,12.0
+Alaska,2023,1,M01,January,2023-01-01,9.0
+Alaska,2023,2,M02,February,2023-02-01,7.0
+Alaska,2023,3,M03,March,2023-03-01,8.0
+Alaska,2023,4,M04,April,2023-04-01,9.0
+Alaska,2023,5,M05,May,2023-05-01,11.0
+Alaska,2023,6,M06,June,2023-06-01,10.0
+Alaska,2023,7,M07,July,2023-07-01,10.0
+Alaska,2023,8,M08,August,2023-08-01,17.0
+Alaska,2023,9,M09,September,2023-09-01,21.0
+Alaska,2023,10,M10,October,2023-10-01,17.0
+Alaska,2023,11,M11,November,2023-11-01,15.0
+Alaska,2023,12,M12,December,2023-12-01,9.0
+Alaska,2024,1,M01,January,2024-01-01,8.0
+Alaska,2024,2,M02,February,2024-02-01,7.0
+Alaska,2024,3,M03,March,2024-03-01,8.0
+Alaska,2024,4,M04,April,2024-04-01,8.0
+Alaska,2024,5,M05,May,2024-05-01,11.0
+Alaska,2024,6,M06,June,2024-06-01,9.0
+Alaska,2024,7,M07,July,2024-07-01,9.0
+Alaska,2024,8,M08,August,2024-08-01,14.0
+Alaska,2024,9,M09,September,2024-09-01,14.0
+Alaska,2024,10,M10,October,2024-10-01,8.0
+Alaska,2024,11,M11,November,2024-11-01,11.0
+Alaska,2024,12,M12,December,2024-12-01,11.0
+Alaska,2025,1,M01,January,2025-01-01,7.0
+Alaska,2025,2,M02,February,2025-02-01,5.0
+Alaska,2025,3,M03,March,2025-03-01,6.0
+Alaska,2025,4,M04,April,2025-04-01,8.0
+Alaska,2025,5,M05,May,2025-05-01,11.0
+Alaska,2025,6,M06,June,2025-06-01,10.0
+Alaska,2025,7,M07,July,2025-07-01,9.0
+Alaska,2025,8,M08,August,2025-08-01,13.0
+Alaska,2025,9,M09,September,2025-09-01,17.0
+Alaska,2025,10,M10,October,2025-10-01,7.0
+Alaska,2025,11,M11,November,2025-11-01,11.0
+Alaska,2025,12,M12,December,2025-12-01,12.0
+Arizona,2022,1,M01,January,2022-01-01,119.0
+Arizona,2022,2,M02,February,2022-02-01,75.0
+Arizona,2022,3,M03,March,2022-03-01,125.0
+Arizona,2022,4,M04,April,2022-04-01,109.0
+Arizona,2022,5,M05,May,2022-05-01,114.0
+Arizona,2022,6,M06,June,2022-06-01,141.0
+Arizona,2022,7,M07,July,2022-07-01,131.0
+Arizona,2022,8,M08,August,2022-08-01,117.0
+Arizona,2022,9,M09,September,2022-09-01,88.0
+Arizona,2022,10,M10,October,2022-10-01,97.0
+Arizona,2022,11,M11,November,2022-11-01,77.0
+Arizona,2022,12,M12,December,2022-12-01,82.0
+Arizona,2023,1,M01,January,2023-01-01,88.0
+Arizona,2023,2,M02,February,2023-02-01,75.0
+Arizona,2023,3,M03,March,2023-03-01,87.0
+Arizona,2023,4,M04,April,2023-04-01,110.0
+Arizona,2023,5,M05,May,2023-05-01,92.0
+Arizona,2023,6,M06,June,2023-06-01,108.0
+Arizona,2023,7,M07,July,2023-07-01,112.0
+Arizona,2023,8,M08,August,2023-08-01,95.0
+Arizona,2023,9,M09,September,2023-09-01,80.0
+Arizona,2023,10,M10,October,2023-10-01,87.0
+Arizona,2023,11,M11,November,2023-11-01,62.0
+Arizona,2023,12,M12,December,2023-12-01,63.0
+Arizona,2024,1,M01,January,2024-01-01,80.0
+Arizona,2024,2,M02,February,2024-02-01,60.0
+Arizona,2024,3,M03,March,2024-03-01,61.0
+Arizona,2024,4,M04,April,2024-04-01,92.0
+Arizona,2024,5,M05,May,2024-05-01,83.0
+Arizona,2024,6,M06,June,2024-06-01,87.0
+Arizona,2024,7,M07,July,2024-07-01,86.0
+Arizona,2024,8,M08,August,2024-08-01,74.0
+Arizona,2024,9,M09,September,2024-09-01,54.0
+Arizona,2024,10,M10,October,2024-10-01,84.0
+Arizona,2024,11,M11,November,2024-11-01,48.0
+Arizona,2024,12,M12,December,2024-12-01,48.0
+Arizona,2025,1,M01,January,2025-01-01,77.0
+Arizona,2025,2,M02,February,2025-02-01,57.0
+Arizona,2025,3,M03,March,2025-03-01,59.0
+Arizona,2025,4,M04,April,2025-04-01,88.0
+Arizona,2025,5,M05,May,2025-05-01,89.0
+Arizona,2025,6,M06,June,2025-06-01,101.0
+Arizona,2025,7,M07,July,2025-07-01,91.0
+Arizona,2025,8,M08,August,2025-08-01,71.0
+Arizona,2025,9,M09,September,2025-09-01,58.0
+Arizona,2025,10,M10,October,2025-10-01,63.0
+Arizona,2025,11,M11,November,2025-11-01,55.0
+Arizona,2025,12,M12,December,2025-12-01,45.0
+Arkansas,2022,1,M01,January,2022-01-01,46.0
+Arkansas,2022,2,M02,February,2022-02-01,36.0
+Arkansas,2022,3,M03,March,2022-03-01,44.0
+Arkansas,2022,4,M04,April,2022-04-01,43.0
+Arkansas,2022,5,M05,May,2022-05-01,40.0
+Arkansas,2022,6,M06,June,2022-06-01,47.0
+Arkansas,2022,7,M07,July,2022-07-01,51.0
+Arkansas,2022,8,M08,August,2022-08-01,50.0
+Arkansas,2022,9,M09,September,2022-09-01,39.0
+Arkansas,2022,10,M10,October,2022-10-01,39.0
+Arkansas,2022,11,M11,November,2022-11-01,38.0
+Arkansas,2022,12,M12,December,2022-12-01,35.0
+Arkansas,2023,1,M01,January,2023-01-01,35.0
+Arkansas,2023,2,M02,February,2023-02-01,36.0
+Arkansas,2023,3,M03,March,2023-03-01,37.0
+Arkansas,2023,4,M04,April,2023-04-01,39.0
+Arkansas,2023,5,M05,May,2023-05-01,47.0
+Arkansas,2023,6,M06,June,2023-06-01,44.0
+Arkansas,2023,7,M07,July,2023-07-01,43.0
+Arkansas,2023,8,M08,August,2023-08-01,45.0
+Arkansas,2023,9,M09,September,2023-09-01,35.0
+Arkansas,2023,10,M10,October,2023-10-01,35.0
+Arkansas,2023,11,M11,November,2023-11-01,33.0
+Arkansas,2023,12,M12,December,2023-12-01,28.0
+Arkansas,2024,1,M01,January,2024-01-01,32.0
+Arkansas,2024,2,M02,February,2024-02-01,27.0
+Arkansas,2024,3,M03,March,2024-03-01,27.0
+Arkansas,2024,4,M04,April,2024-04-01,35.0
+Arkansas,2024,5,M05,May,2024-05-01,36.0
+Arkansas,2024,6,M06,June,2024-06-01,37.0
+Arkansas,2024,7,M07,July,2024-07-01,44.0
+Arkansas,2024,8,M08,August,2024-08-01,33.0
+Arkansas,2024,9,M09,September,2024-09-01,26.0
+Arkansas,2024,10,M10,October,2024-10-01,35.0
+Arkansas,2024,11,M11,November,2024-11-01,23.0
+Arkansas,2024,12,M12,December,2024-12-01,22.0
+Arkansas,2025,1,M01,January,2025-01-01,29.0
+Arkansas,2025,2,M02,February,2025-02-01,27.0
+Arkansas,2025,3,M03,March,2025-03-01,29.0
+Arkansas,2025,4,M04,April,2025-04-01,31.0
+Arkansas,2025,5,M05,May,2025-05-01,30.0
+Arkansas,2025,6,M06,June,2025-06-01,29.0
+Arkansas,2025,7,M07,July,2025-07-01,35.0
+Arkansas,2025,8,M08,August,2025-08-01,32.0
+Arkansas,2025,9,M09,September,2025-09-01,26.0
+Arkansas,2025,10,M10,October,2025-10-01,30.0
+Arkansas,2025,11,M11,November,2025-11-01,24.0
+Arkansas,2025,12,M12,December,2025-12-01,22.0
+California,2022,1,M01,January,2022-01-01,455.0
+California,2022,2,M02,February,2022-02-01,376.0
+California,2022,3,M03,March,2022-03-01,443.0
+California,2022,4,M04,April,2022-04-01,487.0
+California,2022,5,M05,May,2022-05-01,494.0
+California,2022,6,M06,June,2022-06-01,409.0
+California,2022,7,M07,July,2022-07-01,454.0
+California,2022,8,M08,August,2022-08-01,506.0
+California,2022,9,M09,September,2022-09-01,391.0
+California,2022,10,M10,October,2022-10-01,354.0
+California,2022,11,M11,November,2022-11-01,383.0
+California,2022,12,M12,December,2022-12-01,376.0
+California,2023,1,M01,January,2023-01-01,405.0
+California,2023,2,M02,February,2023-02-01,313.0
+California,2023,3,M03,March,2023-03-01,324.0
+California,2023,4,M04,April,2023-04-01,347.0
+California,2023,5,M05,May,2023-05-01,358.0
+California,2023,6,M06,June,2023-06-01,376.0
+California,2023,7,M07,July,2023-07-01,354.0
+California,2023,8,M08,August,2023-08-01,338.0
+California,2023,9,M09,September,2023-09-01,328.0
+California,2023,10,M10,October,2023-10-01,313.0
+California,2023,11,M11,November,2023-11-01,278.0
+California,2023,12,M12,December,2023-12-01,286.0
+California,2024,1,M01,January,2024-01-01,286.0
+California,2024,2,M02,February,2024-02-01,286.0
+California,2024,3,M03,March,2024-03-01,277.0
+California,2024,4,M04,April,2024-04-01,283.0
+California,2024,5,M05,May,2024-05-01,351.0
+California,2024,6,M06,June,2024-06-01,307.0
+California,2024,7,M07,July,2024-07-01,435.0
+California,2024,8,M08,August,2024-08-01,373.0
+California,2024,9,M09,September,2024-09-01,284.0
+California,2024,10,M10,October,2024-10-01,327.0
+California,2024,11,M11,November,2024-11-01,315.0
+California,2024,12,M12,December,2024-12-01,302.0
+California,2025,1,M01,January,2025-01-01,311.0
+California,2025,2,M02,February,2025-02-01,243.0
+California,2025,3,M03,March,2025-03-01,355.0
+California,2025,4,M04,April,2025-04-01,380.0
+California,2025,5,M05,May,2025-05-01,328.0
+California,2025,6,M06,June,2025-06-01,368.0
+California,2025,7,M07,July,2025-07-01,361.0
+California,2025,8,M08,August,2025-08-01,441.0
+California,2025,9,M09,September,2025-09-01,262.0
+California,2025,10,M10,October,2025-10-01,241.0
+California,2025,11,M11,November,2025-11-01,225.0
+California,2025,12,M12,December,2025-12-01,262.0
+Colorado,2022,1,M01,January,2022-01-01,85.0
+Colorado,2022,2,M02,February,2022-02-01,75.0
+Colorado,2022,3,M03,March,2022-03-01,82.0
+Colorado,2022,4,M04,April,2022-04-01,92.0
+Colorado,2022,5,M05,May,2022-05-01,88.0
+Colorado,2022,6,M06,June,2022-06-01,75.0
+Colorado,2022,7,M07,July,2022-07-01,86.0
+Colorado,2022,8,M08,August,2022-08-01,93.0
+Colorado,2022,9,M09,September,2022-09-01,94.0
+Colorado,2022,10,M10,October,2022-10-01,70.0
+Colorado,2022,11,M11,November,2022-11-01,77.0
+Colorado,2022,12,M12,December,2022-12-01,84.0
+Colorado,2023,1,M01,January,2023-01-01,74.0
+Colorado,2023,2,M02,February,2023-02-01,61.0
+Colorado,2023,3,M03,March,2023-03-01,58.0
+Colorado,2023,4,M04,April,2023-04-01,84.0
+Colorado,2023,5,M05,May,2023-05-01,69.0
+Colorado,2023,6,M06,June,2023-06-01,67.0
+Colorado,2023,7,M07,July,2023-07-01,70.0
+Colorado,2023,8,M08,August,2023-08-01,89.0
+Colorado,2023,9,M09,September,2023-09-01,63.0
+Colorado,2023,10,M10,October,2023-10-01,70.0
+Colorado,2023,11,M11,November,2023-11-01,51.0
+Colorado,2023,12,M12,December,2023-12-01,58.0
+Colorado,2024,1,M01,January,2024-01-01,76.0
+Colorado,2024,2,M02,February,2024-02-01,53.0
+Colorado,2024,3,M03,March,2024-03-01,59.0
+Colorado,2024,4,M04,April,2024-04-01,97.0
+Colorado,2024,5,M05,May,2024-05-01,65.0
+Colorado,2024,6,M06,June,2024-06-01,81.0
+Colorado,2024,7,M07,July,2024-07-01,119.0
+Colorado,2024,8,M08,August,2024-08-01,93.0
+Colorado,2024,9,M09,September,2024-09-01,57.0
+Colorado,2024,10,M10,October,2024-10-01,62.0
+Colorado,2024,11,M11,November,2024-11-01,70.0
+Colorado,2024,12,M12,December,2024-12-01,43.0
+Colorado,2025,1,M01,January,2025-01-01,67.0
+Colorado,2025,2,M02,February,2025-02-01,39.0
+Colorado,2025,3,M03,March,2025-03-01,51.0
+Colorado,2025,4,M04,April,2025-04-01,64.0
+Colorado,2025,5,M05,May,2025-05-01,70.0
+Colorado,2025,6,M06,June,2025-06-01,68.0
+Colorado,2025,7,M07,July,2025-07-01,85.0
+Colorado,2025,8,M08,August,2025-08-01,69.0
+Colorado,2025,9,M09,September,2025-09-01,65.0
+Colorado,2025,10,M10,October,2025-10-01,59.0
+Colorado,2025,11,M11,November,2025-11-01,61.0
+Colorado,2025,12,M12,December,2025-12-01,50.0
+Connecticut,2022,1,M01,January,2022-01-01,37.0
+Connecticut,2022,2,M02,February,2022-02-01,30.0
+Connecticut,2022,3,M03,March,2022-03-01,30.0
+Connecticut,2022,4,M04,April,2022-04-01,42.0
+Connecticut,2022,5,M05,May,2022-05-01,34.0
+Connecticut,2022,6,M06,June,2022-06-01,42.0
+Connecticut,2022,7,M07,July,2022-07-01,45.0
+Connecticut,2022,8,M08,August,2022-08-01,47.0
+Connecticut,2022,9,M09,September,2022-09-01,38.0
+Connecticut,2022,10,M10,October,2022-10-01,30.0
+Connecticut,2022,11,M11,November,2022-11-01,39.0
+Connecticut,2022,12,M12,December,2022-12-01,29.0
+Connecticut,2023,1,M01,January,2023-01-01,32.0
+Connecticut,2023,2,M02,February,2023-02-01,30.0
+Connecticut,2023,3,M03,March,2023-03-01,31.0
+Connecticut,2023,4,M04,April,2023-04-01,39.0
+Connecticut,2023,5,M05,May,2023-05-01,40.0
+Connecticut,2023,6,M06,June,2023-06-01,39.0
+Connecticut,2023,7,M07,July,2023-07-01,44.0
+Connecticut,2023,8,M08,August,2023-08-01,31.0
+Connecticut,2023,9,M09,September,2023-09-01,32.0
+Connecticut,2023,10,M10,October,2023-10-01,27.0
+Connecticut,2023,11,M11,November,2023-11-01,26.0
+Connecticut,2023,12,M12,December,2023-12-01,27.0
+Connecticut,2024,1,M01,January,2024-01-01,28.0
+Connecticut,2024,2,M02,February,2024-02-01,23.0
+Connecticut,2024,3,M03,March,2024-03-01,27.0
+Connecticut,2024,4,M04,April,2024-04-01,35.0
+Connecticut,2024,5,M05,May,2024-05-01,30.0
+Connecticut,2024,6,M06,June,2024-06-01,34.0
+Connecticut,2024,7,M07,July,2024-07-01,30.0
+Connecticut,2024,8,M08,August,2024-08-01,40.0
+Connecticut,2024,9,M09,September,2024-09-01,33.0
+Connecticut,2024,10,M10,October,2024-10-01,29.0
+Connecticut,2024,11,M11,November,2024-11-01,21.0
+Connecticut,2024,12,M12,December,2024-12-01,18.0
+Connecticut,2025,1,M01,January,2025-01-01,34.0
+Connecticut,2025,2,M02,February,2025-02-01,23.0
+Connecticut,2025,3,M03,March,2025-03-01,34.0
+Connecticut,2025,4,M04,April,2025-04-01,35.0
+Connecticut,2025,5,M05,May,2025-05-01,26.0
+Connecticut,2025,6,M06,June,2025-06-01,44.0
+Connecticut,2025,7,M07,July,2025-07-01,29.0
+Connecticut,2025,8,M08,August,2025-08-01,35.0
+Connecticut,2025,9,M09,September,2025-09-01,28.0
+Connecticut,2025,10,M10,October,2025-10-01,27.0
+Connecticut,2025,11,M11,November,2025-11-01,26.0
+Connecticut,2025,12,M12,December,2025-12-01,22.0
+Delaware,2022,1,M01,January,2022-01-01,17.0
+Delaware,2022,2,M02,February,2022-02-01,12.0
+Delaware,2022,3,M03,March,2022-03-01,13.0
+Delaware,2022,4,M04,April,2022-04-01,17.0
+Delaware,2022,5,M05,May,2022-05-01,14.0
+Delaware,2022,6,M06,June,2022-06-01,18.0
+Delaware,2022,7,M07,July,2022-07-01,16.0
+Delaware,2022,8,M08,August,2022-08-01,19.0
+Delaware,2022,9,M09,September,2022-09-01,21.0
+Delaware,2022,10,M10,October,2022-10-01,21.0
+Delaware,2022,11,M11,November,2022-11-01,16.0
+Delaware,2022,12,M12,December,2022-12-01,13.0
+Delaware,2023,1,M01,January,2023-01-01,17.0
+Delaware,2023,2,M02,February,2023-02-01,13.0
+Delaware,2023,3,M03,March,2023-03-01,12.0
+Delaware,2023,4,M04,April,2023-04-01,13.0
+Delaware,2023,5,M05,May,2023-05-01,14.0
+Delaware,2023,6,M06,June,2023-06-01,14.0
+Delaware,2023,7,M07,July,2023-07-01,15.0
+Delaware,2023,8,M08,August,2023-08-01,17.0
+Delaware,2023,9,M09,September,2023-09-01,19.0
+Delaware,2023,10,M10,October,2023-10-01,13.0
+Delaware,2023,11,M11,November,2023-11-01,11.0
+Delaware,2023,12,M12,December,2023-12-01,10.0
+Delaware,2024,1,M01,January,2024-01-01,12.0
+Delaware,2024,2,M02,February,2024-02-01,8.0
+Delaware,2024,3,M03,March,2024-03-01,8.0
+Delaware,2024,4,M04,April,2024-04-01,11.0
+Delaware,2024,5,M05,May,2024-05-01,12.0
+Delaware,2024,6,M06,June,2024-06-01,13.0
+Delaware,2024,7,M07,July,2024-07-01,18.0
+Delaware,2024,8,M08,August,2024-08-01,14.0
+Delaware,2024,9,M09,September,2024-09-01,15.0
+Delaware,2024,10,M10,October,2024-10-01,11.0
+Delaware,2024,11,M11,November,2024-11-01,10.0
+Delaware,2024,12,M12,December,2024-12-01,13.0
+Delaware,2025,1,M01,January,2025-01-01,10.0
+Delaware,2025,2,M02,February,2025-02-01,8.0
+Delaware,2025,3,M03,March,2025-03-01,8.0
+Delaware,2025,4,M04,April,2025-04-01,9.0
+Delaware,2025,5,M05,May,2025-05-01,13.0
+Delaware,2025,6,M06,June,2025-06-01,11.0
+Delaware,2025,7,M07,July,2025-07-01,15.0
+Delaware,2025,8,M08,August,2025-08-01,14.0
+Delaware,2025,9,M09,September,2025-09-01,15.0
+Delaware,2025,10,M10,October,2025-10-01,9.0
+Delaware,2025,11,M11,November,2025-11-01,10.0
+Delaware,2025,12,M12,December,2025-12-01,11.0
+Florida,2022,1,M01,January,2022-01-01,272.0
+Florida,2022,2,M02,February,2022-02-01,256.0
+Florida,2022,3,M03,March,2022-03-01,381.0
+Florida,2022,4,M04,April,2022-04-01,341.0
+Florida,2022,5,M05,May,2022-05-01,364.0
+Florida,2022,6,M06,June,2022-06-01,327.0
+Florida,2022,7,M07,July,2022-07-01,303.0
+Florida,2022,8,M08,August,2022-08-01,319.0
+Florida,2022,9,M09,September,2022-09-01,254.0
+Florida,2022,10,M10,October,2022-10-01,263.0
+Florida,2022,11,M11,November,2022-11-01,235.0
+Florida,2022,12,M12,December,2022-12-01,301.0
+Florida,2023,1,M01,January,2023-01-01,245.0
+Florida,2023,2,M02,February,2023-02-01,235.0
+Florida,2023,3,M03,March,2023-03-01,273.0
+Florida,2023,4,M04,April,2023-04-01,297.0
+Florida,2023,5,M05,May,2023-05-01,316.0
+Florida,2023,6,M06,June,2023-06-01,334.0
+Florida,2023,7,M07,July,2023-07-01,292.0
+Florida,2023,8,M08,August,2023-08-01,292.0
+Florida,2023,9,M09,September,2023-09-01,269.0
+Florida,2023,10,M10,October,2023-10-01,269.0
+Florida,2023,11,M11,November,2023-11-01,254.0
+Florida,2023,12,M12,December,2023-12-01,223.0
+Florida,2024,1,M01,January,2024-01-01,246.0
+Florida,2024,2,M02,February,2024-02-01,291.0
+Florida,2024,3,M03,March,2024-03-01,261.0
+Florida,2024,4,M04,April,2024-04-01,317.0
+Florida,2024,5,M05,May,2024-05-01,228.0
+Florida,2024,6,M06,June,2024-06-01,290.0
+Florida,2024,7,M07,July,2024-07-01,345.0
+Florida,2024,8,M08,August,2024-08-01,289.0
+Florida,2024,9,M09,September,2024-09-01,234.0
+Florida,2024,10,M10,October,2024-10-01,210.0
+Florida,2024,11,M11,November,2024-11-01,205.0
+Florida,2024,12,M12,December,2024-12-01,166.0
+Florida,2025,1,M01,January,2025-01-01,250.0
+Florida,2025,2,M02,February,2025-02-01,239.0
+Florida,2025,3,M03,March,2025-03-01,229.0
+Florida,2025,4,M04,April,2025-04-01,262.0
+Florida,2025,5,M05,May,2025-05-01,265.0
+Florida,2025,6,M06,June,2025-06-01,229.0
+Florida,2025,7,M07,July,2025-07-01,234.0
+Florida,2025,8,M08,August,2025-08-01,249.0
+Florida,2025,9,M09,September,2025-09-01,194.0
+Florida,2025,10,M10,October,2025-10-01,201.0
+Florida,2025,11,M11,November,2025-11-01,166.0
+Florida,2025,12,M12,December,2025-12-01,171.0
+Georgia,2022,1,M01,January,2022-01-01,181.0
+Georgia,2022,2,M02,February,2022-02-01,168.0
+Georgia,2022,3,M03,March,2022-03-01,155.0
+Georgia,2022,4,M04,April,2022-04-01,198.0
+Georgia,2022,5,M05,May,2022-05-01,200.0
+Georgia,2022,6,M06,June,2022-06-01,265.0
+Georgia,2022,7,M07,July,2022-07-01,214.0
+Georgia,2022,8,M08,August,2022-08-01,214.0
+Georgia,2022,9,M09,September,2022-09-01,194.0
+Georgia,2022,10,M10,October,2022-10-01,161.0
+Georgia,2022,11,M11,November,2022-11-01,143.0
+Georgia,2022,12,M12,December,2022-12-01,134.0
+Georgia,2023,1,M01,January,2023-01-01,158.0
+Georgia,2023,2,M02,February,2023-02-01,168.0
+Georgia,2023,3,M03,March,2023-03-01,160.0
+Georgia,2023,4,M04,April,2023-04-01,149.0
+Georgia,2023,5,M05,May,2023-05-01,160.0
+Georgia,2023,6,M06,June,2023-06-01,135.0
+Georgia,2023,7,M07,July,2023-07-01,164.0
+Georgia,2023,8,M08,August,2023-08-01,157.0
+Georgia,2023,9,M09,September,2023-09-01,139.0
+Georgia,2023,10,M10,October,2023-10-01,135.0
+Georgia,2023,11,M11,November,2023-11-01,98.0
+Georgia,2023,12,M12,December,2023-12-01,120.0
+Georgia,2024,1,M01,January,2024-01-01,110.0
+Georgia,2024,2,M02,February,2024-02-01,86.0
+Georgia,2024,3,M03,March,2024-03-01,108.0
+Georgia,2024,4,M04,April,2024-04-01,109.0
+Georgia,2024,5,M05,May,2024-05-01,118.0
+Georgia,2024,6,M06,June,2024-06-01,134.0
+Georgia,2024,7,M07,July,2024-07-01,134.0
+Georgia,2024,8,M08,August,2024-08-01,130.0
+Georgia,2024,9,M09,September,2024-09-01,106.0
+Georgia,2024,10,M10,October,2024-10-01,111.0
+Georgia,2024,11,M11,November,2024-11-01,86.0
+Georgia,2024,12,M12,December,2024-12-01,87.0
+Georgia,2025,1,M01,January,2025-01-01,95.0
+Georgia,2025,2,M02,February,2025-02-01,87.0
+Georgia,2025,3,M03,March,2025-03-01,106.0
+Georgia,2025,4,M04,April,2025-04-01,90.0
+Georgia,2025,5,M05,May,2025-05-01,121.0
+Georgia,2025,6,M06,June,2025-06-01,85.0
+Georgia,2025,7,M07,July,2025-07-01,107.0
+Georgia,2025,8,M08,August,2025-08-01,119.0
+Georgia,2025,9,M09,September,2025-09-01,103.0
+Georgia,2025,10,M10,October,2025-10-01,84.0
+Georgia,2025,11,M11,November,2025-11-01,97.0
+Georgia,2025,12,M12,December,2025-12-01,75.0
+Hawaii,2022,1,M01,January,2022-01-01,18.0
+Hawaii,2022,2,M02,February,2022-02-01,13.0
+Hawaii,2022,3,M03,March,2022-03-01,15.0
+Hawaii,2022,4,M04,April,2022-04-01,15.0
+Hawaii,2022,5,M05,May,2022-05-01,15.0
+Hawaii,2022,6,M06,June,2022-06-01,16.0
+Hawaii,2022,7,M07,July,2022-07-01,14.0
+Hawaii,2022,8,M08,August,2022-08-01,21.0
+Hawaii,2022,9,M09,September,2022-09-01,17.0
+Hawaii,2022,10,M10,October,2022-10-01,11.0
+Hawaii,2022,11,M11,November,2022-11-01,11.0
+Hawaii,2022,12,M12,December,2022-12-01,13.0
+Hawaii,2023,1,M01,January,2023-01-01,15.0
+Hawaii,2023,2,M02,February,2023-02-01,11.0
+Hawaii,2023,3,M03,March,2023-03-01,12.0
+Hawaii,2023,4,M04,April,2023-04-01,13.0
+Hawaii,2023,5,M05,May,2023-05-01,13.0
+Hawaii,2023,6,M06,June,2023-06-01,14.0
+Hawaii,2023,7,M07,July,2023-07-01,14.0
+Hawaii,2023,8,M08,August,2023-08-01,21.0
+Hawaii,2023,9,M09,September,2023-09-01,21.0
+Hawaii,2023,10,M10,October,2023-10-01,10.0
+Hawaii,2023,11,M11,November,2023-11-01,9.0
+Hawaii,2023,12,M12,December,2023-12-01,9.0
+Hawaii,2024,1,M01,January,2024-01-01,14.0
+Hawaii,2024,2,M02,February,2024-02-01,11.0
+Hawaii,2024,3,M03,March,2024-03-01,11.0
+Hawaii,2024,4,M04,April,2024-04-01,13.0
+Hawaii,2024,5,M05,May,2024-05-01,13.0
+Hawaii,2024,6,M06,June,2024-06-01,14.0
+Hawaii,2024,7,M07,July,2024-07-01,13.0
+Hawaii,2024,8,M08,August,2024-08-01,15.0
+Hawaii,2024,9,M09,September,2024-09-01,11.0
+Hawaii,2024,10,M10,October,2024-10-01,15.0
+Hawaii,2024,11,M11,November,2024-11-01,11.0
+Hawaii,2024,12,M12,December,2024-12-01,11.0
+Hawaii,2025,1,M01,January,2025-01-01,14.0
+Hawaii,2025,2,M02,February,2025-02-01,9.0
+Hawaii,2025,3,M03,March,2025-03-01,11.0
+Hawaii,2025,4,M04,April,2025-04-01,13.0
+Hawaii,2025,5,M05,May,2025-05-01,13.0
+Hawaii,2025,6,M06,June,2025-06-01,15.0
+Hawaii,2025,7,M07,July,2025-07-01,14.0
+Hawaii,2025,8,M08,August,2025-08-01,16.0
+Hawaii,2025,9,M09,September,2025-09-01,12.0
+Hawaii,2025,10,M10,October,2025-10-01,14.0
+Hawaii,2025,11,M11,November,2025-11-01,10.0
+Hawaii,2025,12,M12,December,2025-12-01,11.0
+Idaho,2022,1,M01,January,2022-01-01,25.0
+Idaho,2022,2,M02,February,2022-02-01,20.0
+Idaho,2022,3,M03,March,2022-03-01,24.0
+Idaho,2022,4,M04,April,2022-04-01,32.0
+Idaho,2022,5,M05,May,2022-05-01,25.0
+Idaho,2022,6,M06,June,2022-06-01,23.0
+Idaho,2022,7,M07,July,2022-07-01,29.0
+Idaho,2022,8,M08,August,2022-08-01,38.0
+Idaho,2022,9,M09,September,2022-09-01,34.0
+Idaho,2022,10,M10,October,2022-10-01,29.0
+Idaho,2022,11,M11,November,2022-11-01,24.0
+Idaho,2022,12,M12,December,2022-12-01,35.0
+Idaho,2023,1,M01,January,2023-01-01,27.0
+Idaho,2023,2,M02,February,2023-02-01,20.0
+Idaho,2023,3,M03,March,2023-03-01,22.0
+Idaho,2023,4,M04,April,2023-04-01,26.0
+Idaho,2023,5,M05,May,2023-05-01,27.0
+Idaho,2023,6,M06,June,2023-06-01,22.0
+Idaho,2023,7,M07,July,2023-07-01,28.0
+Idaho,2023,8,M08,August,2023-08-01,41.0
+Idaho,2023,9,M09,September,2023-09-01,38.0
+Idaho,2023,10,M10,October,2023-10-01,24.0
+Idaho,2023,11,M11,November,2023-11-01,22.0
+Idaho,2023,12,M12,December,2023-12-01,17.0
+Idaho,2024,1,M01,January,2024-01-01,25.0
+Idaho,2024,2,M02,February,2024-02-01,19.0
+Idaho,2024,3,M03,March,2024-03-01,20.0
+Idaho,2024,4,M04,April,2024-04-01,20.0
+Idaho,2024,5,M05,May,2024-05-01,24.0
+Idaho,2024,6,M06,June,2024-06-01,22.0
+Idaho,2024,7,M07,July,2024-07-01,25.0
+Idaho,2024,8,M08,August,2024-08-01,32.0
+Idaho,2024,9,M09,September,2024-09-01,26.0
+Idaho,2024,10,M10,October,2024-10-01,22.0
+Idaho,2024,11,M11,November,2024-11-01,20.0
+Idaho,2024,12,M12,December,2024-12-01,21.0
+Idaho,2025,1,M01,January,2025-01-01,26.0
+Idaho,2025,2,M02,February,2025-02-01,17.0
+Idaho,2025,3,M03,March,2025-03-01,19.0
+Idaho,2025,4,M04,April,2025-04-01,21.0
+Idaho,2025,5,M05,May,2025-05-01,22.0
+Idaho,2025,6,M06,June,2025-06-01,20.0
+Idaho,2025,7,M07,July,2025-07-01,36.0
+Idaho,2025,8,M08,August,2025-08-01,28.0
+Idaho,2025,9,M09,September,2025-09-01,26.0
+Idaho,2025,10,M10,October,2025-10-01,19.0
+Idaho,2025,11,M11,November,2025-11-01,18.0
+Idaho,2025,12,M12,December,2025-12-01,21.0
+Illinois,2022,1,M01,January,2022-01-01,149.0
+Illinois,2022,2,M02,February,2022-02-01,137.0
+Illinois,2022,3,M03,March,2022-03-01,138.0
+Illinois,2022,4,M04,April,2022-04-01,166.0
+Illinois,2022,5,M05,May,2022-05-01,139.0
+Illinois,2022,6,M06,June,2022-06-01,145.0
+Illinois,2022,7,M07,July,2022-07-01,145.0
+Illinois,2022,8,M08,August,2022-08-01,175.0
+Illinois,2022,9,M09,September,2022-09-01,184.0
+Illinois,2022,10,M10,October,2022-10-01,149.0
+Illinois,2022,11,M11,November,2022-11-01,119.0
+Illinois,2022,12,M12,December,2022-12-01,128.0
+Illinois,2023,1,M01,January,2023-01-01,132.0
+Illinois,2023,2,M02,February,2023-02-01,110.0
+Illinois,2023,3,M03,March,2023-03-01,123.0
+Illinois,2023,4,M04,April,2023-04-01,132.0
+Illinois,2023,5,M05,May,2023-05-01,123.0
+Illinois,2023,6,M06,June,2023-06-01,150.0
+Illinois,2023,7,M07,July,2023-07-01,126.0
+Illinois,2023,8,M08,August,2023-08-01,155.0
+Illinois,2023,9,M09,September,2023-09-01,131.0
+Illinois,2023,10,M10,October,2023-10-01,147.0
+Illinois,2023,11,M11,November,2023-11-01,119.0
+Illinois,2023,12,M12,December,2023-12-01,118.0
+Illinois,2024,1,M01,January,2024-01-01,112.0
+Illinois,2024,2,M02,February,2024-02-01,98.0
+Illinois,2024,3,M03,March,2024-03-01,120.0
+Illinois,2024,4,M04,April,2024-04-01,127.0
+Illinois,2024,5,M05,May,2024-05-01,132.0
+Illinois,2024,6,M06,June,2024-06-01,142.0
+Illinois,2024,7,M07,July,2024-07-01,106.0
+Illinois,2024,8,M08,August,2024-08-01,168.0
+Illinois,2024,9,M09,September,2024-09-01,100.0
+Illinois,2024,10,M10,October,2024-10-01,129.0
+Illinois,2024,11,M11,November,2024-11-01,85.0
+Illinois,2024,12,M12,December,2024-12-01,78.0
+Illinois,2025,1,M01,January,2025-01-01,114.0
+Illinois,2025,2,M02,February,2025-02-01,97.0
+Illinois,2025,3,M03,March,2025-03-01,130.0
+Illinois,2025,4,M04,April,2025-04-01,113.0
+Illinois,2025,5,M05,May,2025-05-01,129.0
+Illinois,2025,6,M06,June,2025-06-01,120.0
+Illinois,2025,7,M07,July,2025-07-01,122.0
+Illinois,2025,8,M08,August,2025-08-01,172.0
+Illinois,2025,9,M09,September,2025-09-01,109.0
+Illinois,2025,10,M10,October,2025-10-01,107.0
+Illinois,2025,11,M11,November,2025-11-01,105.0
+Illinois,2025,12,M12,December,2025-12-01,115.0
+Indiana,2022,1,M01,January,2022-01-01,100.0
+Indiana,2022,2,M02,February,2022-02-01,82.0
+Indiana,2022,3,M03,March,2022-03-01,94.0
+Indiana,2022,4,M04,April,2022-04-01,134.0
+Indiana,2022,5,M05,May,2022-05-01,96.0
+Indiana,2022,6,M06,June,2022-06-01,90.0
+Indiana,2022,7,M07,July,2022-07-01,105.0
+Indiana,2022,8,M08,August,2022-08-01,109.0
+Indiana,2022,9,M09,September,2022-09-01,86.0
+Indiana,2022,10,M10,October,2022-10-01,85.0
+Indiana,2022,11,M11,November,2022-11-01,86.0
+Indiana,2022,12,M12,December,2022-12-01,81.0
+Indiana,2023,1,M01,January,2023-01-01,87.0
+Indiana,2023,2,M02,February,2023-02-01,69.0
+Indiana,2023,3,M03,March,2023-03-01,76.0
+Indiana,2023,4,M04,April,2023-04-01,94.0
+Indiana,2023,5,M05,May,2023-05-01,94.0
+Indiana,2023,6,M06,June,2023-06-01,95.0
+Indiana,2023,7,M07,July,2023-07-01,100.0
+Indiana,2023,8,M08,August,2023-08-01,104.0
+Indiana,2023,9,M09,September,2023-09-01,78.0
+Indiana,2023,10,M10,October,2023-10-01,85.0
+Indiana,2023,11,M11,November,2023-11-01,73.0
+Indiana,2023,12,M12,December,2023-12-01,57.0
+Indiana,2024,1,M01,January,2024-01-01,74.0
+Indiana,2024,2,M02,February,2024-02-01,72.0
+Indiana,2024,3,M03,March,2024-03-01,64.0
+Indiana,2024,4,M04,April,2024-04-01,86.0
+Indiana,2024,5,M05,May,2024-05-01,77.0
+Indiana,2024,6,M06,June,2024-06-01,80.0
+Indiana,2024,7,M07,July,2024-07-01,77.0
+Indiana,2024,8,M08,August,2024-08-01,89.0
+Indiana,2024,9,M09,September,2024-09-01,92.0
+Indiana,2024,10,M10,October,2024-10-01,103.0
+Indiana,2024,11,M11,November,2024-11-01,73.0
+Indiana,2024,12,M12,December,2024-12-01,53.0
+Indiana,2025,1,M01,January,2025-01-01,76.0
+Indiana,2025,2,M02,February,2025-02-01,72.0
+Indiana,2025,3,M03,March,2025-03-01,84.0
+Indiana,2025,4,M04,April,2025-04-01,89.0
+Indiana,2025,5,M05,May,2025-05-01,97.0
+Indiana,2025,6,M06,June,2025-06-01,100.0
+Indiana,2025,7,M07,July,2025-07-01,90.0
+Indiana,2025,8,M08,August,2025-08-01,75.0
+Indiana,2025,9,M09,September,2025-09-01,87.0
+Indiana,2025,10,M10,October,2025-10-01,103.0
+Indiana,2025,11,M11,November,2025-11-01,71.0
+Indiana,2025,12,M12,December,2025-12-01,89.0
+Iowa,2022,1,M01,January,2022-01-01,37.0
+Iowa,2022,2,M02,February,2022-02-01,33.0
+Iowa,2022,3,M03,March,2022-03-01,34.0
+Iowa,2022,4,M04,April,2022-04-01,49.0
+Iowa,2022,5,M05,May,2022-05-01,47.0
+Iowa,2022,6,M06,June,2022-06-01,41.0
+Iowa,2022,7,M07,July,2022-07-01,44.0
+Iowa,2022,8,M08,August,2022-08-01,56.0
+Iowa,2022,9,M09,September,2022-09-01,46.0
+Iowa,2022,10,M10,October,2022-10-01,46.0
+Iowa,2022,11,M11,November,2022-11-01,38.0
+Iowa,2022,12,M12,December,2022-12-01,35.0
+Iowa,2023,1,M01,January,2023-01-01,37.0
+Iowa,2023,2,M02,February,2023-02-01,33.0
+Iowa,2023,3,M03,March,2023-03-01,32.0
+Iowa,2023,4,M04,April,2023-04-01,35.0
+Iowa,2023,5,M05,May,2023-05-01,41.0
+Iowa,2023,6,M06,June,2023-06-01,36.0
+Iowa,2023,7,M07,July,2023-07-01,41.0
+Iowa,2023,8,M08,August,2023-08-01,55.0
+Iowa,2023,9,M09,September,2023-09-01,34.0
+Iowa,2023,10,M10,October,2023-10-01,36.0
+Iowa,2023,11,M11,November,2023-11-01,35.0
+Iowa,2023,12,M12,December,2023-12-01,27.0
+Iowa,2024,1,M01,January,2024-01-01,32.0
+Iowa,2024,2,M02,February,2024-02-01,25.0
+Iowa,2024,3,M03,March,2024-03-01,30.0
+Iowa,2024,4,M04,April,2024-04-01,30.0
+Iowa,2024,5,M05,May,2024-05-01,35.0
+Iowa,2024,6,M06,June,2024-06-01,35.0
+Iowa,2024,7,M07,July,2024-07-01,37.0
+Iowa,2024,8,M08,August,2024-08-01,43.0
+Iowa,2024,9,M09,September,2024-09-01,35.0
+Iowa,2024,10,M10,October,2024-10-01,30.0
+Iowa,2024,11,M11,November,2024-11-01,28.0
+Iowa,2024,12,M12,December,2024-12-01,29.0
+Iowa,2025,1,M01,January,2025-01-01,32.0
+Iowa,2025,2,M02,February,2025-02-01,23.0
+Iowa,2025,3,M03,March,2025-03-01,34.0
+Iowa,2025,4,M04,April,2025-04-01,30.0
+Iowa,2025,5,M05,May,2025-05-01,34.0
+Iowa,2025,6,M06,June,2025-06-01,37.0
+Iowa,2025,7,M07,July,2025-07-01,42.0
+Iowa,2025,8,M08,August,2025-08-01,42.0
+Iowa,2025,9,M09,September,2025-09-01,34.0
+Iowa,2025,10,M10,October,2025-10-01,30.0
+Iowa,2025,11,M11,November,2025-11-01,31.0
+Iowa,2025,12,M12,December,2025-12-01,40.0
+Kansas,2022,1,M01,January,2022-01-01,33.0
+Kansas,2022,2,M02,February,2022-02-01,27.0
+Kansas,2022,3,M03,March,2022-03-01,33.0
+Kansas,2022,4,M04,April,2022-04-01,40.0
+Kansas,2022,5,M05,May,2022-05-01,39.0
+Kansas,2022,6,M06,June,2022-06-01,44.0
+Kansas,2022,7,M07,July,2022-07-01,51.0
+Kansas,2022,8,M08,August,2022-08-01,43.0
+Kansas,2022,9,M09,September,2022-09-01,38.0
+Kansas,2022,10,M10,October,2022-10-01,37.0
+Kansas,2022,11,M11,November,2022-11-01,32.0
+Kansas,2022,12,M12,December,2022-12-01,30.0
+Kansas,2023,1,M01,January,2023-01-01,33.0
+Kansas,2023,2,M02,February,2023-02-01,27.0
+Kansas,2023,3,M03,March,2023-03-01,33.0
+Kansas,2023,4,M04,April,2023-04-01,33.0
+Kansas,2023,5,M05,May,2023-05-01,39.0
+Kansas,2023,6,M06,June,2023-06-01,43.0
+Kansas,2023,7,M07,July,2023-07-01,37.0
+Kansas,2023,8,M08,August,2023-08-01,49.0
+Kansas,2023,9,M09,September,2023-09-01,33.0
+Kansas,2023,10,M10,October,2023-10-01,24.0
+Kansas,2023,11,M11,November,2023-11-01,29.0
+Kansas,2023,12,M12,December,2023-12-01,23.0
+Kansas,2024,1,M01,January,2024-01-01,31.0
+Kansas,2024,2,M02,February,2024-02-01,21.0
+Kansas,2024,3,M03,March,2024-03-01,31.0
+Kansas,2024,4,M04,April,2024-04-01,34.0
+Kansas,2024,5,M05,May,2024-05-01,37.0
+Kansas,2024,6,M06,June,2024-06-01,32.0
+Kansas,2024,7,M07,July,2024-07-01,31.0
+Kansas,2024,8,M08,August,2024-08-01,43.0
+Kansas,2024,9,M09,September,2024-09-01,27.0
+Kansas,2024,10,M10,October,2024-10-01,29.0
+Kansas,2024,11,M11,November,2024-11-01,22.0
+Kansas,2024,12,M12,December,2024-12-01,21.0
+Kansas,2025,1,M01,January,2025-01-01,32.0
+Kansas,2025,2,M02,February,2025-02-01,23.0
+Kansas,2025,3,M03,March,2025-03-01,32.0
+Kansas,2025,4,M04,April,2025-04-01,31.0
+Kansas,2025,5,M05,May,2025-05-01,33.0
+Kansas,2025,6,M06,June,2025-06-01,37.0
+Kansas,2025,7,M07,July,2025-07-01,31.0
+Kansas,2025,8,M08,August,2025-08-01,34.0
+Kansas,2025,9,M09,September,2025-09-01,30.0
+Kansas,2025,10,M10,October,2025-10-01,30.0
+Kansas,2025,11,M11,November,2025-11-01,30.0
+Kansas,2025,12,M12,December,2025-12-01,31.0
+Kentucky,2022,1,M01,January,2022-01-01,69.0
+Kentucky,2022,2,M02,February,2022-02-01,56.0
+Kentucky,2022,3,M03,March,2022-03-01,61.0
+Kentucky,2022,4,M04,April,2022-04-01,71.0
+Kentucky,2022,5,M05,May,2022-05-01,64.0
+Kentucky,2022,6,M06,June,2022-06-01,76.0
+Kentucky,2022,7,M07,July,2022-07-01,69.0
+Kentucky,2022,8,M08,August,2022-08-01,85.0
+Kentucky,2022,9,M09,September,2022-09-01,68.0
+Kentucky,2022,10,M10,October,2022-10-01,55.0
+Kentucky,2022,11,M11,November,2022-11-01,55.0
+Kentucky,2022,12,M12,December,2022-12-01,58.0
+Kentucky,2023,1,M01,January,2023-01-01,70.0
+Kentucky,2023,2,M02,February,2023-02-01,55.0
+Kentucky,2023,3,M03,March,2023-03-01,58.0
+Kentucky,2023,4,M04,April,2023-04-01,58.0
+Kentucky,2023,5,M05,May,2023-05-01,68.0
+Kentucky,2023,6,M06,June,2023-06-01,66.0
+Kentucky,2023,7,M07,July,2023-07-01,62.0
+Kentucky,2023,8,M08,August,2023-08-01,69.0
+Kentucky,2023,9,M09,September,2023-09-01,57.0
+Kentucky,2023,10,M10,October,2023-10-01,49.0
+Kentucky,2023,11,M11,November,2023-11-01,46.0
+Kentucky,2023,12,M12,December,2023-12-01,37.0
+Kentucky,2024,1,M01,January,2024-01-01,52.0
+Kentucky,2024,2,M02,February,2024-02-01,40.0
+Kentucky,2024,3,M03,March,2024-03-01,39.0
+Kentucky,2024,4,M04,April,2024-04-01,49.0
+Kentucky,2024,5,M05,May,2024-05-01,57.0
+Kentucky,2024,6,M06,June,2024-06-01,55.0
+Kentucky,2024,7,M07,July,2024-07-01,59.0
+Kentucky,2024,8,M08,August,2024-08-01,46.0
+Kentucky,2024,9,M09,September,2024-09-01,41.0
+Kentucky,2024,10,M10,October,2024-10-01,48.0
+Kentucky,2024,11,M11,November,2024-11-01,34.0
+Kentucky,2024,12,M12,December,2024-12-01,34.0
+Kentucky,2025,1,M01,January,2025-01-01,42.0
+Kentucky,2025,2,M02,February,2025-02-01,38.0
+Kentucky,2025,3,M03,March,2025-03-01,38.0
+Kentucky,2025,4,M04,April,2025-04-01,41.0
+Kentucky,2025,5,M05,May,2025-05-01,44.0
+Kentucky,2025,6,M06,June,2025-06-01,46.0
+Kentucky,2025,7,M07,July,2025-07-01,51.0
+Kentucky,2025,8,M08,August,2025-08-01,45.0
+Kentucky,2025,9,M09,September,2025-09-01,43.0
+Kentucky,2025,10,M10,October,2025-10-01,39.0
+Kentucky,2025,11,M11,November,2025-11-01,37.0
+Kentucky,2025,12,M12,December,2025-12-01,35.0
+Louisiana,2022,1,M01,January,2022-01-01,62.0
+Louisiana,2022,2,M02,February,2022-02-01,51.0
+Louisiana,2022,3,M03,March,2022-03-01,69.0
+Louisiana,2022,4,M04,April,2022-04-01,65.0
+Louisiana,2022,5,M05,May,2022-05-01,63.0
+Louisiana,2022,6,M06,June,2022-06-01,69.0
+Louisiana,2022,7,M07,July,2022-07-01,70.0
+Louisiana,2022,8,M08,August,2022-08-01,76.0
+Louisiana,2022,9,M09,September,2022-09-01,62.0
+Louisiana,2022,10,M10,October,2022-10-01,61.0
+Louisiana,2022,11,M11,November,2022-11-01,60.0
+Louisiana,2022,12,M12,December,2022-12-01,58.0
+Louisiana,2023,1,M01,January,2023-01-01,62.0
+Louisiana,2023,2,M02,February,2023-02-01,61.0
+Louisiana,2023,3,M03,March,2023-03-01,65.0
+Louisiana,2023,4,M04,April,2023-04-01,62.0
+Louisiana,2023,5,M05,May,2023-05-01,73.0
+Louisiana,2023,6,M06,June,2023-06-01,69.0
+Louisiana,2023,7,M07,July,2023-07-01,69.0
+Louisiana,2023,8,M08,August,2023-08-01,81.0
+Louisiana,2023,9,M09,September,2023-09-01,63.0
+Louisiana,2023,10,M10,October,2023-10-01,50.0
+Louisiana,2023,11,M11,November,2023-11-01,44.0
+Louisiana,2023,12,M12,December,2023-12-01,44.0
+Louisiana,2024,1,M01,January,2024-01-01,49.0
+Louisiana,2024,2,M02,February,2024-02-01,45.0
+Louisiana,2024,3,M03,March,2024-03-01,47.0
+Louisiana,2024,4,M04,April,2024-04-01,52.0
+Louisiana,2024,5,M05,May,2024-05-01,53.0
+Louisiana,2024,6,M06,June,2024-06-01,63.0
+Louisiana,2024,7,M07,July,2024-07-01,58.0
+Louisiana,2024,8,M08,August,2024-08-01,47.0
+Louisiana,2024,9,M09,September,2024-09-01,48.0
+Louisiana,2024,10,M10,October,2024-10-01,48.0
+Louisiana,2024,11,M11,November,2024-11-01,35.0
+Louisiana,2024,12,M12,December,2024-12-01,40.0
+Louisiana,2025,1,M01,January,2025-01-01,47.0
+Louisiana,2025,2,M02,February,2025-02-01,48.0
+Louisiana,2025,3,M03,March,2025-03-01,43.0
+Louisiana,2025,4,M04,April,2025-04-01,42.0
+Louisiana,2025,5,M05,May,2025-05-01,47.0
+Louisiana,2025,6,M06,June,2025-06-01,50.0
+Louisiana,2025,7,M07,July,2025-07-01,50.0
+Louisiana,2025,8,M08,August,2025-08-01,55.0
+Louisiana,2025,9,M09,September,2025-09-01,55.0
+Louisiana,2025,10,M10,October,2025-10-01,41.0
+Louisiana,2025,11,M11,November,2025-11-01,43.0
+Louisiana,2025,12,M12,December,2025-12-01,47.0
+Maine,2022,1,M01,January,2022-01-01,15.0
+Maine,2022,2,M02,February,2022-02-01,13.0
+Maine,2022,3,M03,March,2022-03-01,12.0
+Maine,2022,4,M04,April,2022-04-01,16.0
+Maine,2022,5,M05,May,2022-05-01,15.0
+Maine,2022,6,M06,June,2022-06-01,19.0
+Maine,2022,7,M07,July,2022-07-01,16.0
+Maine,2022,8,M08,August,2022-08-01,21.0
+Maine,2022,9,M09,September,2022-09-01,20.0
+Maine,2022,10,M10,October,2022-10-01,18.0
+Maine,2022,11,M11,November,2022-11-01,16.0
+Maine,2022,12,M12,December,2022-12-01,14.0
+Maine,2023,1,M01,January,2023-01-01,13.0
+Maine,2023,2,M02,February,2023-02-01,12.0
+Maine,2023,3,M03,March,2023-03-01,13.0
+Maine,2023,4,M04,April,2023-04-01,18.0
+Maine,2023,5,M05,May,2023-05-01,18.0
+Maine,2023,6,M06,June,2023-06-01,13.0
+Maine,2023,7,M07,July,2023-07-01,13.0
+Maine,2023,8,M08,August,2023-08-01,14.0
+Maine,2023,9,M09,September,2023-09-01,19.0
+Maine,2023,10,M10,October,2023-10-01,19.0
+Maine,2023,11,M11,November,2023-11-01,19.0
+Maine,2023,12,M12,December,2023-12-01,12.0
+Maine,2024,1,M01,January,2024-01-01,13.0
+Maine,2024,2,M02,February,2024-02-01,10.0
+Maine,2024,3,M03,March,2024-03-01,12.0
+Maine,2024,4,M04,April,2024-04-01,14.0
+Maine,2024,5,M05,May,2024-05-01,15.0
+Maine,2024,6,M06,June,2024-06-01,12.0
+Maine,2024,7,M07,July,2024-07-01,12.0
+Maine,2024,8,M08,August,2024-08-01,19.0
+Maine,2024,9,M09,September,2024-09-01,17.0
+Maine,2024,10,M10,October,2024-10-01,10.0
+Maine,2024,11,M11,November,2024-11-01,8.0
+Maine,2024,12,M12,December,2024-12-01,10.0
+Maine,2025,1,M01,January,2025-01-01,13.0
+Maine,2025,2,M02,February,2025-02-01,10.0
+Maine,2025,3,M03,March,2025-03-01,13.0
+Maine,2025,4,M04,April,2025-04-01,14.0
+Maine,2025,5,M05,May,2025-05-01,14.0
+Maine,2025,6,M06,June,2025-06-01,13.0
+Maine,2025,7,M07,July,2025-07-01,10.0
+Maine,2025,8,M08,August,2025-08-01,17.0
+Maine,2025,9,M09,September,2025-09-01,15.0
+Maine,2025,10,M10,October,2025-10-01,11.0
+Maine,2025,11,M11,November,2025-11-01,11.0
+Maine,2025,12,M12,December,2025-12-01,12.0
+Maryland,2022,1,M01,January,2022-01-01,87.0
+Maryland,2022,2,M02,February,2022-02-01,56.0
+Maryland,2022,3,M03,March,2022-03-01,69.0
+Maryland,2022,4,M04,April,2022-04-01,74.0
+Maryland,2022,5,M05,May,2022-05-01,62.0
+Maryland,2022,6,M06,June,2022-06-01,84.0
+Maryland,2022,7,M07,July,2022-07-01,77.0
+Maryland,2022,8,M08,August,2022-08-01,97.0
+Maryland,2022,9,M09,September,2022-09-01,84.0
+Maryland,2022,10,M10,October,2022-10-01,83.0
+Maryland,2022,11,M11,November,2022-11-01,72.0
+Maryland,2022,12,M12,December,2022-12-01,60.0
+Maryland,2023,1,M01,January,2023-01-01,72.0
+Maryland,2023,2,M02,February,2023-02-01,72.0
+Maryland,2023,3,M03,March,2023-03-01,71.0
+Maryland,2023,4,M04,April,2023-04-01,72.0
+Maryland,2023,5,M05,May,2023-05-01,72.0
+Maryland,2023,6,M06,June,2023-06-01,65.0
+Maryland,2023,7,M07,July,2023-07-01,72.0
+Maryland,2023,8,M08,August,2023-08-01,86.0
+Maryland,2023,9,M09,September,2023-09-01,86.0
+Maryland,2023,10,M10,October,2023-10-01,66.0
+Maryland,2023,11,M11,November,2023-11-01,45.0
+Maryland,2023,12,M12,December,2023-12-01,45.0
+Maryland,2024,1,M01,January,2024-01-01,55.0
+Maryland,2024,2,M02,February,2024-02-01,47.0
+Maryland,2024,3,M03,March,2024-03-01,49.0
+Maryland,2024,4,M04,April,2024-04-01,56.0
+Maryland,2024,5,M05,May,2024-05-01,51.0
+Maryland,2024,6,M06,June,2024-06-01,53.0
+Maryland,2024,7,M07,July,2024-07-01,88.0
+Maryland,2024,8,M08,August,2024-08-01,66.0
+Maryland,2024,9,M09,September,2024-09-01,67.0
+Maryland,2024,10,M10,October,2024-10-01,46.0
+Maryland,2024,11,M11,November,2024-11-01,44.0
+Maryland,2024,12,M12,December,2024-12-01,53.0
+Maryland,2025,1,M01,January,2025-01-01,51.0
+Maryland,2025,2,M02,February,2025-02-01,44.0
+Maryland,2025,3,M03,March,2025-03-01,50.0
+Maryland,2025,4,M04,April,2025-04-01,43.0
+Maryland,2025,5,M05,May,2025-05-01,44.0
+Maryland,2025,6,M06,June,2025-06-01,47.0
+Maryland,2025,7,M07,July,2025-07-01,73.0
+Maryland,2025,8,M08,August,2025-08-01,68.0
+Maryland,2025,9,M09,September,2025-09-01,85.0
+Maryland,2025,10,M10,October,2025-10-01,40.0
+Maryland,2025,11,M11,November,2025-11-01,50.0
+Maryland,2025,12,M12,December,2025-12-01,47.0
+Massachusetts,2022,1,M01,January,2022-01-01,82.0
+Massachusetts,2022,2,M02,February,2022-02-01,66.0
+Massachusetts,2022,3,M03,March,2022-03-01,62.0
+Massachusetts,2022,4,M04,April,2022-04-01,81.0
+Massachusetts,2022,5,M05,May,2022-05-01,64.0
+Massachusetts,2022,6,M06,June,2022-06-01,75.0
+Massachusetts,2022,7,M07,July,2022-07-01,98.0
+Massachusetts,2022,8,M08,August,2022-08-01,106.0
+Massachusetts,2022,9,M09,September,2022-09-01,94.0
+Massachusetts,2022,10,M10,October,2022-10-01,69.0
+Massachusetts,2022,11,M11,November,2022-11-01,58.0
+Massachusetts,2022,12,M12,December,2022-12-01,54.0
+Massachusetts,2023,1,M01,January,2023-01-01,53.0
+Massachusetts,2023,2,M02,February,2023-02-01,53.0
+Massachusetts,2023,3,M03,March,2023-03-01,51.0
+Massachusetts,2023,4,M04,April,2023-04-01,63.0
+Massachusetts,2023,5,M05,May,2023-05-01,62.0
+Massachusetts,2023,6,M06,June,2023-06-01,59.0
+Massachusetts,2023,7,M07,July,2023-07-01,51.0
+Massachusetts,2023,8,M08,August,2023-08-01,59.0
+Massachusetts,2023,9,M09,September,2023-09-01,74.0
+Massachusetts,2023,10,M10,October,2023-10-01,56.0
+Massachusetts,2023,11,M11,November,2023-11-01,45.0
+Massachusetts,2023,12,M12,December,2023-12-01,45.0
+Massachusetts,2024,1,M01,January,2024-01-01,52.0
+Massachusetts,2024,2,M02,February,2024-02-01,42.0
+Massachusetts,2024,3,M03,March,2024-03-01,44.0
+Massachusetts,2024,4,M04,April,2024-04-01,47.0
+Massachusetts,2024,5,M05,May,2024-05-01,60.0
+Massachusetts,2024,6,M06,June,2024-06-01,64.0
+Massachusetts,2024,7,M07,July,2024-07-01,56.0
+Massachusetts,2024,8,M08,August,2024-08-01,83.0
+Massachusetts,2024,9,M09,September,2024-09-01,65.0
+Massachusetts,2024,10,M10,October,2024-10-01,46.0
+Massachusetts,2024,11,M11,November,2024-11-01,43.0
+Massachusetts,2024,12,M12,December,2024-12-01,41.0
+Massachusetts,2025,1,M01,January,2025-01-01,55.0
+Massachusetts,2025,2,M02,February,2025-02-01,47.0
+Massachusetts,2025,3,M03,March,2025-03-01,51.0
+Massachusetts,2025,4,M04,April,2025-04-01,57.0
+Massachusetts,2025,5,M05,May,2025-05-01,55.0
+Massachusetts,2025,6,M06,June,2025-06-01,65.0
+Massachusetts,2025,7,M07,July,2025-07-01,49.0
+Massachusetts,2025,8,M08,August,2025-08-01,73.0
+Massachusetts,2025,9,M09,September,2025-09-01,60.0
+Massachusetts,2025,10,M10,October,2025-10-01,57.0
+Massachusetts,2025,11,M11,November,2025-11-01,45.0
+Massachusetts,2025,12,M12,December,2025-12-01,43.0
+Michigan,2022,1,M01,January,2022-01-01,141.0
+Michigan,2022,2,M02,February,2022-02-01,88.0
+Michigan,2022,3,M03,March,2022-03-01,92.0
+Michigan,2022,4,M04,April,2022-04-01,135.0
+Michigan,2022,5,M05,May,2022-05-01,123.0
+Michigan,2022,6,M06,June,2022-06-01,99.0
+Michigan,2022,7,M07,July,2022-07-01,128.0
+Michigan,2022,8,M08,August,2022-08-01,119.0
+Michigan,2022,9,M09,September,2022-09-01,119.0
+Michigan,2022,10,M10,October,2022-10-01,110.0
+Michigan,2022,11,M11,November,2022-11-01,85.0
+Michigan,2022,12,M12,December,2022-12-01,99.0
+Michigan,2023,1,M01,January,2023-01-01,86.0
+Michigan,2023,2,M02,February,2023-02-01,61.0
+Michigan,2023,3,M03,March,2023-03-01,75.0
+Michigan,2023,4,M04,April,2023-04-01,82.0
+Michigan,2023,5,M05,May,2023-05-01,107.0
+Michigan,2023,6,M06,June,2023-06-01,108.0
+Michigan,2023,7,M07,July,2023-07-01,119.0
+Michigan,2023,8,M08,August,2023-08-01,114.0
+Michigan,2023,9,M09,September,2023-09-01,107.0
+Michigan,2023,10,M10,October,2023-10-01,96.0
+Michigan,2023,11,M11,November,2023-11-01,109.0
+Michigan,2023,12,M12,December,2023-12-01,67.0
+Michigan,2024,1,M01,January,2024-01-01,72.0
+Michigan,2024,2,M02,February,2024-02-01,65.0
+Michigan,2024,3,M03,March,2024-03-01,79.0
+Michigan,2024,4,M04,April,2024-04-01,87.0
+Michigan,2024,5,M05,May,2024-05-01,94.0
+Michigan,2024,6,M06,June,2024-06-01,98.0
+Michigan,2024,7,M07,July,2024-07-01,105.0
+Michigan,2024,8,M08,August,2024-08-01,143.0
+Michigan,2024,9,M09,September,2024-09-01,114.0
+Michigan,2024,10,M10,October,2024-10-01,107.0
+Michigan,2024,11,M11,November,2024-11-01,74.0
+Michigan,2024,12,M12,December,2024-12-01,76.0
+Michigan,2025,1,M01,January,2025-01-01,78.0
+Michigan,2025,2,M02,February,2025-02-01,73.0
+Michigan,2025,3,M03,March,2025-03-01,74.0
+Michigan,2025,4,M04,April,2025-04-01,102.0
+Michigan,2025,5,M05,May,2025-05-01,113.0
+Michigan,2025,6,M06,June,2025-06-01,118.0
+Michigan,2025,7,M07,July,2025-07-01,101.0
+Michigan,2025,8,M08,August,2025-08-01,121.0
+Michigan,2025,9,M09,September,2025-09-01,117.0
+Michigan,2025,10,M10,October,2025-10-01,136.0
+Michigan,2025,11,M11,November,2025-11-01,98.0
+Michigan,2025,12,M12,December,2025-12-01,83.0
+Minnesota,2022,1,M01,January,2022-01-01,62.0
+Minnesota,2022,2,M02,February,2022-02-01,58.0
+Minnesota,2022,3,M03,March,2022-03-01,65.0
+Minnesota,2022,4,M04,April,2022-04-01,82.0
+Minnesota,2022,5,M05,May,2022-05-01,72.0
+Minnesota,2022,6,M06,June,2022-06-01,83.0
+Minnesota,2022,7,M07,July,2022-07-01,71.0
+Minnesota,2022,8,M08,August,2022-08-01,84.0
+Minnesota,2022,9,M09,September,2022-09-01,88.0
+Minnesota,2022,10,M10,October,2022-10-01,75.0
+Minnesota,2022,11,M11,November,2022-11-01,70.0
+Minnesota,2022,12,M12,December,2022-12-01,61.0
+Minnesota,2023,1,M01,January,2023-01-01,66.0
+Minnesota,2023,2,M02,February,2023-02-01,55.0
+Minnesota,2023,3,M03,March,2023-03-01,60.0
+Minnesota,2023,4,M04,April,2023-04-01,62.0
+Minnesota,2023,5,M05,May,2023-05-01,72.0
+Minnesota,2023,6,M06,June,2023-06-01,75.0
+Minnesota,2023,7,M07,July,2023-07-01,74.0
+Minnesota,2023,8,M08,August,2023-08-01,79.0
+Minnesota,2023,9,M09,September,2023-09-01,71.0
+Minnesota,2023,10,M10,October,2023-10-01,73.0
+Minnesota,2023,11,M11,November,2023-11-01,70.0
+Minnesota,2023,12,M12,December,2023-12-01,61.0
+Minnesota,2024,1,M01,January,2024-01-01,50.0
+Minnesota,2024,2,M02,February,2024-02-01,44.0
+Minnesota,2024,3,M03,March,2024-03-01,48.0
+Minnesota,2024,4,M04,April,2024-04-01,61.0
+Minnesota,2024,5,M05,May,2024-05-01,63.0
+Minnesota,2024,6,M06,June,2024-06-01,55.0
+Minnesota,2024,7,M07,July,2024-07-01,57.0
+Minnesota,2024,8,M08,August,2024-08-01,76.0
+Minnesota,2024,9,M09,September,2024-09-01,65.0
+Minnesota,2024,10,M10,October,2024-10-01,47.0
+Minnesota,2024,11,M11,November,2024-11-01,43.0
+Minnesota,2024,12,M12,December,2024-12-01,53.0
+Minnesota,2025,1,M01,January,2025-01-01,55.0
+Minnesota,2025,2,M02,February,2025-02-01,46.0
+Minnesota,2025,3,M03,March,2025-03-01,52.0
+Minnesota,2025,4,M04,April,2025-04-01,55.0
+Minnesota,2025,5,M05,May,2025-05-01,58.0
+Minnesota,2025,6,M06,June,2025-06-01,62.0
+Minnesota,2025,7,M07,July,2025-07-01,64.0
+Minnesota,2025,8,M08,August,2025-08-01,68.0
+Minnesota,2025,9,M09,September,2025-09-01,55.0
+Minnesota,2025,10,M10,October,2025-10-01,61.0
+Minnesota,2025,11,M11,November,2025-11-01,45.0
+Minnesota,2025,12,M12,December,2025-12-01,63.0
+Mississippi,2022,1,M01,January,2022-01-01,41.0
+Mississippi,2022,2,M02,February,2022-02-01,31.0
+Mississippi,2022,3,M03,March,2022-03-01,46.0
+Mississippi,2022,4,M04,April,2022-04-01,38.0
+Mississippi,2022,5,M05,May,2022-05-01,39.0
+Mississippi,2022,6,M06,June,2022-06-01,46.0
+Mississippi,2022,7,M07,July,2022-07-01,46.0
+Mississippi,2022,8,M08,August,2022-08-01,55.0
+Mississippi,2022,9,M09,September,2022-09-01,37.0
+Mississippi,2022,10,M10,October,2022-10-01,40.0
+Mississippi,2022,11,M11,November,2022-11-01,32.0
+Mississippi,2022,12,M12,December,2022-12-01,32.0
+Mississippi,2023,1,M01,January,2023-01-01,30.0
+Mississippi,2023,2,M02,February,2023-02-01,31.0
+Mississippi,2023,3,M03,March,2023-03-01,35.0
+Mississippi,2023,4,M04,April,2023-04-01,35.0
+Mississippi,2023,5,M05,May,2023-05-01,43.0
+Mississippi,2023,6,M06,June,2023-06-01,40.0
+Mississippi,2023,7,M07,July,2023-07-01,39.0
+Mississippi,2023,8,M08,August,2023-08-01,46.0
+Mississippi,2023,9,M09,September,2023-09-01,31.0
+Mississippi,2023,10,M10,October,2023-10-01,36.0
+Mississippi,2023,11,M11,November,2023-11-01,24.0
+Mississippi,2023,12,M12,December,2023-12-01,26.0
+Mississippi,2024,1,M01,January,2024-01-01,28.0
+Mississippi,2024,2,M02,February,2024-02-01,24.0
+Mississippi,2024,3,M03,March,2024-03-01,26.0
+Mississippi,2024,4,M04,April,2024-04-01,29.0
+Mississippi,2024,5,M05,May,2024-05-01,37.0
+Mississippi,2024,6,M06,June,2024-06-01,34.0
+Mississippi,2024,7,M07,July,2024-07-01,36.0
+Mississippi,2024,8,M08,August,2024-08-01,32.0
+Mississippi,2024,9,M09,September,2024-09-01,30.0
+Mississippi,2024,10,M10,October,2024-10-01,34.0
+Mississippi,2024,11,M11,November,2024-11-01,22.0
+Mississippi,2024,12,M12,December,2024-12-01,23.0
+Mississippi,2025,1,M01,January,2025-01-01,24.0
+Mississippi,2025,2,M02,February,2025-02-01,23.0
+Mississippi,2025,3,M03,March,2025-03-01,25.0
+Mississippi,2025,4,M04,April,2025-04-01,25.0
+Mississippi,2025,5,M05,May,2025-05-01,28.0
+Mississippi,2025,6,M06,June,2025-06-01,35.0
+Mississippi,2025,7,M07,July,2025-07-01,27.0
+Mississippi,2025,8,M08,August,2025-08-01,32.0
+Mississippi,2025,9,M09,September,2025-09-01,30.0
+Mississippi,2025,10,M10,October,2025-10-01,30.0
+Mississippi,2025,11,M11,November,2025-11-01,24.0
+Mississippi,2025,12,M12,December,2025-12-01,24.0
+Missouri,2022,1,M01,January,2022-01-01,71.0
+Missouri,2022,2,M02,February,2022-02-01,62.0
+Missouri,2022,3,M03,March,2022-03-01,66.0
+Missouri,2022,4,M04,April,2022-04-01,89.0
+Missouri,2022,5,M05,May,2022-05-01,78.0
+Missouri,2022,6,M06,June,2022-06-01,89.0
+Missouri,2022,7,M07,July,2022-07-01,112.0
+Missouri,2022,8,M08,August,2022-08-01,87.0
+Missouri,2022,9,M09,September,2022-09-01,73.0
+Missouri,2022,10,M10,October,2022-10-01,72.0
+Missouri,2022,11,M11,November,2022-11-01,58.0
+Missouri,2022,12,M12,December,2022-12-01,67.0
+Missouri,2023,1,M01,January,2023-01-01,69.0
+Missouri,2023,2,M02,February,2023-02-01,52.0
+Missouri,2023,3,M03,March,2023-03-01,66.0
+Missouri,2023,4,M04,April,2023-04-01,59.0
+Missouri,2023,5,M05,May,2023-05-01,74.0
+Missouri,2023,6,M06,June,2023-06-01,74.0
+Missouri,2023,7,M07,July,2023-07-01,69.0
+Missouri,2023,8,M08,August,2023-08-01,89.0
+Missouri,2023,9,M09,September,2023-09-01,70.0
+Missouri,2023,10,M10,October,2023-10-01,61.0
+Missouri,2023,11,M11,November,2023-11-01,58.0
+Missouri,2023,12,M12,December,2023-12-01,59.0
+Missouri,2024,1,M01,January,2024-01-01,54.0
+Missouri,2024,2,M02,February,2024-02-01,66.0
+Missouri,2024,3,M03,March,2024-03-01,58.0
+Missouri,2024,4,M04,April,2024-04-01,71.0
+Missouri,2024,5,M05,May,2024-05-01,79.0
+Missouri,2024,6,M06,June,2024-06-01,75.0
+Missouri,2024,7,M07,July,2024-07-01,85.0
+Missouri,2024,8,M08,August,2024-08-01,81.0
+Missouri,2024,9,M09,September,2024-09-01,59.0
+Missouri,2024,10,M10,October,2024-10-01,66.0
+Missouri,2024,11,M11,November,2024-11-01,50.0
+Missouri,2024,12,M12,December,2024-12-01,50.0
+Missouri,2025,1,M01,January,2025-01-01,57.0
+Missouri,2025,2,M02,February,2025-02-01,58.0
+Missouri,2025,3,M03,March,2025-03-01,55.0
+Missouri,2025,4,M04,April,2025-04-01,51.0
+Missouri,2025,5,M05,May,2025-05-01,69.0
+Missouri,2025,6,M06,June,2025-06-01,78.0
+Missouri,2025,7,M07,July,2025-07-01,64.0
+Missouri,2025,8,M08,August,2025-08-01,72.0
+Missouri,2025,9,M09,September,2025-09-01,62.0
+Missouri,2025,10,M10,October,2025-10-01,67.0
+Missouri,2025,11,M11,November,2025-11-01,64.0
+Missouri,2025,12,M12,December,2025-12-01,66.0
+Montana,2022,1,M01,January,2022-01-01,19.0
+Montana,2022,2,M02,February,2022-02-01,14.0
+Montana,2022,3,M03,March,2022-03-01,17.0
+Montana,2022,4,M04,April,2022-04-01,19.0
+Montana,2022,5,M05,May,2022-05-01,21.0
+Montana,2022,6,M06,June,2022-06-01,19.0
+Montana,2022,7,M07,July,2022-07-01,18.0
+Montana,2022,8,M08,August,2022-08-01,25.0
+Montana,2022,9,M09,September,2022-09-01,25.0
+Montana,2022,10,M10,October,2022-10-01,21.0
+Montana,2022,11,M11,November,2022-11-01,20.0
+Montana,2022,12,M12,December,2022-12-01,18.0
+Montana,2023,1,M01,January,2023-01-01,17.0
+Montana,2023,2,M02,February,2023-02-01,13.0
+Montana,2023,3,M03,March,2023-03-01,13.0
+Montana,2023,4,M04,April,2023-04-01,15.0
+Montana,2023,5,M05,May,2023-05-01,20.0
+Montana,2023,6,M06,June,2023-06-01,16.0
+Montana,2023,7,M07,July,2023-07-01,18.0
+Montana,2023,8,M08,August,2023-08-01,22.0
+Montana,2023,9,M09,September,2023-09-01,23.0
+Montana,2023,10,M10,October,2023-10-01,16.0
+Montana,2023,11,M11,November,2023-11-01,16.0
+Montana,2023,12,M12,December,2023-12-01,14.0
+Montana,2024,1,M01,January,2024-01-01,16.0
+Montana,2024,2,M02,February,2024-02-01,13.0
+Montana,2024,3,M03,March,2024-03-01,12.0
+Montana,2024,4,M04,April,2024-04-01,13.0
+Montana,2024,5,M05,May,2024-05-01,17.0
+Montana,2024,6,M06,June,2024-06-01,14.0
+Montana,2024,7,M07,July,2024-07-01,17.0
+Montana,2024,8,M08,August,2024-08-01,17.0
+Montana,2024,9,M09,September,2024-09-01,16.0
+Montana,2024,10,M10,October,2024-10-01,15.0
+Montana,2024,11,M11,November,2024-11-01,12.0
+Montana,2024,12,M12,December,2024-12-01,14.0
+Montana,2025,1,M01,January,2025-01-01,15.0
+Montana,2025,2,M02,February,2025-02-01,10.0
+Montana,2025,3,M03,March,2025-03-01,13.0
+Montana,2025,4,M04,April,2025-04-01,12.0
+Montana,2025,5,M05,May,2025-05-01,17.0
+Montana,2025,6,M06,June,2025-06-01,15.0
+Montana,2025,7,M07,July,2025-07-01,18.0
+Montana,2025,8,M08,August,2025-08-01,18.0
+Montana,2025,9,M09,September,2025-09-01,19.0
+Montana,2025,10,M10,October,2025-10-01,14.0
+Montana,2025,11,M11,November,2025-11-01,14.0
+Montana,2025,12,M12,December,2025-12-01,15.0
+Nebraska,2022,1,M01,January,2022-01-01,27.0
+Nebraska,2022,2,M02,February,2022-02-01,21.0
+Nebraska,2022,3,M03,March,2022-03-01,23.0
+Nebraska,2022,4,M04,April,2022-04-01,34.0
+Nebraska,2022,5,M05,May,2022-05-01,27.0
+Nebraska,2022,6,M06,June,2022-06-01,25.0
+Nebraska,2022,7,M07,July,2022-07-01,28.0
+Nebraska,2022,8,M08,August,2022-08-01,31.0
+Nebraska,2022,9,M09,September,2022-09-01,26.0
+Nebraska,2022,10,M10,October,2022-10-01,24.0
+Nebraska,2022,11,M11,November,2022-11-01,20.0
+Nebraska,2022,12,M12,December,2022-12-01,20.0
+Nebraska,2023,1,M01,January,2023-01-01,25.0
+Nebraska,2023,2,M02,February,2023-02-01,17.0
+Nebraska,2023,3,M03,March,2023-03-01,20.0
+Nebraska,2023,4,M04,April,2023-04-01,22.0
+Nebraska,2023,5,M05,May,2023-05-01,26.0
+Nebraska,2023,6,M06,June,2023-06-01,25.0
+Nebraska,2023,7,M07,July,2023-07-01,26.0
+Nebraska,2023,8,M08,August,2023-08-01,37.0
+Nebraska,2023,9,M09,September,2023-09-01,24.0
+Nebraska,2023,10,M10,October,2023-10-01,22.0
+Nebraska,2023,11,M11,November,2023-11-01,23.0
+Nebraska,2023,12,M12,December,2023-12-01,18.0
+Nebraska,2024,1,M01,January,2024-01-01,22.0
+Nebraska,2024,2,M02,February,2024-02-01,17.0
+Nebraska,2024,3,M03,March,2024-03-01,17.0
+Nebraska,2024,4,M04,April,2024-04-01,22.0
+Nebraska,2024,5,M05,May,2024-05-01,28.0
+Nebraska,2024,6,M06,June,2024-06-01,25.0
+Nebraska,2024,7,M07,July,2024-07-01,25.0
+Nebraska,2024,8,M08,August,2024-08-01,30.0
+Nebraska,2024,9,M09,September,2024-09-01,21.0
+Nebraska,2024,10,M10,October,2024-10-01,23.0
+Nebraska,2024,11,M11,November,2024-11-01,18.0
+Nebraska,2024,12,M12,December,2024-12-01,15.0
+Nebraska,2025,1,M01,January,2025-01-01,20.0
+Nebraska,2025,2,M02,February,2025-02-01,17.0
+Nebraska,2025,3,M03,March,2025-03-01,19.0
+Nebraska,2025,4,M04,April,2025-04-01,22.0
+Nebraska,2025,5,M05,May,2025-05-01,25.0
+Nebraska,2025,6,M06,June,2025-06-01,27.0
+Nebraska,2025,7,M07,July,2025-07-01,24.0
+Nebraska,2025,8,M08,August,2025-08-01,25.0
+Nebraska,2025,9,M09,September,2025-09-01,20.0
+Nebraska,2025,10,M10,October,2025-10-01,22.0
+Nebraska,2025,11,M11,November,2025-11-01,19.0
+Nebraska,2025,12,M12,December,2025-12-01,20.0
+Nevada,2022,1,M01,January,2022-01-01,48.0
+Nevada,2022,2,M02,February,2022-02-01,36.0
+Nevada,2022,3,M03,March,2022-03-01,46.0
+Nevada,2022,4,M04,April,2022-04-01,43.0
+Nevada,2022,5,M05,May,2022-05-01,41.0
+Nevada,2022,6,M06,June,2022-06-01,43.0
+Nevada,2022,7,M07,July,2022-07-01,52.0
+Nevada,2022,8,M08,August,2022-08-01,55.0
+Nevada,2022,9,M09,September,2022-09-01,45.0
+Nevada,2022,10,M10,October,2022-10-01,45.0
+Nevada,2022,11,M11,November,2022-11-01,44.0
+Nevada,2022,12,M12,December,2022-12-01,44.0
+Nevada,2023,1,M01,January,2023-01-01,43.0
+Nevada,2023,2,M02,February,2023-02-01,36.0
+Nevada,2023,3,M03,March,2023-03-01,39.0
+Nevada,2023,4,M04,April,2023-04-01,39.0
+Nevada,2023,5,M05,May,2023-05-01,40.0
+Nevada,2023,6,M06,June,2023-06-01,43.0
+Nevada,2023,7,M07,July,2023-07-01,46.0
+Nevada,2023,8,M08,August,2023-08-01,51.0
+Nevada,2023,9,M09,September,2023-09-01,34.0
+Nevada,2023,10,M10,October,2023-10-01,35.0
+Nevada,2023,11,M11,November,2023-11-01,34.0
+Nevada,2023,12,M12,December,2023-12-01,35.0
+Nevada,2024,1,M01,January,2024-01-01,38.0
+Nevada,2024,2,M02,February,2024-02-01,36.0
+Nevada,2024,3,M03,March,2024-03-01,37.0
+Nevada,2024,4,M04,April,2024-04-01,32.0
+Nevada,2024,5,M05,May,2024-05-01,34.0
+Nevada,2024,6,M06,June,2024-06-01,38.0
+Nevada,2024,7,M07,July,2024-07-01,44.0
+Nevada,2024,8,M08,August,2024-08-01,42.0
+Nevada,2024,9,M09,September,2024-09-01,34.0
+Nevada,2024,10,M10,October,2024-10-01,51.0
+Nevada,2024,11,M11,November,2024-11-01,30.0
+Nevada,2024,12,M12,December,2024-12-01,28.0
+Nevada,2025,1,M01,January,2025-01-01,39.0
+Nevada,2025,2,M02,February,2025-02-01,31.0
+Nevada,2025,3,M03,March,2025-03-01,34.0
+Nevada,2025,4,M04,April,2025-04-01,29.0
+Nevada,2025,5,M05,May,2025-05-01,35.0
+Nevada,2025,6,M06,June,2025-06-01,37.0
+Nevada,2025,7,M07,July,2025-07-01,42.0
+Nevada,2025,8,M08,August,2025-08-01,44.0
+Nevada,2025,9,M09,September,2025-09-01,30.0
+Nevada,2025,10,M10,October,2025-10-01,35.0
+Nevada,2025,11,M11,November,2025-11-01,29.0
+Nevada,2025,12,M12,December,2025-12-01,25.0
+New Hampshire,2022,1,M01,January,2022-01-01,16.0
+New Hampshire,2022,2,M02,February,2022-02-01,15.0
+New Hampshire,2022,3,M03,March,2022-03-01,16.0
+New Hampshire,2022,4,M04,April,2022-04-01,19.0
+New Hampshire,2022,5,M05,May,2022-05-01,21.0
+New Hampshire,2022,6,M06,June,2022-06-01,20.0
+New Hampshire,2022,7,M07,July,2022-07-01,19.0
+New Hampshire,2022,8,M08,August,2022-08-01,22.0
+New Hampshire,2022,9,M09,September,2022-09-01,22.0
+New Hampshire,2022,10,M10,October,2022-10-01,18.0
+New Hampshire,2022,11,M11,November,2022-11-01,14.0
+New Hampshire,2022,12,M12,December,2022-12-01,13.0
+New Hampshire,2023,1,M01,January,2023-01-01,15.0
+New Hampshire,2023,2,M02,February,2023-02-01,12.0
+New Hampshire,2023,3,M03,March,2023-03-01,16.0
+New Hampshire,2023,4,M04,April,2023-04-01,16.0
+New Hampshire,2023,5,M05,May,2023-05-01,18.0
+New Hampshire,2023,6,M06,June,2023-06-01,20.0
+New Hampshire,2023,7,M07,July,2023-07-01,16.0
+New Hampshire,2023,8,M08,August,2023-08-01,15.0
+New Hampshire,2023,9,M09,September,2023-09-01,18.0
+New Hampshire,2023,10,M10,October,2023-10-01,15.0
+New Hampshire,2023,11,M11,November,2023-11-01,13.0
+New Hampshire,2023,12,M12,December,2023-12-01,10.0
+New Hampshire,2024,1,M01,January,2024-01-01,11.0
+New Hampshire,2024,2,M02,February,2024-02-01,10.0
+New Hampshire,2024,3,M03,March,2024-03-01,13.0
+New Hampshire,2024,4,M04,April,2024-04-01,16.0
+New Hampshire,2024,5,M05,May,2024-05-01,18.0
+New Hampshire,2024,6,M06,June,2024-06-01,14.0
+New Hampshire,2024,7,M07,July,2024-07-01,13.0
+New Hampshire,2024,8,M08,August,2024-08-01,17.0
+New Hampshire,2024,9,M09,September,2024-09-01,16.0
+New Hampshire,2024,10,M10,October,2024-10-01,11.0
+New Hampshire,2024,11,M11,November,2024-11-01,8.0
+New Hampshire,2024,12,M12,December,2024-12-01,10.0
+New Hampshire,2025,1,M01,January,2025-01-01,11.0
+New Hampshire,2025,2,M02,February,2025-02-01,11.0
+New Hampshire,2025,3,M03,March,2025-03-01,14.0
+New Hampshire,2025,4,M04,April,2025-04-01,16.0
+New Hampshire,2025,5,M05,May,2025-05-01,15.0
+New Hampshire,2025,6,M06,June,2025-06-01,15.0
+New Hampshire,2025,7,M07,July,2025-07-01,14.0
+New Hampshire,2025,8,M08,August,2025-08-01,19.0
+New Hampshire,2025,9,M09,September,2025-09-01,16.0
+New Hampshire,2025,10,M10,October,2025-10-01,12.0
+New Hampshire,2025,11,M11,November,2025-11-01,12.0
+New Hampshire,2025,12,M12,December,2025-12-01,12.0
+New Jersey,2022,1,M01,January,2022-01-01,107.0
+New Jersey,2022,2,M02,February,2022-02-01,85.0
+New Jersey,2022,3,M03,March,2022-03-01,90.0
+New Jersey,2022,4,M04,April,2022-04-01,106.0
+New Jersey,2022,5,M05,May,2022-05-01,72.0
+New Jersey,2022,6,M06,June,2022-06-01,90.0
+New Jersey,2022,7,M07,July,2022-07-01,119.0
+New Jersey,2022,8,M08,August,2022-08-01,137.0
+New Jersey,2022,9,M09,September,2022-09-01,121.0
+New Jersey,2022,10,M10,October,2022-10-01,98.0
+New Jersey,2022,11,M11,November,2022-11-01,72.0
+New Jersey,2022,12,M12,December,2022-12-01,61.0
+New Jersey,2023,1,M01,January,2023-01-01,77.0
+New Jersey,2023,2,M02,February,2023-02-01,64.0
+New Jersey,2023,3,M03,March,2023-03-01,78.0
+New Jersey,2023,4,M04,April,2023-04-01,106.0
+New Jersey,2023,5,M05,May,2023-05-01,68.0
+New Jersey,2023,6,M06,June,2023-06-01,65.0
+New Jersey,2023,7,M07,July,2023-07-01,116.0
+New Jersey,2023,8,M08,August,2023-08-01,78.0
+New Jersey,2023,9,M09,September,2023-09-01,106.0
+New Jersey,2023,10,M10,October,2023-10-01,94.0
+New Jersey,2023,11,M11,November,2023-11-01,62.0
+New Jersey,2023,12,M12,December,2023-12-01,54.0
+New Jersey,2024,1,M01,January,2024-01-01,56.0
+New Jersey,2024,2,M02,February,2024-02-01,42.0
+New Jersey,2024,3,M03,March,2024-03-01,78.0
+New Jersey,2024,4,M04,April,2024-04-01,88.0
+New Jersey,2024,5,M05,May,2024-05-01,64.0
+New Jersey,2024,6,M06,June,2024-06-01,80.0
+New Jersey,2024,7,M07,July,2024-07-01,86.0
+New Jersey,2024,8,M08,August,2024-08-01,80.0
+New Jersey,2024,9,M09,September,2024-09-01,67.0
+New Jersey,2024,10,M10,October,2024-10-01,69.0
+New Jersey,2024,11,M11,November,2024-11-01,49.0
+New Jersey,2024,12,M12,December,2024-12-01,53.0
+New Jersey,2025,1,M01,January,2025-01-01,60.0
+New Jersey,2025,2,M02,February,2025-02-01,54.0
+New Jersey,2025,3,M03,March,2025-03-01,77.0
+New Jersey,2025,4,M04,April,2025-04-01,75.0
+New Jersey,2025,5,M05,May,2025-05-01,61.0
+New Jersey,2025,6,M06,June,2025-06-01,88.0
+New Jersey,2025,7,M07,July,2025-07-01,88.0
+New Jersey,2025,8,M08,August,2025-08-01,70.0
+New Jersey,2025,9,M09,September,2025-09-01,69.0
+New Jersey,2025,10,M10,October,2025-10-01,68.0
+New Jersey,2025,11,M11,November,2025-11-01,51.0
+New Jersey,2025,12,M12,December,2025-12-01,49.0
+New Mexico,2022,1,M01,January,2022-01-01,24.0
+New Mexico,2022,2,M02,February,2022-02-01,20.0
+New Mexico,2022,3,M03,March,2022-03-01,25.0
+New Mexico,2022,4,M04,April,2022-04-01,24.0
+New Mexico,2022,5,M05,May,2022-05-01,22.0
+New Mexico,2022,6,M06,June,2022-06-01,30.0
+New Mexico,2022,7,M07,July,2022-07-01,25.0
+New Mexico,2022,8,M08,August,2022-08-01,32.0
+New Mexico,2022,9,M09,September,2022-09-01,23.0
+New Mexico,2022,10,M10,October,2022-10-01,21.0
+New Mexico,2022,11,M11,November,2022-11-01,19.0
+New Mexico,2022,12,M12,December,2022-12-01,21.0
+New Mexico,2023,1,M01,January,2023-01-01,23.0
+New Mexico,2023,2,M02,February,2023-02-01,17.0
+New Mexico,2023,3,M03,March,2023-03-01,18.0
+New Mexico,2023,4,M04,April,2023-04-01,19.0
+New Mexico,2023,5,M05,May,2023-05-01,18.0
+New Mexico,2023,6,M06,June,2023-06-01,22.0
+New Mexico,2023,7,M07,July,2023-07-01,26.0
+New Mexico,2023,8,M08,August,2023-08-01,26.0
+New Mexico,2023,9,M09,September,2023-09-01,23.0
+New Mexico,2023,10,M10,October,2023-10-01,19.0
+New Mexico,2023,11,M11,November,2023-11-01,17.0
+New Mexico,2023,12,M12,December,2023-12-01,15.0
+New Mexico,2024,1,M01,January,2024-01-01,20.0
+New Mexico,2024,2,M02,February,2024-02-01,15.0
+New Mexico,2024,3,M03,March,2024-03-01,20.0
+New Mexico,2024,4,M04,April,2024-04-01,21.0
+New Mexico,2024,5,M05,May,2024-05-01,18.0
+New Mexico,2024,6,M06,June,2024-06-01,20.0
+New Mexico,2024,7,M07,July,2024-07-01,24.0
+New Mexico,2024,8,M08,August,2024-08-01,23.0
+New Mexico,2024,9,M09,September,2024-09-01,18.0
+New Mexico,2024,10,M10,October,2024-10-01,22.0
+New Mexico,2024,11,M11,November,2024-11-01,17.0
+New Mexico,2024,12,M12,December,2024-12-01,16.0
+New Mexico,2025,1,M01,January,2025-01-01,19.0
+New Mexico,2025,2,M02,February,2025-02-01,13.0
+New Mexico,2025,3,M03,March,2025-03-01,17.0
+New Mexico,2025,4,M04,April,2025-04-01,18.0
+New Mexico,2025,5,M05,May,2025-05-01,19.0
+New Mexico,2025,6,M06,June,2025-06-01,21.0
+New Mexico,2025,7,M07,July,2025-07-01,26.0
+New Mexico,2025,8,M08,August,2025-08-01,25.0
+New Mexico,2025,9,M09,September,2025-09-01,19.0
+New Mexico,2025,10,M10,October,2025-10-01,18.0
+New Mexico,2025,11,M11,November,2025-11-01,15.0
+New Mexico,2025,12,M12,December,2025-12-01,15.0
+New York,2022,1,M01,January,2022-01-01,176.0
+New York,2022,2,M02,February,2022-02-01,153.0
+New York,2022,3,M03,March,2022-03-01,153.0
+New York,2022,4,M04,April,2022-04-01,213.0
+New York,2022,5,M05,May,2022-05-01,181.0
+New York,2022,6,M06,June,2022-06-01,187.0
+New York,2022,7,M07,July,2022-07-01,203.0
+New York,2022,8,M08,August,2022-08-01,232.0
+New York,2022,9,M09,September,2022-09-01,176.0
+New York,2022,10,M10,October,2022-10-01,160.0
+New York,2022,11,M11,November,2022-11-01,140.0
+New York,2022,12,M12,December,2022-12-01,161.0
+New York,2023,1,M01,January,2023-01-01,167.0
+New York,2023,2,M02,February,2023-02-01,129.0
+New York,2023,3,M03,March,2023-03-01,140.0
+New York,2023,4,M04,April,2023-04-01,134.0
+New York,2023,5,M05,May,2023-05-01,182.0
+New York,2023,6,M06,June,2023-06-01,148.0
+New York,2023,7,M07,July,2023-07-01,172.0
+New York,2023,8,M08,August,2023-08-01,194.0
+New York,2023,9,M09,September,2023-09-01,153.0
+New York,2023,10,M10,October,2023-10-01,158.0
+New York,2023,11,M11,November,2023-11-01,157.0
+New York,2023,12,M12,December,2023-12-01,144.0
+New York,2024,1,M01,January,2024-01-01,144.0
+New York,2024,2,M02,February,2024-02-01,124.0
+New York,2024,3,M03,March,2024-03-01,154.0
+New York,2024,4,M04,April,2024-04-01,173.0
+New York,2024,5,M05,May,2024-05-01,180.0
+New York,2024,6,M06,June,2024-06-01,183.0
+New York,2024,7,M07,July,2024-07-01,153.0
+New York,2024,8,M08,August,2024-08-01,211.0
+New York,2024,9,M09,September,2024-09-01,177.0
+New York,2024,10,M10,October,2024-10-01,160.0
+New York,2024,11,M11,November,2024-11-01,109.0
+New York,2024,12,M12,December,2024-12-01,129.0
+New York,2025,1,M01,January,2025-01-01,150.0
+New York,2025,2,M02,February,2025-02-01,127.0
+New York,2025,3,M03,March,2025-03-01,149.0
+New York,2025,4,M04,April,2025-04-01,187.0
+New York,2025,5,M05,May,2025-05-01,178.0
+New York,2025,6,M06,June,2025-06-01,157.0
+New York,2025,7,M07,July,2025-07-01,206.0
+New York,2025,8,M08,August,2025-08-01,206.0
+New York,2025,9,M09,September,2025-09-01,189.0
+New York,2025,10,M10,October,2025-10-01,194.0
+New York,2025,11,M11,November,2025-11-01,125.0
+New York,2025,12,M12,December,2025-12-01,124.0
+North Carolina,2022,1,M01,January,2022-01-01,137.0
+North Carolina,2022,2,M02,February,2022-02-01,145.0
+North Carolina,2022,3,M03,March,2022-03-01,137.0
+North Carolina,2022,4,M04,April,2022-04-01,151.0
+North Carolina,2022,5,M05,May,2022-05-01,143.0
+North Carolina,2022,6,M06,June,2022-06-01,177.0
+North Carolina,2022,7,M07,July,2022-07-01,160.0
+North Carolina,2022,8,M08,August,2022-08-01,173.0
+North Carolina,2022,9,M09,September,2022-09-01,154.0
+North Carolina,2022,10,M10,October,2022-10-01,165.0
+North Carolina,2022,11,M11,November,2022-11-01,125.0
+North Carolina,2022,12,M12,December,2022-12-01,109.0
+North Carolina,2023,1,M01,January,2023-01-01,114.0
+North Carolina,2023,2,M02,February,2023-02-01,122.0
+North Carolina,2023,3,M03,March,2023-03-01,115.0
+North Carolina,2023,4,M04,April,2023-04-01,156.0
+North Carolina,2023,5,M05,May,2023-05-01,152.0
+North Carolina,2023,6,M06,June,2023-06-01,156.0
+North Carolina,2023,7,M07,July,2023-07-01,144.0
+North Carolina,2023,8,M08,August,2023-08-01,172.0
+North Carolina,2023,9,M09,September,2023-09-01,136.0
+North Carolina,2023,10,M10,October,2023-10-01,141.0
+North Carolina,2023,11,M11,November,2023-11-01,81.0
+North Carolina,2023,12,M12,December,2023-12-01,74.0
+North Carolina,2024,1,M01,January,2024-01-01,83.0
+North Carolina,2024,2,M02,February,2024-02-01,84.0
+North Carolina,2024,3,M03,March,2024-03-01,99.0
+North Carolina,2024,4,M04,April,2024-04-01,118.0
+North Carolina,2024,5,M05,May,2024-05-01,102.0
+North Carolina,2024,6,M06,June,2024-06-01,116.0
+North Carolina,2024,7,M07,July,2024-07-01,133.0
+North Carolina,2024,8,M08,August,2024-08-01,117.0
+North Carolina,2024,9,M09,September,2024-09-01,92.0
+North Carolina,2024,10,M10,October,2024-10-01,110.0
+North Carolina,2024,11,M11,November,2024-11-01,74.0
+North Carolina,2024,12,M12,December,2024-12-01,96.0
+North Carolina,2025,1,M01,January,2025-01-01,91.0
+North Carolina,2025,2,M02,February,2025-02-01,88.0
+North Carolina,2025,3,M03,March,2025-03-01,97.0
+North Carolina,2025,4,M04,April,2025-04-01,90.0
+North Carolina,2025,5,M05,May,2025-05-01,99.0
+North Carolina,2025,6,M06,June,2025-06-01,124.0
+North Carolina,2025,7,M07,July,2025-07-01,158.0
+North Carolina,2025,8,M08,August,2025-08-01,188.0
+North Carolina,2025,9,M09,September,2025-09-01,137.0
+North Carolina,2025,10,M10,October,2025-10-01,110.0
+North Carolina,2025,11,M11,November,2025-11-01,97.0
+North Carolina,2025,12,M12,December,2025-12-01,103.0
+North Dakota,2022,1,M01,January,2022-01-01,11.0
+North Dakota,2022,2,M02,February,2022-02-01,9.0
+North Dakota,2022,3,M03,March,2022-03-01,10.0
+North Dakota,2022,4,M04,April,2022-04-01,15.0
+North Dakota,2022,5,M05,May,2022-05-01,12.0
+North Dakota,2022,6,M06,June,2022-06-01,13.0
+North Dakota,2022,7,M07,July,2022-07-01,13.0
+North Dakota,2022,8,M08,August,2022-08-01,15.0
+North Dakota,2022,9,M09,September,2022-09-01,12.0
+North Dakota,2022,10,M10,October,2022-10-01,12.0
+North Dakota,2022,11,M11,November,2022-11-01,12.0
+North Dakota,2022,12,M12,December,2022-12-01,11.0
+North Dakota,2023,1,M01,January,2023-01-01,9.0
+North Dakota,2023,2,M02,February,2023-02-01,8.0
+North Dakota,2023,3,M03,March,2023-03-01,9.0
+North Dakota,2023,4,M04,April,2023-04-01,10.0
+North Dakota,2023,5,M05,May,2023-05-01,14.0
+North Dakota,2023,6,M06,June,2023-06-01,14.0
+North Dakota,2023,7,M07,July,2023-07-01,14.0
+North Dakota,2023,8,M08,August,2023-08-01,17.0
+North Dakota,2023,9,M09,September,2023-09-01,13.0
+North Dakota,2023,10,M10,October,2023-10-01,10.0
+North Dakota,2023,11,M11,November,2023-11-01,12.0
+North Dakota,2023,12,M12,December,2023-12-01,9.0
+North Dakota,2024,1,M01,January,2024-01-01,9.0
+North Dakota,2024,2,M02,February,2024-02-01,7.0
+North Dakota,2024,3,M03,March,2024-03-01,8.0
+North Dakota,2024,4,M04,April,2024-04-01,10.0
+North Dakota,2024,5,M05,May,2024-05-01,13.0
+North Dakota,2024,6,M06,June,2024-06-01,11.0
+North Dakota,2024,7,M07,July,2024-07-01,10.0
+North Dakota,2024,8,M08,August,2024-08-01,14.0
+North Dakota,2024,9,M09,September,2024-09-01,11.0
+North Dakota,2024,10,M10,October,2024-10-01,11.0
+North Dakota,2024,11,M11,November,2024-11-01,9.0
+North Dakota,2024,12,M12,December,2024-12-01,8.0
+North Dakota,2025,1,M01,January,2025-01-01,9.0
+North Dakota,2025,2,M02,February,2025-02-01,10.0
+North Dakota,2025,3,M03,March,2025-03-01,9.0
+North Dakota,2025,4,M04,April,2025-04-01,9.0
+North Dakota,2025,5,M05,May,2025-05-01,12.0
+North Dakota,2025,6,M06,June,2025-06-01,12.0
+North Dakota,2025,7,M07,July,2025-07-01,10.0
+North Dakota,2025,8,M08,August,2025-08-01,13.0
+North Dakota,2025,9,M09,September,2025-09-01,11.0
+North Dakota,2025,10,M10,October,2025-10-01,11.0
+North Dakota,2025,11,M11,November,2025-11-01,10.0
+North Dakota,2025,12,M12,December,2025-12-01,12.0
+Ohio,2022,1,M01,January,2022-01-01,137.0
+Ohio,2022,2,M02,February,2022-02-01,133.0
+Ohio,2022,3,M03,March,2022-03-01,118.0
+Ohio,2022,4,M04,April,2022-04-01,148.0
+Ohio,2022,5,M05,May,2022-05-01,139.0
+Ohio,2022,6,M06,June,2022-06-01,146.0
+Ohio,2022,7,M07,July,2022-07-01,139.0
+Ohio,2022,8,M08,August,2022-08-01,179.0
+Ohio,2022,9,M09,September,2022-09-01,151.0
+Ohio,2022,10,M10,October,2022-10-01,139.0
+Ohio,2022,11,M11,November,2022-11-01,113.0
+Ohio,2022,12,M12,December,2022-12-01,128.0
+Ohio,2023,1,M01,January,2023-01-01,129.0
+Ohio,2023,2,M02,February,2023-02-01,102.0
+Ohio,2023,3,M03,March,2023-03-01,121.0
+Ohio,2023,4,M04,April,2023-04-01,118.0
+Ohio,2023,5,M05,May,2023-05-01,145.0
+Ohio,2023,6,M06,June,2023-06-01,136.0
+Ohio,2023,7,M07,July,2023-07-01,155.0
+Ohio,2023,8,M08,August,2023-08-01,186.0
+Ohio,2023,9,M09,September,2023-09-01,131.0
+Ohio,2023,10,M10,October,2023-10-01,135.0
+Ohio,2023,11,M11,November,2023-11-01,107.0
+Ohio,2023,12,M12,December,2023-12-01,90.0
+Ohio,2024,1,M01,January,2024-01-01,99.0
+Ohio,2024,2,M02,February,2024-02-01,103.0
+Ohio,2024,3,M03,March,2024-03-01,107.0
+Ohio,2024,4,M04,April,2024-04-01,142.0
+Ohio,2024,5,M05,May,2024-05-01,126.0
+Ohio,2024,6,M06,June,2024-06-01,118.0
+Ohio,2024,7,M07,July,2024-07-01,146.0
+Ohio,2024,8,M08,August,2024-08-01,152.0
+Ohio,2024,9,M09,September,2024-09-01,114.0
+Ohio,2024,10,M10,October,2024-10-01,138.0
+Ohio,2024,11,M11,November,2024-11-01,103.0
+Ohio,2024,12,M12,December,2024-12-01,87.0
+Ohio,2025,1,M01,January,2025-01-01,117.0
+Ohio,2025,2,M02,February,2025-02-01,93.0
+Ohio,2025,3,M03,March,2025-03-01,121.0
+Ohio,2025,4,M04,April,2025-04-01,156.0
+Ohio,2025,5,M05,May,2025-05-01,148.0
+Ohio,2025,6,M06,June,2025-06-01,169.0
+Ohio,2025,7,M07,July,2025-07-01,137.0
+Ohio,2025,8,M08,August,2025-08-01,137.0
+Ohio,2025,9,M09,September,2025-09-01,129.0
+Ohio,2025,10,M10,October,2025-10-01,136.0
+Ohio,2025,11,M11,November,2025-11-01,114.0
+Ohio,2025,12,M12,December,2025-12-01,118.0
+Oklahoma,2022,1,M01,January,2022-01-01,55.0
+Oklahoma,2022,2,M02,February,2022-02-01,42.0
+Oklahoma,2022,3,M03,March,2022-03-01,52.0
+Oklahoma,2022,4,M04,April,2022-04-01,52.0
+Oklahoma,2022,5,M05,May,2022-05-01,52.0
+Oklahoma,2022,6,M06,June,2022-06-01,67.0
+Oklahoma,2022,7,M07,July,2022-07-01,59.0
+Oklahoma,2022,8,M08,August,2022-08-01,75.0
+Oklahoma,2022,9,M09,September,2022-09-01,58.0
+Oklahoma,2022,10,M10,October,2022-10-01,51.0
+Oklahoma,2022,11,M11,November,2022-11-01,48.0
+Oklahoma,2022,12,M12,December,2022-12-01,43.0
+Oklahoma,2023,1,M01,January,2023-01-01,50.0
+Oklahoma,2023,2,M02,February,2023-02-01,48.0
+Oklahoma,2023,3,M03,March,2023-03-01,48.0
+Oklahoma,2023,4,M04,April,2023-04-01,52.0
+Oklahoma,2023,5,M05,May,2023-05-01,57.0
+Oklahoma,2023,6,M06,June,2023-06-01,64.0
+Oklahoma,2023,7,M07,July,2023-07-01,64.0
+Oklahoma,2023,8,M08,August,2023-08-01,60.0
+Oklahoma,2023,9,M09,September,2023-09-01,44.0
+Oklahoma,2023,10,M10,October,2023-10-01,63.0
+Oklahoma,2023,11,M11,November,2023-11-01,39.0
+Oklahoma,2023,12,M12,December,2023-12-01,33.0
+Oklahoma,2024,1,M01,January,2024-01-01,43.0
+Oklahoma,2024,2,M02,February,2024-02-01,32.0
+Oklahoma,2024,3,M03,March,2024-03-01,35.0
+Oklahoma,2024,4,M04,April,2024-04-01,44.0
+Oklahoma,2024,5,M05,May,2024-05-01,44.0
+Oklahoma,2024,6,M06,June,2024-06-01,48.0
+Oklahoma,2024,7,M07,July,2024-07-01,48.0
+Oklahoma,2024,8,M08,August,2024-08-01,52.0
+Oklahoma,2024,9,M09,September,2024-09-01,37.0
+Oklahoma,2024,10,M10,October,2024-10-01,47.0
+Oklahoma,2024,11,M11,November,2024-11-01,32.0
+Oklahoma,2024,12,M12,December,2024-12-01,32.0
+Oklahoma,2025,1,M01,January,2025-01-01,43.0
+Oklahoma,2025,2,M02,February,2025-02-01,32.0
+Oklahoma,2025,3,M03,March,2025-03-01,37.0
+Oklahoma,2025,4,M04,April,2025-04-01,39.0
+Oklahoma,2025,5,M05,May,2025-05-01,45.0
+Oklahoma,2025,6,M06,June,2025-06-01,46.0
+Oklahoma,2025,7,M07,July,2025-07-01,43.0
+Oklahoma,2025,8,M08,August,2025-08-01,46.0
+Oklahoma,2025,9,M09,September,2025-09-01,38.0
+Oklahoma,2025,10,M10,October,2025-10-01,42.0
+Oklahoma,2025,11,M11,November,2025-11-01,34.0
+Oklahoma,2025,12,M12,December,2025-12-01,33.0
+Oregon,2022,1,M01,January,2022-01-01,54.0
+Oregon,2022,2,M02,February,2022-02-01,47.0
+Oregon,2022,3,M03,March,2022-03-01,52.0
+Oregon,2022,4,M04,April,2022-04-01,56.0
+Oregon,2022,5,M05,May,2022-05-01,50.0
+Oregon,2022,6,M06,June,2022-06-01,55.0
+Oregon,2022,7,M07,July,2022-07-01,58.0
+Oregon,2022,8,M08,August,2022-08-01,76.0
+Oregon,2022,9,M09,September,2022-09-01,63.0
+Oregon,2022,10,M10,October,2022-10-01,55.0
+Oregon,2022,11,M11,November,2022-11-01,52.0
+Oregon,2022,12,M12,December,2022-12-01,52.0
+Oregon,2023,1,M01,January,2023-01-01,57.0
+Oregon,2023,2,M02,February,2023-02-01,42.0
+Oregon,2023,3,M03,March,2023-03-01,43.0
+Oregon,2023,4,M04,April,2023-04-01,47.0
+Oregon,2023,5,M05,May,2023-05-01,47.0
+Oregon,2023,6,M06,June,2023-06-01,48.0
+Oregon,2023,7,M07,July,2023-07-01,62.0
+Oregon,2023,8,M08,August,2023-08-01,63.0
+Oregon,2023,9,M09,September,2023-09-01,56.0
+Oregon,2023,10,M10,October,2023-10-01,48.0
+Oregon,2023,11,M11,November,2023-11-01,41.0
+Oregon,2023,12,M12,December,2023-12-01,35.0
+Oregon,2024,1,M01,January,2024-01-01,45.0
+Oregon,2024,2,M02,February,2024-02-01,36.0
+Oregon,2024,3,M03,March,2024-03-01,35.0
+Oregon,2024,4,M04,April,2024-04-01,50.0
+Oregon,2024,5,M05,May,2024-05-01,42.0
+Oregon,2024,6,M06,June,2024-06-01,41.0
+Oregon,2024,7,M07,July,2024-07-01,57.0
+Oregon,2024,8,M08,August,2024-08-01,53.0
+Oregon,2024,9,M09,September,2024-09-01,39.0
+Oregon,2024,10,M10,October,2024-10-01,54.0
+Oregon,2024,11,M11,November,2024-11-01,34.0
+Oregon,2024,12,M12,December,2024-12-01,33.0
+Oregon,2025,1,M01,January,2025-01-01,45.0
+Oregon,2025,2,M02,February,2025-02-01,38.0
+Oregon,2025,3,M03,March,2025-03-01,38.0
+Oregon,2025,4,M04,April,2025-04-01,48.0
+Oregon,2025,5,M05,May,2025-05-01,40.0
+Oregon,2025,6,M06,June,2025-06-01,42.0
+Oregon,2025,7,M07,July,2025-07-01,57.0
+Oregon,2025,8,M08,August,2025-08-01,57.0
+Oregon,2025,9,M09,September,2025-09-01,43.0
+Oregon,2025,10,M10,October,2025-10-01,42.0
+Oregon,2025,11,M11,November,2025-11-01,36.0
+Oregon,2025,12,M12,December,2025-12-01,36.0
+Pennsylvania,2022,1,M01,January,2022-01-01,138.0
+Pennsylvania,2022,2,M02,February,2022-02-01,109.0
+Pennsylvania,2022,3,M03,March,2022-03-01,110.0
+Pennsylvania,2022,4,M04,April,2022-04-01,133.0
+Pennsylvania,2022,5,M05,May,2022-05-01,162.0
+Pennsylvania,2022,6,M06,June,2022-06-01,131.0
+Pennsylvania,2022,7,M07,July,2022-07-01,145.0
+Pennsylvania,2022,8,M08,August,2022-08-01,189.0
+Pennsylvania,2022,9,M09,September,2022-09-01,119.0
+Pennsylvania,2022,10,M10,October,2022-10-01,115.0
+Pennsylvania,2022,11,M11,November,2022-11-01,100.0
+Pennsylvania,2022,12,M12,December,2022-12-01,107.0
+Pennsylvania,2023,1,M01,January,2023-01-01,125.0
+Pennsylvania,2023,2,M02,February,2023-02-01,73.0
+Pennsylvania,2023,3,M03,March,2023-03-01,100.0
+Pennsylvania,2023,4,M04,April,2023-04-01,122.0
+Pennsylvania,2023,5,M05,May,2023-05-01,115.0
+Pennsylvania,2023,6,M06,June,2023-06-01,134.0
+Pennsylvania,2023,7,M07,July,2023-07-01,140.0
+Pennsylvania,2023,8,M08,August,2023-08-01,125.0
+Pennsylvania,2023,9,M09,September,2023-09-01,116.0
+Pennsylvania,2023,10,M10,October,2023-10-01,126.0
+Pennsylvania,2023,11,M11,November,2023-11-01,106.0
+Pennsylvania,2023,12,M12,December,2023-12-01,99.0
+Pennsylvania,2024,1,M01,January,2024-01-01,135.0
+Pennsylvania,2024,2,M02,February,2024-02-01,96.0
+Pennsylvania,2024,3,M03,March,2024-03-01,100.0
+Pennsylvania,2024,4,M04,April,2024-04-01,117.0
+Pennsylvania,2024,5,M05,May,2024-05-01,121.0
+Pennsylvania,2024,6,M06,June,2024-06-01,101.0
+Pennsylvania,2024,7,M07,July,2024-07-01,156.0
+Pennsylvania,2024,8,M08,August,2024-08-01,164.0
+Pennsylvania,2024,9,M09,September,2024-09-01,130.0
+Pennsylvania,2024,10,M10,October,2024-10-01,95.0
+Pennsylvania,2024,11,M11,November,2024-11-01,70.0
+Pennsylvania,2024,12,M12,December,2024-12-01,63.0
+Pennsylvania,2025,1,M01,January,2025-01-01,115.0
+Pennsylvania,2025,2,M02,February,2025-02-01,77.0
+Pennsylvania,2025,3,M03,March,2025-03-01,74.0
+Pennsylvania,2025,4,M04,April,2025-04-01,108.0
+Pennsylvania,2025,5,M05,May,2025-05-01,117.0
+Pennsylvania,2025,6,M06,June,2025-06-01,103.0
+Pennsylvania,2025,7,M07,July,2025-07-01,110.0
+Pennsylvania,2025,8,M08,August,2025-08-01,102.0
+Pennsylvania,2025,9,M09,September,2025-09-01,85.0
+Pennsylvania,2025,10,M10,October,2025-10-01,87.0
+Pennsylvania,2025,11,M11,November,2025-11-01,94.0
+Pennsylvania,2025,12,M12,December,2025-12-01,75.0
+Rhode Island,2022,1,M01,January,2022-01-01,14.0
+Rhode Island,2022,2,M02,February,2022-02-01,11.0
+Rhode Island,2022,3,M03,March,2022-03-01,13.0
+Rhode Island,2022,4,M04,April,2022-04-01,12.0
+Rhode Island,2022,5,M05,May,2022-05-01,13.0
+Rhode Island,2022,6,M06,June,2022-06-01,14.0
+Rhode Island,2022,7,M07,July,2022-07-01,15.0
+Rhode Island,2022,8,M08,August,2022-08-01,16.0
+Rhode Island,2022,9,M09,September,2022-09-01,15.0
+Rhode Island,2022,10,M10,October,2022-10-01,12.0
+Rhode Island,2022,11,M11,November,2022-11-01,11.0
+Rhode Island,2022,12,M12,December,2022-12-01,11.0
+Rhode Island,2023,1,M01,January,2023-01-01,10.0
+Rhode Island,2023,2,M02,February,2023-02-01,9.0
+Rhode Island,2023,3,M03,March,2023-03-01,10.0
+Rhode Island,2023,4,M04,April,2023-04-01,14.0
+Rhode Island,2023,5,M05,May,2023-05-01,12.0
+Rhode Island,2023,6,M06,June,2023-06-01,10.0
+Rhode Island,2023,7,M07,July,2023-07-01,11.0
+Rhode Island,2023,8,M08,August,2023-08-01,11.0
+Rhode Island,2023,9,M09,September,2023-09-01,12.0
+Rhode Island,2023,10,M10,October,2023-10-01,13.0
+Rhode Island,2023,11,M11,November,2023-11-01,11.0
+Rhode Island,2023,12,M12,December,2023-12-01,9.0
+Rhode Island,2024,1,M01,January,2024-01-01,11.0
+Rhode Island,2024,2,M02,February,2024-02-01,7.0
+Rhode Island,2024,3,M03,March,2024-03-01,10.0
+Rhode Island,2024,4,M04,April,2024-04-01,10.0
+Rhode Island,2024,5,M05,May,2024-05-01,12.0
+Rhode Island,2024,6,M06,June,2024-06-01,11.0
+Rhode Island,2024,7,M07,July,2024-07-01,11.0
+Rhode Island,2024,8,M08,August,2024-08-01,16.0
+Rhode Island,2024,9,M09,September,2024-09-01,17.0
+Rhode Island,2024,10,M10,October,2024-10-01,10.0
+Rhode Island,2024,11,M11,November,2024-11-01,6.0
+Rhode Island,2024,12,M12,December,2024-12-01,8.0
+Rhode Island,2025,1,M01,January,2025-01-01,12.0
+Rhode Island,2025,2,M02,February,2025-02-01,8.0
+Rhode Island,2025,3,M03,March,2025-03-01,11.0
+Rhode Island,2025,4,M04,April,2025-04-01,10.0
+Rhode Island,2025,5,M05,May,2025-05-01,11.0
+Rhode Island,2025,6,M06,June,2025-06-01,12.0
+Rhode Island,2025,7,M07,July,2025-07-01,11.0
+Rhode Island,2025,8,M08,August,2025-08-01,13.0
+Rhode Island,2025,9,M09,September,2025-09-01,12.0
+Rhode Island,2025,10,M10,October,2025-10-01,12.0
+Rhode Island,2025,11,M11,November,2025-11-01,9.0
+Rhode Island,2025,12,M12,December,2025-12-01,9.0
+South Carolina,2022,1,M01,January,2022-01-01,81.0
+South Carolina,2022,2,M02,February,2022-02-01,59.0
+South Carolina,2022,3,M03,March,2022-03-01,87.0
+South Carolina,2022,4,M04,April,2022-04-01,78.0
+South Carolina,2022,5,M05,May,2022-05-01,71.0
+South Carolina,2022,6,M06,June,2022-06-01,78.0
+South Carolina,2022,7,M07,July,2022-07-01,79.0
+South Carolina,2022,8,M08,August,2022-08-01,84.0
+South Carolina,2022,9,M09,September,2022-09-01,81.0
+South Carolina,2022,10,M10,October,2022-10-01,73.0
+South Carolina,2022,11,M11,November,2022-11-01,64.0
+South Carolina,2022,12,M12,December,2022-12-01,67.0
+South Carolina,2023,1,M01,January,2023-01-01,80.0
+South Carolina,2023,2,M02,February,2023-02-01,57.0
+South Carolina,2023,3,M03,March,2023-03-01,81.0
+South Carolina,2023,4,M04,April,2023-04-01,76.0
+South Carolina,2023,5,M05,May,2023-05-01,75.0
+South Carolina,2023,6,M06,June,2023-06-01,68.0
+South Carolina,2023,7,M07,July,2023-07-01,71.0
+South Carolina,2023,8,M08,August,2023-08-01,83.0
+South Carolina,2023,9,M09,September,2023-09-01,73.0
+South Carolina,2023,10,M10,October,2023-10-01,65.0
+South Carolina,2023,11,M11,November,2023-11-01,43.0
+South Carolina,2023,12,M12,December,2023-12-01,48.0
+South Carolina,2024,1,M01,January,2024-01-01,70.0
+South Carolina,2024,2,M02,February,2024-02-01,52.0
+South Carolina,2024,3,M03,March,2024-03-01,46.0
+South Carolina,2024,4,M04,April,2024-04-01,62.0
+South Carolina,2024,5,M05,May,2024-05-01,61.0
+South Carolina,2024,6,M06,June,2024-06-01,72.0
+South Carolina,2024,7,M07,July,2024-07-01,81.0
+South Carolina,2024,8,M08,August,2024-08-01,75.0
+South Carolina,2024,9,M09,September,2024-09-01,49.0
+South Carolina,2024,10,M10,October,2024-10-01,63.0
+South Carolina,2024,11,M11,November,2024-11-01,52.0
+South Carolina,2024,12,M12,December,2024-12-01,58.0
+South Carolina,2025,1,M01,January,2025-01-01,65.0
+South Carolina,2025,2,M02,February,2025-02-01,45.0
+South Carolina,2025,3,M03,March,2025-03-01,58.0
+South Carolina,2025,4,M04,April,2025-04-01,55.0
+South Carolina,2025,5,M05,May,2025-05-01,59.0
+South Carolina,2025,6,M06,June,2025-06-01,58.0
+South Carolina,2025,7,M07,July,2025-07-01,68.0
+South Carolina,2025,8,M08,August,2025-08-01,69.0
+South Carolina,2025,9,M09,September,2025-09-01,51.0
+South Carolina,2025,10,M10,October,2025-10-01,53.0
+South Carolina,2025,11,M11,November,2025-11-01,52.0
+South Carolina,2025,12,M12,December,2025-12-01,45.0
+South Dakota,2022,1,M01,January,2022-01-01,12.0
+South Dakota,2022,2,M02,February,2022-02-01,9.0
+South Dakota,2022,3,M03,March,2022-03-01,10.0
+South Dakota,2022,4,M04,April,2022-04-01,14.0
+South Dakota,2022,5,M05,May,2022-05-01,14.0
+South Dakota,2022,6,M06,June,2022-06-01,11.0
+South Dakota,2022,7,M07,July,2022-07-01,12.0
+South Dakota,2022,8,M08,August,2022-08-01,14.0
+South Dakota,2022,9,M09,September,2022-09-01,16.0
+South Dakota,2022,10,M10,October,2022-10-01,13.0
+South Dakota,2022,11,M11,November,2022-11-01,12.0
+South Dakota,2022,12,M12,December,2022-12-01,11.0
+South Dakota,2023,1,M01,January,2023-01-01,11.0
+South Dakota,2023,2,M02,February,2023-02-01,8.0
+South Dakota,2023,3,M03,March,2023-03-01,9.0
+South Dakota,2023,4,M04,April,2023-04-01,10.0
+South Dakota,2023,5,M05,May,2023-05-01,13.0
+South Dakota,2023,6,M06,June,2023-06-01,13.0
+South Dakota,2023,7,M07,July,2023-07-01,12.0
+South Dakota,2023,8,M08,August,2023-08-01,17.0
+South Dakota,2023,9,M09,September,2023-09-01,14.0
+South Dakota,2023,10,M10,October,2023-10-01,11.0
+South Dakota,2023,11,M11,November,2023-11-01,13.0
+South Dakota,2023,12,M12,December,2023-12-01,8.0
+South Dakota,2024,1,M01,January,2024-01-01,9.0
+South Dakota,2024,2,M02,February,2024-02-01,8.0
+South Dakota,2024,3,M03,March,2024-03-01,8.0
+South Dakota,2024,4,M04,April,2024-04-01,12.0
+South Dakota,2024,5,M05,May,2024-05-01,13.0
+South Dakota,2024,6,M06,June,2024-06-01,10.0
+South Dakota,2024,7,M07,July,2024-07-01,10.0
+South Dakota,2024,8,M08,August,2024-08-01,15.0
+South Dakota,2024,9,M09,September,2024-09-01,12.0
+South Dakota,2024,10,M10,October,2024-10-01,10.0
+South Dakota,2024,11,M11,November,2024-11-01,8.0
+South Dakota,2024,12,M12,December,2024-12-01,9.0
+South Dakota,2025,1,M01,January,2025-01-01,9.0
+South Dakota,2025,2,M02,February,2025-02-01,10.0
+South Dakota,2025,3,M03,March,2025-03-01,10.0
+South Dakota,2025,4,M04,April,2025-04-01,11.0
+South Dakota,2025,5,M05,May,2025-05-01,12.0
+South Dakota,2025,6,M06,June,2025-06-01,12.0
+South Dakota,2025,7,M07,July,2025-07-01,10.0
+South Dakota,2025,8,M08,August,2025-08-01,13.0
+South Dakota,2025,9,M09,September,2025-09-01,12.0
+South Dakota,2025,10,M10,October,2025-10-01,10.0
+South Dakota,2025,11,M11,November,2025-11-01,10.0
+South Dakota,2025,12,M12,December,2025-12-01,15.0
+Tennessee,2022,1,M01,January,2022-01-01,123.0
+Tennessee,2022,2,M02,February,2022-02-01,98.0
+Tennessee,2022,3,M03,March,2022-03-01,97.0
+Tennessee,2022,4,M04,April,2022-04-01,116.0
+Tennessee,2022,5,M05,May,2022-05-01,110.0
+Tennessee,2022,6,M06,June,2022-06-01,116.0
+Tennessee,2022,7,M07,July,2022-07-01,128.0
+Tennessee,2022,8,M08,August,2022-08-01,132.0
+Tennessee,2022,9,M09,September,2022-09-01,122.0
+Tennessee,2022,10,M10,October,2022-10-01,127.0
+Tennessee,2022,11,M11,November,2022-11-01,95.0
+Tennessee,2022,12,M12,December,2022-12-01,90.0
+Tennessee,2023,1,M01,January,2023-01-01,96.0
+Tennessee,2023,2,M02,February,2023-02-01,91.0
+Tennessee,2023,3,M03,March,2023-03-01,91.0
+Tennessee,2023,4,M04,April,2023-04-01,91.0
+Tennessee,2023,5,M05,May,2023-05-01,119.0
+Tennessee,2023,6,M06,June,2023-06-01,88.0
+Tennessee,2023,7,M07,July,2023-07-01,98.0
+Tennessee,2023,8,M08,August,2023-08-01,114.0
+Tennessee,2023,9,M09,September,2023-09-01,92.0
+Tennessee,2023,10,M10,October,2023-10-01,115.0
+Tennessee,2023,11,M11,November,2023-11-01,66.0
+Tennessee,2023,12,M12,December,2023-12-01,76.0
+Tennessee,2024,1,M01,January,2024-01-01,88.0
+Tennessee,2024,2,M02,February,2024-02-01,64.0
+Tennessee,2024,3,M03,March,2024-03-01,82.0
+Tennessee,2024,4,M04,April,2024-04-01,95.0
+Tennessee,2024,5,M05,May,2024-05-01,99.0
+Tennessee,2024,6,M06,June,2024-06-01,81.0
+Tennessee,2024,7,M07,July,2024-07-01,103.0
+Tennessee,2024,8,M08,August,2024-08-01,94.0
+Tennessee,2024,9,M09,September,2024-09-01,85.0
+Tennessee,2024,10,M10,October,2024-10-01,104.0
+Tennessee,2024,11,M11,November,2024-11-01,74.0
+Tennessee,2024,12,M12,December,2024-12-01,58.0
+Tennessee,2025,1,M01,January,2025-01-01,112.0
+Tennessee,2025,2,M02,February,2025-02-01,65.0
+Tennessee,2025,3,M03,March,2025-03-01,73.0
+Tennessee,2025,4,M04,April,2025-04-01,72.0
+Tennessee,2025,5,M05,May,2025-05-01,75.0
+Tennessee,2025,6,M06,June,2025-06-01,69.0
+Tennessee,2025,7,M07,July,2025-07-01,92.0
+Tennessee,2025,8,M08,August,2025-08-01,94.0
+Tennessee,2025,9,M09,September,2025-09-01,76.0
+Tennessee,2025,10,M10,October,2025-10-01,74.0
+Tennessee,2025,11,M11,November,2025-11-01,79.0
+Tennessee,2025,12,M12,December,2025-12-01,50.0
+Texas,2022,1,M01,January,2022-01-01,452.0
+Texas,2022,2,M02,February,2022-02-01,321.0
+Texas,2022,3,M03,March,2022-03-01,445.0
+Texas,2022,4,M04,April,2022-04-01,441.0
+Texas,2022,5,M05,May,2022-05-01,419.0
+Texas,2022,6,M06,June,2022-06-01,434.0
+Texas,2022,7,M07,July,2022-07-01,423.0
+Texas,2022,8,M08,August,2022-08-01,582.0
+Texas,2022,9,M09,September,2022-09-01,379.0
+Texas,2022,10,M10,October,2022-10-01,421.0
+Texas,2022,11,M11,November,2022-11-01,367.0
+Texas,2022,12,M12,December,2022-12-01,368.0
+Texas,2023,1,M01,January,2023-01-01,374.0
+Texas,2023,2,M02,February,2023-02-01,342.0
+Texas,2023,3,M03,March,2023-03-01,352.0
+Texas,2023,4,M04,April,2023-04-01,351.0
+Texas,2023,5,M05,May,2023-05-01,466.0
+Texas,2023,6,M06,June,2023-06-01,436.0
+Texas,2023,7,M07,July,2023-07-01,413.0
+Texas,2023,8,M08,August,2023-08-01,569.0
+Texas,2023,9,M09,September,2023-09-01,398.0
+Texas,2023,10,M10,October,2023-10-01,377.0
+Texas,2023,11,M11,November,2023-11-01,306.0
+Texas,2023,12,M12,December,2023-12-01,341.0
+Texas,2024,1,M01,January,2024-01-01,380.0
+Texas,2024,2,M02,February,2024-02-01,304.0
+Texas,2024,3,M03,March,2024-03-01,329.0
+Texas,2024,4,M04,April,2024-04-01,337.0
+Texas,2024,5,M05,May,2024-05-01,319.0
+Texas,2024,6,M06,June,2024-06-01,377.0
+Texas,2024,7,M07,July,2024-07-01,321.0
+Texas,2024,8,M08,August,2024-08-01,404.0
+Texas,2024,9,M09,September,2024-09-01,315.0
+Texas,2024,10,M10,October,2024-10-01,281.0
+Texas,2024,11,M11,November,2024-11-01,210.0
+Texas,2024,12,M12,December,2024-12-01,305.0
+Texas,2025,1,M01,January,2025-01-01,291.0
+Texas,2025,2,M02,February,2025-02-01,264.0
+Texas,2025,3,M03,March,2025-03-01,315.0
+Texas,2025,4,M04,April,2025-04-01,297.0
+Texas,2025,5,M05,May,2025-05-01,301.0
+Texas,2025,6,M06,June,2025-06-01,338.0
+Texas,2025,7,M07,July,2025-07-01,390.0
+Texas,2025,8,M08,August,2025-08-01,392.0
+Texas,2025,9,M09,September,2025-09-01,320.0
+Texas,2025,10,M10,October,2025-10-01,270.0
+Texas,2025,11,M11,November,2025-11-01,239.0
+Texas,2025,12,M12,December,2025-12-01,294.0
+Utah,2022,1,M01,January,2022-01-01,55.0
+Utah,2022,2,M02,February,2022-02-01,35.0
+Utah,2022,3,M03,March,2022-03-01,56.0
+Utah,2022,4,M04,April,2022-04-01,51.0
+Utah,2022,5,M05,May,2022-05-01,49.0
+Utah,2022,6,M06,June,2022-06-01,44.0
+Utah,2022,7,M07,July,2022-07-01,49.0
+Utah,2022,8,M08,August,2022-08-01,71.0
+Utah,2022,9,M09,September,2022-09-01,58.0
+Utah,2022,10,M10,October,2022-10-01,43.0
+Utah,2022,11,M11,November,2022-11-01,44.0
+Utah,2022,12,M12,December,2022-12-01,58.0
+Utah,2023,1,M01,January,2023-01-01,45.0
+Utah,2023,2,M02,February,2023-02-01,33.0
+Utah,2023,3,M03,March,2023-03-01,37.0
+Utah,2023,4,M04,April,2023-04-01,46.0
+Utah,2023,5,M05,May,2023-05-01,47.0
+Utah,2023,6,M06,June,2023-06-01,42.0
+Utah,2023,7,M07,July,2023-07-01,60.0
+Utah,2023,8,M08,August,2023-08-01,74.0
+Utah,2023,9,M09,September,2023-09-01,49.0
+Utah,2023,10,M10,October,2023-10-01,41.0
+Utah,2023,11,M11,November,2023-11-01,39.0
+Utah,2023,12,M12,December,2023-12-01,38.0
+Utah,2024,1,M01,January,2024-01-01,52.0
+Utah,2024,2,M02,February,2024-02-01,36.0
+Utah,2024,3,M03,March,2024-03-01,36.0
+Utah,2024,4,M04,April,2024-04-01,46.0
+Utah,2024,5,M05,May,2024-05-01,50.0
+Utah,2024,6,M06,June,2024-06-01,41.0
+Utah,2024,7,M07,July,2024-07-01,46.0
+Utah,2024,8,M08,August,2024-08-01,45.0
+Utah,2024,9,M09,September,2024-09-01,34.0
+Utah,2024,10,M10,October,2024-10-01,42.0
+Utah,2024,11,M11,November,2024-11-01,26.0
+Utah,2024,12,M12,December,2024-12-01,32.0
+Utah,2025,1,M01,January,2025-01-01,44.0
+Utah,2025,2,M02,February,2025-02-01,32.0
+Utah,2025,3,M03,March,2025-03-01,36.0
+Utah,2025,4,M04,April,2025-04-01,55.0
+Utah,2025,5,M05,May,2025-05-01,48.0
+Utah,2025,6,M06,June,2025-06-01,41.0
+Utah,2025,7,M07,July,2025-07-01,47.0
+Utah,2025,8,M08,August,2025-08-01,45.0
+Utah,2025,9,M09,September,2025-09-01,39.0
+Utah,2025,10,M10,October,2025-10-01,40.0
+Utah,2025,11,M11,November,2025-11-01,30.0
+Utah,2025,12,M12,December,2025-12-01,33.0
+Vermont,2022,1,M01,January,2022-01-01,7.0
+Vermont,2022,2,M02,February,2022-02-01,7.0
+Vermont,2022,3,M03,March,2022-03-01,8.0
+Vermont,2022,4,M04,April,2022-04-01,10.0
+Vermont,2022,5,M05,May,2022-05-01,12.0
+Vermont,2022,6,M06,June,2022-06-01,9.0
+Vermont,2022,7,M07,July,2022-07-01,7.0
+Vermont,2022,8,M08,August,2022-08-01,10.0
+Vermont,2022,9,M09,September,2022-09-01,9.0
+Vermont,2022,10,M10,October,2022-10-01,7.0
+Vermont,2022,11,M11,November,2022-11-01,7.0
+Vermont,2022,12,M12,December,2022-12-01,6.0
+Vermont,2023,1,M01,January,2023-01-01,5.0
+Vermont,2023,2,M02,February,2023-02-01,5.0
+Vermont,2023,3,M03,March,2023-03-01,6.0
+Vermont,2023,4,M04,April,2023-04-01,9.0
+Vermont,2023,5,M05,May,2023-05-01,13.0
+Vermont,2023,6,M06,June,2023-06-01,7.0
+Vermont,2023,7,M07,July,2023-07-01,8.0
+Vermont,2023,8,M08,August,2023-08-01,7.0
+Vermont,2023,9,M09,September,2023-09-01,8.0
+Vermont,2023,10,M10,October,2023-10-01,6.0
+Vermont,2023,11,M11,November,2023-11-01,7.0
+Vermont,2023,12,M12,December,2023-12-01,5.0
+Vermont,2024,1,M01,January,2024-01-01,6.0
+Vermont,2024,2,M02,February,2024-02-01,4.0
+Vermont,2024,3,M03,March,2024-03-01,6.0
+Vermont,2024,4,M04,April,2024-04-01,9.0
+Vermont,2024,5,M05,May,2024-05-01,9.0
+Vermont,2024,6,M06,June,2024-06-01,8.0
+Vermont,2024,7,M07,July,2024-07-01,5.0
+Vermont,2024,8,M08,August,2024-08-01,7.0
+Vermont,2024,9,M09,September,2024-09-01,8.0
+Vermont,2024,10,M10,October,2024-10-01,5.0
+Vermont,2024,11,M11,November,2024-11-01,4.0
+Vermont,2024,12,M12,December,2024-12-01,4.0
+Vermont,2025,1,M01,January,2025-01-01,7.0
+Vermont,2025,2,M02,February,2025-02-01,4.0
+Vermont,2025,3,M03,March,2025-03-01,6.0
+Vermont,2025,4,M04,April,2025-04-01,9.0
+Vermont,2025,5,M05,May,2025-05-01,11.0
+Vermont,2025,6,M06,June,2025-06-01,7.0
+Vermont,2025,7,M07,July,2025-07-01,5.0
+Vermont,2025,8,M08,August,2025-08-01,9.0
+Vermont,2025,9,M09,September,2025-09-01,7.0
+Vermont,2025,10,M10,October,2025-10-01,6.0
+Vermont,2025,11,M11,November,2025-11-01,5.0
+Vermont,2025,12,M12,December,2025-12-01,6.0
+Virginia,2022,1,M01,January,2022-01-01,107.0
+Virginia,2022,2,M02,February,2022-02-01,73.0
+Virginia,2022,3,M03,March,2022-03-01,89.0
+Virginia,2022,4,M04,April,2022-04-01,125.0
+Virginia,2022,5,M05,May,2022-05-01,104.0
+Virginia,2022,6,M06,June,2022-06-01,116.0
+Virginia,2022,7,M07,July,2022-07-01,120.0
+Virginia,2022,8,M08,August,2022-08-01,130.0
+Virginia,2022,9,M09,September,2022-09-01,121.0
+Virginia,2022,10,M10,October,2022-10-01,129.0
+Virginia,2022,11,M11,November,2022-11-01,99.0
+Virginia,2022,12,M12,December,2022-12-01,99.0
+Virginia,2023,1,M01,January,2023-01-01,83.0
+Virginia,2023,2,M02,February,2023-02-01,99.0
+Virginia,2023,3,M03,March,2023-03-01,124.0
+Virginia,2023,4,M04,April,2023-04-01,103.0
+Virginia,2023,5,M05,May,2023-05-01,136.0
+Virginia,2023,6,M06,June,2023-06-01,119.0
+Virginia,2023,7,M07,July,2023-07-01,121.0
+Virginia,2023,8,M08,August,2023-08-01,134.0
+Virginia,2023,9,M09,September,2023-09-01,107.0
+Virginia,2023,10,M10,October,2023-10-01,102.0
+Virginia,2023,11,M11,November,2023-11-01,77.0
+Virginia,2023,12,M12,December,2023-12-01,80.0
+Virginia,2024,1,M01,January,2024-01-01,92.0
+Virginia,2024,2,M02,February,2024-02-01,63.0
+Virginia,2024,3,M03,March,2024-03-01,80.0
+Virginia,2024,4,M04,April,2024-04-01,86.0
+Virginia,2024,5,M05,May,2024-05-01,102.0
+Virginia,2024,6,M06,June,2024-06-01,87.0
+Virginia,2024,7,M07,July,2024-07-01,110.0
+Virginia,2024,8,M08,August,2024-08-01,110.0
+Virginia,2024,9,M09,September,2024-09-01,88.0
+Virginia,2024,10,M10,October,2024-10-01,93.0
+Virginia,2024,11,M11,November,2024-11-01,66.0
+Virginia,2024,12,M12,December,2024-12-01,71.0
+Virginia,2025,1,M01,January,2025-01-01,71.0
+Virginia,2025,2,M02,February,2025-02-01,76.0
+Virginia,2025,3,M03,March,2025-03-01,87.0
+Virginia,2025,4,M04,April,2025-04-01,73.0
+Virginia,2025,5,M05,May,2025-05-01,114.0
+Virginia,2025,6,M06,June,2025-06-01,84.0
+Virginia,2025,7,M07,July,2025-07-01,90.0
+Virginia,2025,8,M08,August,2025-08-01,119.0
+Virginia,2025,9,M09,September,2025-09-01,101.0
+Virginia,2025,10,M10,October,2025-10-01,69.0
+Virginia,2025,11,M11,November,2025-11-01,76.0
+Virginia,2025,12,M12,December,2025-12-01,76.0
+Washington,2022,1,M01,January,2022-01-01,97.0
+Washington,2022,2,M02,February,2022-02-01,63.0
+Washington,2022,3,M03,March,2022-03-01,100.0
+Washington,2022,4,M04,April,2022-04-01,101.0
+Washington,2022,5,M05,May,2022-05-01,68.0
+Washington,2022,6,M06,June,2022-06-01,85.0
+Washington,2022,7,M07,July,2022-07-01,93.0
+Washington,2022,8,M08,August,2022-08-01,99.0
+Washington,2022,9,M09,September,2022-09-01,100.0
+Washington,2022,10,M10,October,2022-10-01,82.0
+Washington,2022,11,M11,November,2022-11-01,75.0
+Washington,2022,12,M12,December,2022-12-01,76.0
+Washington,2023,1,M01,January,2023-01-01,91.0
+Washington,2023,2,M02,February,2023-02-01,67.0
+Washington,2023,3,M03,March,2023-03-01,65.0
+Washington,2023,4,M04,April,2023-04-01,69.0
+Washington,2023,5,M05,May,2023-05-01,66.0
+Washington,2023,6,M06,June,2023-06-01,60.0
+Washington,2023,7,M07,July,2023-07-01,79.0
+Washington,2023,8,M08,August,2023-08-01,92.0
+Washington,2023,9,M09,September,2023-09-01,84.0
+Washington,2023,10,M10,October,2023-10-01,64.0
+Washington,2023,11,M11,November,2023-11-01,59.0
+Washington,2023,12,M12,December,2023-12-01,49.0
+Washington,2024,1,M01,January,2024-01-01,80.0
+Washington,2024,2,M02,February,2024-02-01,67.0
+Washington,2024,3,M03,March,2024-03-01,50.0
+Washington,2024,4,M04,April,2024-04-01,69.0
+Washington,2024,5,M05,May,2024-05-01,55.0
+Washington,2024,6,M06,June,2024-06-01,62.0
+Washington,2024,7,M07,July,2024-07-01,72.0
+Washington,2024,8,M08,August,2024-08-01,78.0
+Washington,2024,9,M09,September,2024-09-01,68.0
+Washington,2024,10,M10,October,2024-10-01,75.0
+Washington,2024,11,M11,November,2024-11-01,53.0
+Washington,2024,12,M12,December,2024-12-01,56.0
+Washington,2025,1,M01,January,2025-01-01,68.0
+Washington,2025,2,M02,February,2025-02-01,51.0
+Washington,2025,3,M03,March,2025-03-01,45.0
+Washington,2025,4,M04,April,2025-04-01,63.0
+Washington,2025,5,M05,May,2025-05-01,52.0
+Washington,2025,6,M06,June,2025-06-01,53.0
+Washington,2025,7,M07,July,2025-07-01,76.0
+Washington,2025,8,M08,August,2025-08-01,74.0
+Washington,2025,9,M09,September,2025-09-01,70.0
+Washington,2025,10,M10,October,2025-10-01,70.0
+Washington,2025,11,M11,November,2025-11-01,53.0
+Washington,2025,12,M12,December,2025-12-01,52.0
+West Virginia,2022,1,M01,January,2022-01-01,25.0
+West Virginia,2022,2,M02,February,2022-02-01,19.0
+West Virginia,2022,3,M03,March,2022-03-01,21.0
+West Virginia,2022,4,M04,April,2022-04-01,27.0
+West Virginia,2022,5,M05,May,2022-05-01,23.0
+West Virginia,2022,6,M06,June,2022-06-01,28.0
+West Virginia,2022,7,M07,July,2022-07-01,32.0
+West Virginia,2022,8,M08,August,2022-08-01,30.0
+West Virginia,2022,9,M09,September,2022-09-01,23.0
+West Virginia,2022,10,M10,October,2022-10-01,25.0
+West Virginia,2022,11,M11,November,2022-11-01,21.0
+West Virginia,2022,12,M12,December,2022-12-01,20.0
+West Virginia,2023,1,M01,January,2023-01-01,22.0
+West Virginia,2023,2,M02,February,2023-02-01,20.0
+West Virginia,2023,3,M03,March,2023-03-01,19.0
+West Virginia,2023,4,M04,April,2023-04-01,23.0
+West Virginia,2023,5,M05,May,2023-05-01,24.0
+West Virginia,2023,6,M06,June,2023-06-01,21.0
+West Virginia,2023,7,M07,July,2023-07-01,26.0
+West Virginia,2023,8,M08,August,2023-08-01,29.0
+West Virginia,2023,9,M09,September,2023-09-01,19.0
+West Virginia,2023,10,M10,October,2023-10-01,21.0
+West Virginia,2023,11,M11,November,2023-11-01,15.0
+West Virginia,2023,12,M12,December,2023-12-01,17.0
+West Virginia,2024,1,M01,January,2024-01-01,21.0
+West Virginia,2024,2,M02,February,2024-02-01,14.0
+West Virginia,2024,3,M03,March,2024-03-01,19.0
+West Virginia,2024,4,M04,April,2024-04-01,25.0
+West Virginia,2024,5,M05,May,2024-05-01,20.0
+West Virginia,2024,6,M06,June,2024-06-01,21.0
+West Virginia,2024,7,M07,July,2024-07-01,27.0
+West Virginia,2024,8,M08,August,2024-08-01,20.0
+West Virginia,2024,9,M09,September,2024-09-01,18.0
+West Virginia,2024,10,M10,October,2024-10-01,19.0
+West Virginia,2024,11,M11,November,2024-11-01,14.0
+West Virginia,2024,12,M12,December,2024-12-01,15.0
+West Virginia,2025,1,M01,January,2025-01-01,22.0
+West Virginia,2025,2,M02,February,2025-02-01,14.0
+West Virginia,2025,3,M03,March,2025-03-01,18.0
+West Virginia,2025,4,M04,April,2025-04-01,18.0
+West Virginia,2025,5,M05,May,2025-05-01,18.0
+West Virginia,2025,6,M06,June,2025-06-01,17.0
+West Virginia,2025,7,M07,July,2025-07-01,22.0
+West Virginia,2025,8,M08,August,2025-08-01,20.0
+West Virginia,2025,9,M09,September,2025-09-01,18.0
+West Virginia,2025,10,M10,October,2025-10-01,18.0
+West Virginia,2025,11,M11,November,2025-11-01,15.0
+West Virginia,2025,12,M12,December,2025-12-01,14.0
+Wisconsin,2022,1,M01,January,2022-01-01,71.0
+Wisconsin,2022,2,M02,February,2022-02-01,65.0
+Wisconsin,2022,3,M03,March,2022-03-01,65.0
+Wisconsin,2022,4,M04,April,2022-04-01,91.0
+Wisconsin,2022,5,M05,May,2022-05-01,78.0
+Wisconsin,2022,6,M06,June,2022-06-01,76.0
+Wisconsin,2022,7,M07,July,2022-07-01,86.0
+Wisconsin,2022,8,M08,August,2022-08-01,92.0
+Wisconsin,2022,9,M09,September,2022-09-01,87.0
+Wisconsin,2022,10,M10,October,2022-10-01,66.0
+Wisconsin,2022,11,M11,November,2022-11-01,60.0
+Wisconsin,2022,12,M12,December,2022-12-01,64.0
+Wisconsin,2023,1,M01,January,2023-01-01,66.0
+Wisconsin,2023,2,M02,February,2023-02-01,54.0
+Wisconsin,2023,3,M03,March,2023-03-01,56.0
+Wisconsin,2023,4,M04,April,2023-04-01,76.0
+Wisconsin,2023,5,M05,May,2023-05-01,78.0
+Wisconsin,2023,6,M06,June,2023-06-01,73.0
+Wisconsin,2023,7,M07,July,2023-07-01,78.0
+Wisconsin,2023,8,M08,August,2023-08-01,89.0
+Wisconsin,2023,9,M09,September,2023-09-01,78.0
+Wisconsin,2023,10,M10,October,2023-10-01,60.0
+Wisconsin,2023,11,M11,November,2023-11-01,65.0
+Wisconsin,2023,12,M12,December,2023-12-01,50.0
+Wisconsin,2024,1,M01,January,2024-01-01,68.0
+Wisconsin,2024,2,M02,February,2024-02-01,50.0
+Wisconsin,2024,3,M03,March,2024-03-01,55.0
+Wisconsin,2024,4,M04,April,2024-04-01,61.0
+Wisconsin,2024,5,M05,May,2024-05-01,73.0
+Wisconsin,2024,6,M06,June,2024-06-01,60.0
+Wisconsin,2024,7,M07,July,2024-07-01,56.0
+Wisconsin,2024,8,M08,August,2024-08-01,76.0
+Wisconsin,2024,9,M09,September,2024-09-01,64.0
+Wisconsin,2024,10,M10,October,2024-10-01,56.0
+Wisconsin,2024,11,M11,November,2024-11-01,43.0
+Wisconsin,2024,12,M12,December,2024-12-01,48.0
+Wisconsin,2025,1,M01,January,2025-01-01,58.0
+Wisconsin,2025,2,M02,February,2025-02-01,51.0
+Wisconsin,2025,3,M03,March,2025-03-01,54.0
+Wisconsin,2025,4,M04,April,2025-04-01,57.0
+Wisconsin,2025,5,M05,May,2025-05-01,66.0
+Wisconsin,2025,6,M06,June,2025-06-01,66.0
+Wisconsin,2025,7,M07,July,2025-07-01,56.0
+Wisconsin,2025,8,M08,August,2025-08-01,67.0
+Wisconsin,2025,9,M09,September,2025-09-01,72.0
+Wisconsin,2025,10,M10,October,2025-10-01,61.0
+Wisconsin,2025,11,M11,November,2025-11-01,55.0
+Wisconsin,2025,12,M12,December,2025-12-01,67.0
+Wyoming,2022,1,M01,January,2022-01-01,9.0
+Wyoming,2022,2,M02,February,2022-02-01,8.0
+Wyoming,2022,3,M03,March,2022-03-01,9.0
+Wyoming,2022,4,M04,April,2022-04-01,11.0
+Wyoming,2022,5,M05,May,2022-05-01,11.0
+Wyoming,2022,6,M06,June,2022-06-01,8.0
+Wyoming,2022,7,M07,July,2022-07-01,10.0
+Wyoming,2022,8,M08,August,2022-08-01,15.0
+Wyoming,2022,9,M09,September,2022-09-01,13.0
+Wyoming,2022,10,M10,October,2022-10-01,12.0
+Wyoming,2022,11,M11,November,2022-11-01,13.0
+Wyoming,2022,12,M12,December,2022-12-01,9.0
+Wyoming,2023,1,M01,January,2023-01-01,8.0
+Wyoming,2023,2,M02,February,2023-02-01,7.0
+Wyoming,2023,3,M03,March,2023-03-01,7.0
+Wyoming,2023,4,M04,April,2023-04-01,9.0
+Wyoming,2023,5,M05,May,2023-05-01,9.0
+Wyoming,2023,6,M06,June,2023-06-01,8.0
+Wyoming,2023,7,M07,July,2023-07-01,8.0
+Wyoming,2023,8,M08,August,2023-08-01,12.0
+Wyoming,2023,9,M09,September,2023-09-01,12.0
+Wyoming,2023,10,M10,October,2023-10-01,9.0
+Wyoming,2023,11,M11,November,2023-11-01,11.0
+Wyoming,2023,12,M12,December,2023-12-01,7.0
+Wyoming,2024,1,M01,January,2024-01-01,7.0
+Wyoming,2024,2,M02,February,2024-02-01,6.0
+Wyoming,2024,3,M03,March,2024-03-01,6.0
+Wyoming,2024,4,M04,April,2024-04-01,8.0
+Wyoming,2024,5,M05,May,2024-05-01,8.0
+Wyoming,2024,6,M06,June,2024-06-01,7.0
+Wyoming,2024,7,M07,July,2024-07-01,8.0
+Wyoming,2024,8,M08,August,2024-08-01,9.0
+Wyoming,2024,9,M09,September,2024-09-01,9.0
+Wyoming,2024,10,M10,October,2024-10-01,8.0
+Wyoming,2024,11,M11,November,2024-11-01,6.0
+Wyoming,2024,12,M12,December,2024-12-01,8.0
+Wyoming,2025,1,M01,January,2025-01-01,7.0
+Wyoming,2025,2,M02,February,2025-02-01,5.0
+Wyoming,2025,3,M03,March,2025-03-01,6.0
+Wyoming,2025,4,M04,April,2025-04-01,7.0
+Wyoming,2025,5,M05,May,2025-05-01,8.0
+Wyoming,2025,6,M06,June,2025-06-01,8.0
+Wyoming,2025,7,M07,July,2025-07-01,10.0
+Wyoming,2025,8,M08,August,2025-08-01,13.0
+Wyoming,2025,9,M09,September,2025-09-01,13.0
+Wyoming,2025,10,M10,October,2025-10-01,6.0
+Wyoming,2025,11,M11,November,2025-11-01,5.0
+Wyoming,2025,12,M12,December,2025-12-01,8.0
