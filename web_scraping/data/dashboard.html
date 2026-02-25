@@ -1,415 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pear Team — State Livability Dashboard</title>
   <style>
     :root {
-      --bg: #f6f2e8;
-      --card: #ffffff;
-      --text: #2f2416;
-      --muted: #6b5a43;
-      --accent: #c9a66b;
-      --accent2: #a67c52;
-      --line: rgba(47, 36, 22, 0.10);
-      --shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
-      --radius: 16px;
+      --bg: #f6f2e8; --card: #ffffff; --text: #2f2416; --muted: #6b5a43;
+      --accent: #c9a66b; --accent2: #a67c52;
+      --line: rgba(47, 36, 22, 0.10); --radius: 16px;
     }
-
-    * {
-      box-sizing: border-box;
-    }
-
+    * { box-sizing: border-box; }
     body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Arial, sans-serif;
-      background: radial-gradient(900px 380px at 20% 0%, rgba(201, 166, 107, 0.25), transparent 60%),
-        radial-gradient(700px 320px at 90% 10%, rgba(166, 124, 82, 0.18), transparent 55%),
-        var(--bg);
-      color: var(--text);
+      margin: 0; font-family: -apple-system, sans-serif;
+      background: radial-gradient(900px 380px at 20% 0%, rgba(201,166,107,0.25), transparent 60%), var(--bg);
+      color: var(--text); padding: 32px;
     }
-
-    .wrap {
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 32px 28px 70px;
-    }
-
-    header {
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      gap: 16px;
-      margin-bottom: 18px;
-    }
-
-    h1 {
-      margin: 0;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      font-size: 26px;
-    }
-
-    .subtitle {
-      margin: 6px 0 0;
-      color: var(--muted);
-      font-size: 13px;
-      line-height: 1.4;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
-      gap: 18px;
-      align-items: start;
-    }
-
-    .card {
-      background: var(--card);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-    }
-
-    .card .hd {
-      padding: 14px 16px;
-      border-bottom: 1px solid var(--line);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .card .hd h2 {
-      margin: 0;
-      font-size: 14px;
-      letter-spacing: -0.01em;
-    }
-
-    .card .bd {
-      position: relative;
-      isolation: isolate;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 13px;
-    }
-
-    th,
-    td {
-      padding: 10px 10px;
-      border-bottom: 1px solid rgba(47, 36, 22, 0.08);
-      text-align: left;
-    }
-
-    th {
-      background: linear-gradient(180deg, #c9a66b, #bf995d);
-      color: #fff;
-      font-weight: 700;
-      position: sticky;
-      top: 0;
-      z-index: 20;
-      border-bottom: 2px solid rgba(0, 0, 0, 0.08);
-    }
-
-    tbody::before {
-      content: "";
-      display: block;
-      height: 44px;
-    }
-
-    tbody tr:hover td {
-      background: rgba(201, 166, 107, 0.12);
-    }
-
-    .score {
-      font-weight: 800;
-      color: var(--accent2);
-    }
-
-    .controls {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      align-items: center;
-      margin-bottom: 10px;
-    }
-
-    select,
-    input {
-      padding: 10px 12px;
-      border-radius: 12px;
-      border: 1px solid rgba(47, 36, 22, 0.18);
-      background: rgba(255, 255, 255, 0.85);
-      color: var(--text);
-      font-size: 13px;
-      outline: none;
-      min-width: 200px;
-    }
-
-    .kpis {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      /* Maintain 2-column layout for 4 rows */
-      gap: 10px;
-      margin-top: 8px;
-      padding: 10px;
-    }
-
-    .kpi {
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 10px;
-      /* Slightly reduced padding to keep it compact */
-      background: rgba(246, 242, 232, 0.55);
-      min-height: 80px;
-      /* Ensures all boxes are the same height */
-    }
-
-    .kpi .lbl {
-      color: var(--muted);
-      font-size: 12px;
-      margin-bottom: 6px;
-    }
-
-    .kpi .val {
-      font-size: 16px;
-      font-weight: 800;
-      letter-spacing: -0.01em;
-    }
-
-    .kpi .sub {
-      margin-top: 6px;
-      font-size: 12px;
-      color: var(--muted);
-    }
-
-    .footer {
-      margin-top: 12px;
-      color: var(--muted);
-      font-size: 12px;
-      line-height: 1.5;
-    }
+    .grid { display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 18px; align-items: start; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 10px 35px rgba(0,0,0,0.08); overflow: hidden; }
+    .card .bd { position: relative; max-height: 720px; overflow-y: auto; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th { background: #c9a66b; color: #fff; position: sticky; top: 0; z-index: 20; padding: 10px; text-align: left; }
+    td { padding: 10px; border-bottom: 1px solid rgba(0,0,0,0.05); }
+    .kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 15px; }
+    .kpi { border: 1px solid var(--line); border-radius: 14px; padding: 12px; background: rgba(246,242,232,0.55); min-height: 85px; }
+    .kpi .lbl { color: var(--muted); font-size: 11px; text-transform: uppercase; }
+    .kpi .val { font-size: 18px; font-weight: 800; }
+    input[type="number"] { padding: 8px; border-radius: 8px; border: 1px solid #ccc; width: 100%; margin-top: 4px; }
+    #updateBtn { width: 100%; margin-top: 12px; padding: 10px; background: var(--accent2); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; }
   </style>
 </head>
-
 <body>
-  <div class="wrap">
-    <header>
-      <div>
-        <h1>🏆 State Livability Dashboard</h1>
-        <div class="subtitle">Weighted ranking built from BLS labor market metrics + FBI crime rate + scraped
-          cost-of-living & income tax.</div>
+  <div class="grid">
+    <div class="card"><div class="hd" style="padding:15px;"><h2>Top 25 States</h2></div><div class="bd"><table><thead><tr><th>Rank</th><th>State</th><th>Score</th><th>Cost</th><th>Tax</th></tr></thead><tbody id="rankTableBody"></tbody></table></div></div>
+    <div class="card"><div class="hd" style="padding:15px;"><h2>State Detail</h2></div><div class="bd">
+      <div style="padding:15px;"><select id="stateSelect" style="width:100%; padding:10px; border-radius:8px;"></select></div>
+      <div style="padding:15px; background:rgba(0,0,0,0.03); margin:15px; border-radius:12px;">
+        <div style="font-weight:600; font-size:12px;">Importance Weights (0.0 - 1.0)</div>
+        <div id="inputGrid" style="display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-top:10px;"></div>
+        <button id="updateBtn">Update Rankings</button>
       </div>
-    </header>
-
-    <div class="grid">
-      <div class="card">
-        <div class="hd">
-          <h2>Top 25 States</h2>
-        </div>
-        <div class="bd" style="max-height:755px; overflow:auto;">
-          <table>
-            <thead>
-              <tr>
-                <th>Rank</th>
-                <th>State</th>
-                <th>Score</th>
-                <th>Cost Index</th>
-                <th>Tax Rate</th>
-              </tr>
-            </thead>
-            <tbody id="rankTableBody"></tbody>
-          </table>
-          <div class="footer">Tip: Click a row to view details on the right.</div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="hd">
-          <h2>State Detail</h2>
-        </div>
-        <div class="bd">
-          <div class="controls" style="padding: 10px;">
-            <select id="stateSelect"></select>
-            <input id="searchBox" placeholder="Quick filter (e.g., Tex)" />
-          </div>
-
-          <div class="weights" id="weightsPanel"
-            style="padding: 16px; background: rgba(0,0,0,0.03); border-radius: 12px; margin: 0 10px 10px;">
-            <div style="font-size: 12px; margin-bottom: 10px; font-weight: 600;">Importance Weights (0.0 - 1.0)</div>
-            <div id="inputGrid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;"></div>
-            <button id="updateBtn"
-              style="width: 100%; margin-top: 12px; padding: 10px; background: var(--accent2); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;">
-              Update Rankings
-            </button>
-          </div>
-
-          <div class="kpis" id="kpis" style="padding: 10px;"></div>
-          <div class="footer" style="padding: 10px;">Weights auto-normalize to 100%.</div>
-        </div>
-      </div>
-    </div>
+      <div class="kpis" id="kpis"></div>
+    </div></div>
   </div>
+<script>
+fetch("dashboard_data.json").then(r => r.json()).then(data => {
+  let rows = data;
+  const DEFAULT_W = { w_cost: 0.2, w_safety: 0.18, w_tax: 0.1, w_unemp: 0.18, w_employ: 0.12, w_wage: 0.22 };
+  let W = JSON.parse(localStorage.getItem("livability_weights")) || DEFAULT_W;
 
-  <script>
-    fetch("dashboard_data.json")
-      .then(resp => resp.json())
-      .then(data => {
-        let rows = data;
-        const tbody = document.getElementById("rankTableBody");
-        const select = document.getElementById("stateSelect");
-        const search = document.getElementById("searchBox");
-        const inputGrid = document.getElementById("inputGrid");
-        const updateBtn = document.getElementById("updateBtn");
+  function recompute(){
+    const sum = Object.values(W).reduce((a,b)=>a+b,0);
+    const nw = {}; Object.keys(W).forEach(k => nw[k] = W[k]/(sum||1));
+    rows = data.map(r => ({ ...r, livability_score: (nw.w_cost*(r.cost_good??0.5) + nw.w_safety*(r.crime_good??0.5) + nw.w_tax*(r.tax_good??0.5) + nw.w_unemp*(r.unemp_good??0.5) + nw.w_employ*(r.employ_good??0.5) + nw.w_wage*(r.wage_good??0.5)) }));
+    rows.sort((a,b) => b.livability_score - a.livability_score);
+    rows.forEach((r,i) => r.rank = i+1);
+    fillTable(); renderState(document.getElementById("stateSelect").value || rows[0].state);
+  }
 
-        const DEFAULT_W = {
-          w_cost: 0.20, w_safety: 0.18, w_tax: 0.10, w_unemp: 0.18, w_employ: 0.12, w_wage: 0.22
-        };
+  function fillTable(){
+    const tb = document.getElementById("rankTableBody"); tb.innerHTML = "";
+    rows.slice(0,25).forEach(r => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${r.rank}</td><td>${r.state}</td><td style="font-weight:700; color:#a67c52;">${r.livability_score.toFixed(3)}</td><td>${r.Cost_of_Living_Index_2025??'—'}</td><td>${r.Top_State_Income_Tax_Rate??'—'}%</td>`;
+      tr.onclick = () => { document.getElementById("stateSelect").value = r.state; renderState(r.state); };
+      tb.appendChild(tr);
+    });
+  }
 
-        let W = (() => {
-          try {
-            const saved = JSON.parse(localStorage.getItem("livability_weights") || "null");
-            return saved ? { ...DEFAULT_W, ...saved } : { ...DEFAULT_W };
-          } catch (e) { return { ...DEFAULT_W }; }
-        })();
+  function renderState(name){
+    const s = rows.find(r => r.state === name);
+    const el = document.getElementById("kpis"); el.innerHTML = "";
+    const cards = [
+      // FIX: Math.floor used here for Integer Rank
+      {l:"Current Rank", v: Math.floor(s.rank), p:"#", isRank:true}, 
+      {l:"Score", v:s.livability_score, d:3}, 
+      {l:"Cost Index", v:s.Cost_of_Living_Index_2025}, 
+      {l:"Tax", v:s.Top_State_Income_Tax_Rate, s:"%"}, 
+      {l:"Unemployment", v:s.unemployment_rate, s:"%"}, 
+      {l:"Employment", v:s.employment_rate, s:"%"}, 
+      {l:"Wage", v:s.avg_weekly_earnings}, 
+      {l:"Crime", v:s.violent_crime_rate_per_100k}
+    ];
+    cards.forEach(c => {
+      const d = document.createElement("div"); d.className = "kpi";
+      if(c.isRank) d.style.background = "#ececec";
+      d.innerHTML = `<div class="lbl">${c.l}</div><div class="val" style="color:${c.isRank?'#a67c52':'inherit'}">${c.p||""}${c.v != null ? (c.isRank ? c.v : c.v.toFixed(c.d??1)) : "—"}${c.s||""}</div>`;
+      el.appendChild(d);
+    });
+  }
 
-        function normalizeWeights(w) {
-          const keys = Object.keys(w);
-          const sum = keys.reduce((a, k) => a + (Number(w[k]) || 0), 0);
-          if (sum <= 0) return keys.reduce((acc, k) => ({ ...acc, [k]: 1 / keys.length }), {});
-          let normalized = {};
-          keys.forEach(k => normalized[k] = (Number(w[k]) || 0) / sum);
-          return normalized;
-        }
+  const ig = document.getElementById("inputGrid");
+  Object.keys(DEFAULT_W).forEach(k => {
+    const div = document.createElement("div");
+    div.innerHTML = `<label style="font-size:10px;">${k.split('_')[1].toUpperCase()}</label><input type="number" step="0.01" value="${W[k]}" id="in_${k}">`;
+    ig.appendChild(div);
+  });
 
-        function scoreRow(r, w) {
-          return (w.w_cost * (r.cost_good ?? 0.5) + w.w_safety * (r.crime_good ?? 0.5) +
-            w.w_tax * (r.tax_good ?? 0.5) + w.w_unemp * (r.unemp_good ?? 0.5) +
-            w.w_employ * (r.employ_good ?? 0.5) + w.w_wage * (r.wage_good ?? 0.5));
-        }
+  document.getElementById("updateBtn").onclick = () => {
+    Object.keys(W).forEach(k => W[k] = parseFloat(document.getElementById("in_"+k).value)||0);
+    localStorage.setItem("livability_weights", JSON.stringify(W));
+    recompute();
+  };
 
-        function recomputeAndSort() {
-          const w = normalizeWeights({ ...W });
-          localStorage.setItem("livability_weights", JSON.stringify(w));
-
-          rows = data.map(r => ({ ...r, livability_score: scoreRow(r, w) }));
-          rows.sort((a, b) => (b.livability_score - a.livability_score) || a.state.localeCompare(b.state));
-          rows = rows.map((r, i) => ({ ...r, rank: i + 1 }));
-
-          const q = (search.value || "").toLowerCase();
-          const filtered = q ? rows.filter(r => r.state.toLowerCase().includes(q)) : rows;
-
-          fillTable(filtered);
-          fillSelect(filtered);
-          renderState(select.value || filtered[0].state, rows);
-          renderInputsUI(w);
-        }
-
-        function fillTable(list) {
-          tbody.innerHTML = "";
-          list.slice(0, 25).forEach(r => {
-            const tr = document.createElement("tr");
-            tr.innerHTML = `
-              <td>${r.rank}</td>
-              <td>${r.state}</td>
-              <td class="score">${r.livability_score.toFixed(3)}</td>
-              <td>${r.Cost_of_Living_Index_2025?.toFixed(1) || "—"}</td>
-              <td>${r.Top_State_Income_Tax_Rate != null ? r.Top_State_Income_Tax_Rate.toFixed(2) + "%" : "—"}</td>`;
-            tr.style.cursor = "pointer";
-            tr.onclick = () => { select.value = r.state; renderState(r.state, rows); };
-            tbody.appendChild(tr);
-          });
-        }
-
-        function fillSelect(list) {
-          const current = select.value;
-          select.innerHTML = "";
-          list.forEach(r => {
-            const opt = document.createElement("option");
-            opt.value = r.state; opt.textContent = r.state;
-            select.appendChild(opt);
-          });
-          select.value = current || (list[0] ? list[0].state : "");
-        }
-
-        function renderInputsUI(w) {
-          inputGrid.innerHTML = "";
-          const defs = [
-            { k: "w_cost", l: "Cost" }, { k: "w_safety", l: "Safety" }, { k: "w_tax", l: "Tax" },
-            { k: "w_unemp", l: "Unemployment" }, { k: "w_employ", l: "Employment" }, { k: "w_wage", l: "Wage" }
-          ];
-          defs.forEach(d => {
-            const div = document.createElement("div");
-            div.innerHTML = `
-              <label style="display:block; font-size:11px; color:var(--muted);">${d.l}</label>
-              <input type="number" step="0.1" min="0" max="1" value="${w[d.k].toFixed(2)}" 
-                     style="width:100%; min-width:unset; padding:6px; border-radius:6px;" data-k="${d.k}">`;
-            inputGrid.appendChild(div);
-          });
-        }
-
-        function setKPIs(stateData) {
-          const el = document.getElementById("kpis");
-          el.innerHTML = "";
-
-          const cards = [
-            { label: "Current Rank", value: stateData.rank, sub: "Out of 50", digits: 0, prefix: "#" },
-            { label: "Livability score", value: stateData.livability_score, sub: "0–1 scale", digits: 3 },
-            { label: "Cost index (2025)", value: stateData.Cost_of_Living_Index_2025, sub: "Index value", digits: 1 },
-            { label: "Top income tax", value: stateData.Top_State_Income_Tax_Rate, sub: "Percent", digits: 2, suffix: "%" },
-            { label: "Unemployment", value: stateData.unemployment_rate, sub: "Recent avg", digits: 2, suffix: "%" },
-            { label: "Employment", value: stateData.employment_rate, sub: "Recent avg", digits: 2, suffix: "%" },
-            { label: "Avg weekly wage", value: stateData.avg_weekly_earnings, sub: "In USD", digits: 0 },
-            { label: "Violent crime rate", value: stateData.violent_crime_rate_per_100k, sub: "per 100k", digits: 1 },
-          ];
-
-          cards.forEach(c => {
-            const div = document.createElement("div");
-            div.className = "kpi";
-
-            // Apply light gray background and dark brown text specifically for the Rank box
-            if (c.label === "Current Rank") {
-              div.style.background = "#ececec"; // Light gray
-              div.style.border = "1px solid rgba(0,0,0,0.05)";
-            }
-
-            const v = (c.value === null || c.value === undefined) ? null : c.value;
-            const isRank = c.label === "Current Rank";
-
-            div.innerHTML = `
-      <div class="lbl">${c.label}</div>
-      <div class="val" style="color: ${isRank ? 'var(--accent2)' : 'inherit'}">
-        ${c.prefix || ""}${v === null ? "—" : (typeof v === "number" ? v.toFixed(c.digits) : v)}${c.suffix || ""}
-      </div>
-      <div class="sub">${c.sub}</div>
-    `;
-            el.appendChild(div);
-          });
-        }
-
-        function renderState(name, all) {
-          const match = all.find(r => r.state === name);
-          if (match) setKPIs(match);
-        }
-
-        updateBtn.onclick = () => {
-          inputGrid.querySelectorAll('input').forEach(i => {
-            W[i.getAttribute('data-k')] = parseFloat(i.value) || 0;
-          });
-          recomputeAndSort();
-        };
-
-        search.oninput = () => recomputeAndSort();
-        select.onchange = () => renderState(select.value, rows);
-
-        recomputeAndSort();
-      });
-  </script>
+  const sel = document.getElementById("stateSelect");
+  rows.forEach(r => { const o = document.createElement("option"); o.value = r.state; o.textContent = r.state; sel.appendChild(o); });
+  sel.onchange = () => renderState(sel.value);
+  recompute();
+});
+</script>
 </body>
-
 </html>

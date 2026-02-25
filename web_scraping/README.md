@@ -18,33 +18,37 @@ A collection of Python scripts that fetch, merge, and export US state-level labo
 
 ## Project Structure
 ```
-├── main_run.py                   # Top-level pipeline: BLS + supplemental data -> final CSVs
-├── README.md
-├── requirements.txt
+├── main_run.py              # Top-level pipeline: BLS + supplemental data -> final CSVs
+├── README.md                # Project documentation
+├── requirements.txt         # Python dependencies
+├── .gitignore               # Files to exclude from Git
 │
-├── scrapers/
-│   ├── bls_run.py                          # BLS master runner: init + run all sub-scripts
-│   ├── bls_unemployment_rate_50states.py   # Unemployment rate (LAUS)
-│   ├── bls_employment_rate_50states.py     # Employment rate (LAUS)
-│   ├── bls_avg_weekly_hours_50states.py    # Average weekly hours (SMU)
-│   ├── bls_job_opennings_rate_50states.py  # Job openings rate (JOLTS)
-│   ├── bls_quits_level_50states.py         # Quits level in thousands (JOLTS)
-│   ├── bls_avg_weekly_wage_50states.py     # Average weekly earnings (SMU)
-│   └── data_collecting.py                  # Scrapes cost of living, income tax, crime rate
+├── scrapers/                # Data collection scripts
+│   ├── bls_run.py           # BLS master runner: init + run all sub-scripts
+│   ├── bls_unemployment_rate_50states.py
+│   ├── bls_employment_rate_50states.py
+│   ├── bls_avg_weekly_hours_50states.py
+│   ├── bls_job_opennings_rate_50states.py
+│   ├── bls_quits_level_50states.py
+│   ├── bls_avg_weekly_wage_50states.py
+│   └── data_collecting.py   # Scrapes cost of living, income tax, crime rate
 │
-└── data/
-    ├── monthly_merged.csv          # ★ BLS + crime data (monthly by state)
-    ├── state_cost_tax_2025.csv     # ★ Cost of living + income tax (static, per state)
-    ├── crime_rate_2022_2025_monthly.csv
-    └── bls_data/
-        ├── bls_master.csv
-        ├── bls_unemployment_rate_50states.csv
-        ├── bls_employment_rate_50states.csv
-        ├── bls_avg_weekly_hours_50states.csv
-        ├── bls_job_opennings_rate_50states.csv
-        ├── bls_quits_level_50states.csv
-        └── bls_avg_weekly_wage_50states.csv
-
+└── data/                    # Data storage and dashboard assets
+├── bls_data/            # Raw and processed BLS-specific CSVs
+│   ├── bls_master.csv
+│   ├── bls_unemployment_rate_50states.csv
+│   ├── bls_employment_rate_50states.csv
+│   ├── bls_avg_weekly_hours_50states.csv
+│   ├── bls_job_opennings_rate_50states.csv
+│   ├── bls_quits_level_50states.csv
+│   └── bls_avg_weekly_wage_50states.csv
+├── crime_rate_2022_2025_monthly.csv
+├── livability_rankings.csv
+├── monthly_merged.csv   # Final merged BLS + supplemental data
+├── state_cost_tax_2025.csv
+├── dashboard_data.json  # Data formatted for the web dashboard
+├── dashboard.html       # Visual dashboard frontend
+└── dashboard.js         # Dashboard logic and interactivity
 ```
 
 ---
@@ -94,7 +98,9 @@ pip install -r requirements.txt
 
 ### Full pipeline (recommended)
 ```bash
-python3 main_run.py --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7
+python3 main_run.py --auto --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7
+or
+python main_run.py --auto --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7
 
 ```
 
