@@ -1,14 +1,13 @@
 """Centralized project configuration for API keys.
 
-Set keys here (or via environment variables) and import from this module.
+These default keys are pre-filled so the project can run out of the box.
+You can replace them with your own keys at any time.
 """
 
 from __future__ import annotations
 
-import os
-
 # Bureau of Labor Statistics API key.
-BLS_API_KEY = os.getenv("BLS_API_KEY", "")
+BLS_API_KEY = "963729bfa50042e294f9e0516067fcb7"
 
 # FBI Crime Data Explorer API key (api.usa.gov).
-FBI_API_KEY = os.getenv("FBI_API_KEY", "")
+FBI_API_KEY = "wPBgMISeWBqfqIeh7Q7ImfLzHbbeFuxeAe9z50iN"

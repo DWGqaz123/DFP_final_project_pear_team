@@ -244,7 +244,7 @@ def upsert_to_master(
     merged = merged[final_cols].sort_values(["state", "year", "month"]).reset_index(drop=True)
 
     merged.to_csv(master_path, index=False)
-    print(f"[master] {metric_col} upsert 完成：{len(merged):,} 行 -> {master_path}")
+    print(f"[master] {metric_col} upsert finished{len(merged):,} rows -> {master_path}")
 
 
 def main():
