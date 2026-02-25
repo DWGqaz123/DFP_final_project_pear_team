@@ -1,221 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pear Team — State Livability Dashboard</title>
-<style>
-  :root{
-    --bg: #f6f2e8;
-    --card: #ffffff;
-    --text: #2f2416;
-    --muted: #6b5a43;
-    --accent: #c9a66b;     /* warm gold */
-    --accent2:#a67c52;     /* brown */
-    --line: rgba(47,36,22,0.10);
-    --shadow: 0 10px 35px rgba(0,0,0,0.08);
-    --radius: 16px;
-  }
-  *{ box-sizing: border-box; }
-  body{
-    margin:0;
-    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Arial, sans-serif;
-    background: radial-gradient(900px 380px at 20% 0%, rgba(201,166,107,0.25), transparent 60%),
-                radial-gradient(700px 320px at 90% 10%, rgba(166,124,82,0.18), transparent 55%),
-                var(--bg);
-    color: var(--text);
-  }
-  .wrap{
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 32px 28px 70px;
-  }
-  header{
-    display:flex; align-items:flex-end; justify-content:space-between; gap:16px;
-    margin-bottom:18px;
-  }
-  h1{ margin:0; font-weight: 700; letter-spacing:-0.02em; font-size: 26px;}
-  .subtitle{ margin:6px 0 0; color: var(--muted); font-size: 13px; line-height:1.4;}
-  .pill{
-    padding:10px 12px; border-radius:999px;
-    border:1px solid var(--line);
-    background: rgba(255,255,255,0.65);
-    box-shadow: var(--shadow);
-    color: var(--muted);
-    font-size:12px;
-    user-select:none;
-  }
-  .grid{
-    display:grid;
-    grid-template-columns: 1.2fr 0.8fr;
-    gap:18px;
-    align-items:start;
-  }
-  .card{
-    background: var(--card);
-    border:1px solid var(--line);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-    overflow:hidden;
-  }
-  .card .hd{
-    padding:14px 16px;
-    border-bottom:1px solid var(--line);
-    display:flex; align-items:center; justify-content:space-between;
-  }
-  .card .hd h2{
-    margin:0; font-size:14px; letter-spacing:-0.01em;
-  }
-  .card .bd{ 
-    position: relative;
-    isolation: isolate;
-  }
-  table{
-    width:100%;
-    border-collapse: collapse;
-    font-size: 13px;
-  }
-  th, td{
-    padding: 10px 10px;
-    border-bottom: 1px solid rgba(47,36,22,0.08);
-    text-align:left;
-  }
-  th{
-    background: linear-gradient(180deg, #c9a66b, #bf995d);
-    color: #fff;
-    font-weight: 700;
-    position: sticky;
-    top: 0;
-    z-index: 20;                 
-    border-bottom: 2px solid rgba(0,0,0,0.08);
-  }
-  tbody::before{
-  content: "";
-  display: block;
-  height: 44px;
-}
-  tbody tr:hover td{ background: rgba(201,166,107,0.12); }
-  .score{ font-weight:800; color: var(--accent2); }
-  .controls{
-    display:flex; gap:10px; flex-wrap:wrap; align-items:center;
-    margin-bottom: 10px;
-  }
-  select, input{
-    padding: 10px 12px;
-    border-radius: 12px;
-    border: 1px solid rgba(47,36,22,0.18);
-    background: rgba(255,255,255,0.85);
-    color: var(--text);
-    font-size: 13px;
-    outline:none;
-    min-width: 200px;
-  }
-  .kpis{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap:10px;
-    margin-top: 8px;
-  }
-  .kpi{
-    border:1px solid var(--line);
-    border-radius: 14px;
-    padding: 12px 12px;
-    background: rgba(246,242,232,0.55);
-  }
-  .kpi .lbl{ color: var(--muted); font-size: 12px; margin-bottom: 6px; }
-  .kpi .val{ font-size: 16px; font-weight: 800; letter-spacing:-0.01em; }
-  .kpi .sub{ margin-top: 6px; font-size: 12px; color: var(--muted); }
-  .footer{
-    margin-top: 12px;
-    color: var(--muted);
-    font-size: 12px;
-    line-height: 1.5;
-  }
-  .weights{
-    padding: 0 12px 12px;
-  }
-  .wrow{
-    display:grid;
-    grid-template-columns: 150px 1fr 56px;
-    gap:10px;
-    align-items:center;
-    margin: 10px 0;
-  }
-  .wlabel{ color: var(--muted); font-size: 12px; }
-  .wval{ text-align:right; color: var(--text); font-weight:700; font-size:12px; }
-  .weights input[type="range"]{
-    width:100%;
-  }
-  @media (max-width: 920px){
-    .wrap{ padding: 22px 18px 50px; }
-    .grid{ grid-template-columns: 1fr; }
-    .card{ border-radius: 18px; }
-    .card .hd{ padding: 14px; }
-    .card .bd{ padding: 14px; } 
-    .kpis{ grid-template-columns: 1fr; }
-    select, input{ min-width: 160px; }
-  }
-  /* Ensure the weights area is actually clickable/draggable */
-.weights, .wrow, .wrow *{
-  pointer-events: auto !important;
-}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pear Team — State Livability Dashboard</title>
+  <style>
+    :root {
+      --bg: #f6f2e8;
+      --card: #ffffff;
+      --text: #2f2416;
+      --muted: #6b5a43;
+      --accent: #c9a66b;
+      --accent2: #a67c52;
+      --line: rgba(47, 36, 22, 0.10);
+      --shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+      --radius: 16px;
+    }
 
-.weights{
-  position: relative;
-  z-index: 50;            /* lift above any overlay */
-}
+    * {
+      box-sizing: border-box;
+    }
 
-/* Make the slider thicker and thumb easier to grab */
-.weights input[type="range"]{
-  -webkit-appearance: none;
-  appearance: none;
-  width: 100%;
-  height: 10px;
-  border-radius: 999px;
-  background: rgba(47,36,22,0.18);
-  outline: none;
-  cursor: grab;
-  touch-action: pan-x;    /* important for trackpad/touch drag */
-}
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+      background: radial-gradient(900px 380px at 20% 0%, rgba(201, 166, 107, 0.25), transparent 60%),
+        radial-gradient(700px 320px at 90% 10%, rgba(166, 124, 82, 0.18), transparent 55%),
+        var(--bg);
+      color: var(--text);
+    }
 
-.weights input[type="range"]:active{
-  cursor: grabbing;
-}
+    .wrap {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 32px 28px 70px;
+    }
 
-.weights input[type="range"]::-webkit-slider-thumb{
-  -webkit-appearance: none;
-  appearance: none;
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: #fff;
-  border: 2px solid rgba(166,124,82,0.9);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.14);
-}
+    header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 18px;
+    }
 
-.weights input[type="range"]::-moz-range-thumb{
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  background: #fff;
-  border: 2px solid rgba(166,124,82,0.9);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.14);
-}
-</style>
+    h1 {
+      margin: 0;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      font-size: 26px;
+    }
+
+    .subtitle {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .card .hd {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .card .hd h2 {
+      margin: 0;
+      font-size: 14px;
+      letter-spacing: -0.01em;
+    }
+
+    .card .bd {
+      position: relative;
+      isolation: isolate;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+
+    th,
+    td {
+      padding: 10px 10px;
+      border-bottom: 1px solid rgba(47, 36, 22, 0.08);
+      text-align: left;
+    }
+
+    th {
+      background: linear-gradient(180deg, #c9a66b, #bf995d);
+      color: #fff;
+      font-weight: 700;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+    }
+
+    tbody::before {
+      content: "";
+      display: block;
+      height: 44px;
+    }
+
+    tbody tr:hover td {
+      background: rgba(201, 166, 107, 0.12);
+    }
+
+    .score {
+      font-weight: 800;
+      color: var(--accent2);
+    }
+
+    .controls {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    select,
+    input {
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(47, 36, 22, 0.18);
+      background: rgba(255, 255, 255, 0.85);
+      color: var(--text);
+      font-size: 13px;
+      outline: none;
+      min-width: 200px;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      /* Maintain 2-column layout for 4 rows */
+      gap: 10px;
+      margin-top: 8px;
+      padding: 10px;
+    }
+
+    .kpi {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 10px;
+      /* Slightly reduced padding to keep it compact */
+      background: rgba(246, 242, 232, 0.55);
+      min-height: 80px;
+      /* Ensures all boxes are the same height */
+    }
+
+    .kpi .lbl {
+      color: var(--muted);
+      font-size: 12px;
+      margin-bottom: 6px;
+    }
+
+    .kpi .val {
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+    }
+
+    .kpi .sub {
+      margin-top: 6px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .footer {
+      margin-top: 12px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+  </style>
 </head>
+
 <body>
   <div class="wrap">
     <header>
       <div>
         <h1>🏆 State Livability Dashboard</h1>
-        <div class="subtitle">Weighted ranking built from BLS labor market metrics + FBI crime rate + scraped cost-of-living & income tax.</div>
+        <div class="subtitle">Weighted ranking built from BLS labor market metrics + FBI crime rate + scraped
+          cost-of-living & income tax.</div>
       </div>
     </header>
 
     <div class="grid">
       <div class="card">
-        <div class="hd"><h2>Top 25 States</h2></div>
-        <div class="bd" style="max-height:520px; overflow:auto;">
+        <div class="hd">
+          <h2>Top 25 States</h2>
+        </div>
+        <div class="bd" style="max-height:755px; overflow:auto;">
           <table>
             <thead>
               <tr>
@@ -233,236 +230,186 @@
       </div>
 
       <div class="card">
-        <div class="hd"><h2>State Detail</h2></div>
+        <div class="hd">
+          <h2>State Detail</h2>
+        </div>
         <div class="bd">
-          <div class="controls">
+          <div class="controls" style="padding: 10px;">
             <select id="stateSelect"></select>
-            <input id="searchBox" placeholder="Quick filter (e.g., Tex)"/>
+            <input id="searchBox" placeholder="Quick filter (e.g., Tex)" />
           </div>
 
-          <div class="weights" id="weightsPanel"></div>
-          <div class="footer">Adjust weights to re-rank states in real time. Weights are auto-normalized.</div>
+          <div class="weights" id="weightsPanel"
+            style="padding: 16px; background: rgba(0,0,0,0.03); border-radius: 12px; margin: 0 10px 10px;">
+            <div style="font-size: 12px; margin-bottom: 10px; font-weight: 600;">Importance Weights (0.0 - 1.0)</div>
+            <div id="inputGrid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;"></div>
+            <button id="updateBtn"
+              style="width: 100%; margin-top: 12px; padding: 10px; background: var(--accent2); color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600;">
+              Update Rankings
+            </button>
+          </div>
 
-
-          <div class="kpis" id="kpis"></div>
-
+          <div class="kpis" id="kpis" style="padding: 10px;"></div>
+          <div class="footer" style="padding: 10px;">Weights auto-normalize to 100%.</div>
         </div>
       </div>
     </div>
   </div>
 
-<script>
-fetch("dashboard_data.json")
-  .then(resp => resp.json())
-  .then(data => {
-    let rows = data; // will be re-sorted based on weights
-    const tbody = document.getElementById("rankTableBody");
-    const select = document.getElementById("stateSelect");
-    const search = document.getElementById("searchBox");
-    const weightsPanel = document.getElementById("weightsPanel");
+  <script>
+    fetch("dashboard_data.json")
+      .then(resp => resp.json())
+      .then(data => {
+        let rows = data;
+        const tbody = document.getElementById("rankTableBody");
+        const select = document.getElementById("stateSelect");
+        const search = document.getElementById("searchBox");
+        const inputGrid = document.getElementById("inputGrid");
+        const updateBtn = document.getElementById("updateBtn");
 
-    // default weights (same idea as python)
-    const DEFAULT_W = {
-      w_cost: 0.20,
-      w_safety: 0.18,
-      w_tax: 0.10,
-      w_unemp: 0.18,
-      w_employ: 0.12,
-      w_wage: 0.22
-    };
+        const DEFAULT_W = {
+          w_cost: 0.20, w_safety: 0.18, w_tax: 0.10, w_unemp: 0.18, w_employ: 0.12, w_wage: 0.22
+        };
 
-    // load saved weights if any
-    let W = (() => {
-      try {
-        const saved = JSON.parse(localStorage.getItem("livability_weights") || "null");
-        return saved ? { ...DEFAULT_W, ...saved } : { ...DEFAULT_W };
-      } catch(e){
-        return { ...DEFAULT_W };
-      }
-    })();
+        let W = (() => {
+          try {
+            const saved = JSON.parse(localStorage.getItem("livability_weights") || "null");
+            return saved ? { ...DEFAULT_W, ...saved } : { ...DEFAULT_W };
+          } catch (e) { return { ...DEFAULT_W }; }
+        })();
 
-    function fmt(x, digits=2){
-      if (x === null || x === undefined || x === "") return "—";
-      if (typeof x === "number") return x.toFixed(digits);
-      return String(x);
-    }
+        function normalizeWeights(w) {
+          const keys = Object.keys(w);
+          const sum = keys.reduce((a, k) => a + (Number(w[k]) || 0), 0);
+          if (sum <= 0) return keys.reduce((acc, k) => ({ ...acc, [k]: 1 / keys.length }), {});
+          let normalized = {};
+          keys.forEach(k => normalized[k] = (Number(w[k]) || 0) / sum);
+          return normalized;
+        }
 
-    function normalizeWeights(w){
-      const keys = Object.keys(w);
-      const sum = keys.reduce((a,k)=> a + (Number(w[k]) || 0), 0);
-      if (sum <= 0) {
-        const u = 1 / keys.length;
-        keys.forEach(k => w[k] = u);
-        return w;
-      }
-      keys.forEach(k => w[k] = (Number(w[k]) || 0) / sum);
-      return w;
-    }
+        function scoreRow(r, w) {
+          return (w.w_cost * (r.cost_good ?? 0.5) + w.w_safety * (r.crime_good ?? 0.5) +
+            w.w_tax * (r.tax_good ?? 0.5) + w.w_unemp * (r.unemp_good ?? 0.5) +
+            w.w_employ * (r.employ_good ?? 0.5) + w.w_wage * (r.wage_good ?? 0.5));
+        }
 
-    function scoreRow(r, w){
-      // components are 0..1 goodness
-      const cost = r.cost_good ?? 0.5;
-      const crime = r.crime_good ?? 0.5;
-      const tax = r.tax_good ?? 0.5;
-      const unemp = r.unemp_good ?? 0.5;
-      const employ = r.employ_good ?? 0.5;
-      const wage = r.wage_good ?? 0.5;
+        function recomputeAndSort() {
+          const w = normalizeWeights({ ...W });
+          localStorage.setItem("livability_weights", JSON.stringify(w));
 
-      return (
-        w.w_cost * cost +
-        w.w_safety * crime +
-        w.w_tax * tax +
-        w.w_unemp * unemp +
-        w.w_employ * employ +
-        w.w_wage * wage
-      );
-    }
+          rows = data.map(r => ({ ...r, livability_score: scoreRow(r, w) }));
+          rows.sort((a, b) => (b.livability_score - a.livability_score) || a.state.localeCompare(b.state));
+          rows = rows.map((r, i) => ({ ...r, rank: i + 1 }));
 
-    function recomputeAndSort(){
-      const w = normalizeWeights({ ...W });
-      // persist
-      localStorage.setItem("livability_weights", JSON.stringify(w));
+          const q = (search.value || "").toLowerCase();
+          const filtered = q ? rows.filter(r => r.state.toLowerCase().includes(q)) : rows;
 
-      // recompute
-      rows = data.map(r => {
-        const s = scoreRow(r, w);
-        return { ...r, livability_score: s };
-      });
+          fillTable(filtered);
+          fillSelect(filtered);
+          renderState(select.value || filtered[0].state, rows);
+          renderInputsUI(w);
+        }
 
-      // sort + rank
-      rows.sort((a,b) => (b.livability_score - a.livability_score) || a.state.localeCompare(b.state));
-      rows = rows.map((r, i) => ({ ...r, rank: i + 1 }));
+        function fillTable(list) {
+          tbody.innerHTML = "";
+          list.slice(0, 25).forEach(r => {
+            const tr = document.createElement("tr");
+            tr.innerHTML = `
+              <td>${r.rank}</td>
+              <td>${r.state}</td>
+              <td class="score">${r.livability_score.toFixed(3)}</td>
+              <td>${r.Cost_of_Living_Index_2025?.toFixed(1) || "—"}</td>
+              <td>${r.Top_State_Income_Tax_Rate != null ? r.Top_State_Income_Tax_Rate.toFixed(2) + "%" : "—"}</td>`;
+            tr.style.cursor = "pointer";
+            tr.onclick = () => { select.value = r.state; renderState(r.state, rows); };
+            tbody.appendChild(tr);
+          });
+        }
 
-      // refresh UI
-      const q = (search.value || "").toLowerCase();
-      const filtered = q ? rows.filter(r => r.state.toLowerCase().includes(q)) : rows;
+        function fillSelect(list) {
+          const current = select.value;
+          select.innerHTML = "";
+          list.forEach(r => {
+            const opt = document.createElement("option");
+            opt.value = r.state; opt.textContent = r.state;
+            select.appendChild(opt);
+          });
+          select.value = current || (list[0] ? list[0].state : "");
+        }
 
-      fillTable(filtered);
-      fillSelect(filtered);
+        function renderInputsUI(w) {
+          inputGrid.innerHTML = "";
+          const defs = [
+            { k: "w_cost", l: "Cost" }, { k: "w_safety", l: "Safety" }, { k: "w_tax", l: "Tax" },
+            { k: "w_unemp", l: "Unemployment" }, { k: "w_employ", l: "Employment" }, { k: "w_wage", l: "Wage" }
+          ];
+          defs.forEach(d => {
+            const div = document.createElement("div");
+            div.innerHTML = `
+              <label style="display:block; font-size:11px; color:var(--muted);">${d.l}</label>
+              <input type="number" step="0.1" min="0" max="1" value="${w[d.k].toFixed(2)}" 
+                     style="width:100%; min-width:unset; padding:6px; border-radius:6px;" data-k="${d.k}">`;
+            inputGrid.appendChild(div);
+          });
+        }
 
-      if (filtered.length) {
-        // keep selected state if still present, else first
-        const keep = filtered.find(x => x.state === select.value);
-        select.value = keep ? keep.state : filtered[0].state;
-        renderState(select.value, rows);
-      }
+        function setKPIs(stateData) {
+          const el = document.getElementById("kpis");
+          el.innerHTML = "";
 
-      renderWeightsUI(w);
-    }
+          const cards = [
+            { label: "Current Rank", value: stateData.rank, sub: "Out of 50", digits: 0, prefix: "#" },
+            { label: "Livability score", value: stateData.livability_score, sub: "0–1 scale", digits: 3 },
+            { label: "Cost index (2025)", value: stateData.Cost_of_Living_Index_2025, sub: "Index value", digits: 1 },
+            { label: "Top income tax", value: stateData.Top_State_Income_Tax_Rate, sub: "Percent", digits: 2, suffix: "%" },
+            { label: "Unemployment", value: stateData.unemployment_rate, sub: "Recent avg", digits: 2, suffix: "%" },
+            { label: "Employment", value: stateData.employment_rate, sub: "Recent avg", digits: 2, suffix: "%" },
+            { label: "Avg weekly wage", value: stateData.avg_weekly_earnings, sub: "In USD", digits: 0 },
+            { label: "Violent crime rate", value: stateData.violent_crime_rate_per_100k, sub: "per 100k", digits: 1 },
+          ];
 
-    function fillTable(list){
-      tbody.innerHTML = "";
-      list.slice(0,25).forEach(r => {
-        const tr = document.createElement("tr");
-        tr.innerHTML = `
-          <td>${r.rank}</td>
-          <td>${r.state}</td>
-          <td class="score">${Number(r.livability_score).toFixed(3)}</td>
-          <td>${r.Cost_of_Living_Index_2025 == null ? "—" : Number(r.Cost_of_Living_Index_2025).toFixed(1)}</td>
-          <td>${r.Top_State_Income_Tax_Rate == null ? "—" : (Number(r.Top_State_Income_Tax_Rate).toFixed(2) + "%")}</td>
-        `;
-        tr.style.cursor = "pointer";
-        tr.addEventListener("click", () => {
-          select.value = r.state;
-          renderState(r.state, rows);
-        });
-        tbody.appendChild(tr);
-      });
-    }
+          cards.forEach(c => {
+            const div = document.createElement("div");
+            div.className = "kpi";
 
-    function fillSelect(list){
-      select.innerHTML = "";
-      list.forEach(r => {
-        const opt = document.createElement("option");
-        opt.value = r.state;
-        opt.textContent = r.state;
-        select.appendChild(opt);
-      });
-    }
+            // Apply light gray background and dark brown text specifically for the Rank box
+            if (c.label === "Current Rank") {
+              div.style.background = "#ececec"; // Light gray
+              div.style.border = "1px solid rgba(0,0,0,0.05)";
+            }
 
-    function setKPIs(stateData){
-      const el = document.getElementById("kpis");
-      el.innerHTML = "";
+            const v = (c.value === null || c.value === undefined) ? null : c.value;
+            const isRank = c.label === "Current Rank";
 
-      const cards = [
-        {label:"Livability score", value: stateData.livability_score, sub:"0–1 scale", digits:3},
-        {label:"Cost index (2025)", value: stateData.Cost_of_Living_Index_2025, sub:"Index value", digits:1},
-        {label:"Top income tax", value: stateData.Top_State_Income_Tax_Rate, sub:"Percent", digits:2, suffix:"%"},
-        {label:"Unemployment", value: stateData.unemployment_rate, sub:"Avg of recent months", digits:2, suffix:"%"},
-        {label:"Employment", value: stateData.employment_rate, sub:"Avg of recent months", digits:2, suffix:"%"},
-        {label:"Avg weekly earnings", value: stateData.avg_weekly_earnings, sub:"USD", digits:0},
-        {label:"Violent crime rate", value: stateData.violent_crime_rate_per_100k, sub:"per 100k", digits:1},
-      ];
+            div.innerHTML = `
+      <div class="lbl">${c.label}</div>
+      <div class="val" style="color: ${isRank ? 'var(--accent2)' : 'inherit'}">
+        ${c.prefix || ""}${v === null ? "—" : (typeof v === "number" ? v.toFixed(c.digits) : v)}${c.suffix || ""}
+      </div>
+      <div class="sub">${c.sub}</div>
+    `;
+            el.appendChild(div);
+          });
+        }
 
-      cards.forEach(c => {
-        const div = document.createElement("div");
-        div.className = "kpi";
-        const v = (c.value === null || c.value === undefined) ? null : c.value;
-        div.innerHTML = `
-          <div class="lbl">${c.label}</div>
-          <div class="val">${v === null ? "—" : (typeof v === "number" ? Number(v).toFixed(c.digits) : v)}${c.suffix ? (v===null?"":c.suffix) : ""}</div>
-          <div class="sub">${c.sub}</div>
-        `;
-        el.appendChild(div);
-      });
-    }
+        function renderState(name, all) {
+          const match = all.find(r => r.state === name);
+          if (match) setKPIs(match);
+        }
 
-    function renderState(stateName, allRows){
-      const stateData = allRows.find(r => r.state === stateName);
-      if (!stateData) return;
-      setKPIs(stateData);
-    }
-
-    function renderWeightsUI(w){
-      weightsPanel.innerHTML = `
-        <div class="weights-title">
-          Drag the sliders to set your priorities.
-          <b>Higher weight = you care more about that factor.</b>
-          (Weights auto-normalize to 100%.)
-        </div>
-        <div class="range-hints">
-          <span>Less important</span>
-          <span>More important</span>
-        </div>
-      `;
-
-      const defs = [
-        {key:"w_cost", label:"Cost"},
-        {key:"w_safety", label:"Safety"},
-        {key:"w_tax", label:"Tax"},
-        {key:"w_unemp", label:"Unemployment"},
-        {key:"w_employ", label:"Employment"},
-        {key:"w_wage", label:"Wage"},
-      ];
-
-      defs.forEach(d => {
-        const row = document.createElement("div");
-        row.className = "wrow";
-        row.innerHTML = `
-          <div class="wlabel">${d.label}</div>
-          <input type="range" min="0" max="1" step="0.01" value="${w[d.key].toFixed(2)}" data-k="${d.key}">
-          <div class="wval" id="val_${d.key}">${w[d.key].toFixed(2)}</div>
-        `;
-        weightsPanel.appendChild(row);
-      });
-
-      // bind listeners
-      weightsPanel.querySelectorAll('input[type="range"]').forEach(inp => {
-        inp.addEventListener("input", (e) => {
-          const k = e.target.getAttribute("data-k");
-          W[k] = Number(e.target.value);
+        updateBtn.onclick = () => {
+          inputGrid.querySelectorAll('input').forEach(i => {
+            W[i.getAttribute('data-k')] = parseFloat(i.value) || 0;
+          });
           recomputeAndSort();
-        });
+        };
+
+        search.oninput = () => recomputeAndSort();
+        select.onchange = () => renderState(select.value, rows);
+
+        recomputeAndSort();
       });
-    }
-
-    // search/filter
-    search.addEventListener("input", () => recomputeAndSort());
-    select.addEventListener("change", () => renderState(select.value, rows));
-
-    // initial render
-    recomputeAndSort();
-  });
-</script>
+  </script>
 </body>
+
 </html>
