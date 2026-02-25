@@ -128,10 +128,10 @@
     </header>
 
     <div class="grid">
-        <!-- LEFT: Top 25 -->
+        <!-- LEFT: Top 50 -->
         <div class="card">
             <div class="hd" style="padding:15px;">
-                <h2>Top 25 States</h2>
+                <h2>Top 50 States</h2>
             </div>
             <div class="bd">
                 <table>
@@ -212,7 +212,7 @@
                 function fillTable() {
                     const tb = document.getElementById("rankTableBody");
                     tb.innerHTML = "";
-                    rows.slice(0, 25).forEach(r => {
+                    rows.slice(0, 50).forEach(r => {
                         const tr = document.createElement("tr");
                         tr.innerHTML = `
           <td>${r.rank}</td>
