@@ -99,9 +99,15 @@ pip install -r requirements.txt
 Step 1:
 cd web_scraping
 
-python3 main_run.py --auto --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7
+# API keys are already pre-configured in web_scraping/config.py.
+# You can run directly without applying for keys or setting env vars.
+
+python3 main_run.py --auto --start 2022 --end 2025
 or
-python main_run.py --auto --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7
+python main_run.py --auto --start 2022 --end 2025
+
+# Optional: override BLS key from CLI
+python3 main_run.py --auto --start 2022 --end 2025 --key YOUR_BLS_API_KEY
 
 Step 2:
 python3 -m http.server 8000
