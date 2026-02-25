@@ -104,7 +104,6 @@ or
 python main_run.py --auto --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7
 
 Step 2:
-cd web_scraper
 python3 -m http.server 8000
 
 Step 3: 
