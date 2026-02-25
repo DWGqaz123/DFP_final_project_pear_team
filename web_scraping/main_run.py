@@ -13,6 +13,7 @@ from typing import Dict
 import pandas as pd
 import numpy as np
 import webbrowser
+from config import BLS_API_KEY
 
 
 # --- Paths / config ---
@@ -204,10 +205,11 @@ def main() -> None:
     parser.add_argument("--auto", action="store_true")
 
     args = parser.parse_args()
+    api_key = args.key or BLS_API_KEY or None
 
     if args.auto:
         if not args.use_existing:
-            run_bls(args.start, args.end, args.key)
+            run_bls(args.start, args.end, api_key)
             run_data_collecting()
             merge_and_export()
 

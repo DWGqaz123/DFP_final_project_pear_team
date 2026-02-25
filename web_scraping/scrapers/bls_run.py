@@ -8,9 +8,9 @@ Responsibilities:
   - Sub-scripts: fetch their own metric and upsert into the existing master file
 
 Usage:
-    python3 bls_run.py --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7
+    python3 bls_run.py --start 2022 --end 2025 --key YOUR_BLS_API_KEY
   or
-    python bls_run.py --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7
+    python bls_run.py --start 2022 --end 2025 --key YOUR_BLS_API_KEY
 """
 
 from __future__ import annotations
@@ -21,6 +21,12 @@ import sys
 from pathlib import Path
 
 import pandas as pd
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from config import BLS_API_KEY
 
 
 # config
@@ -124,9 +130,10 @@ def main() -> None:
     parser.add_argument("--end",   required=True, help="End year,   e.g. 2025")
     parser.add_argument("--key",   default=None,  help="BLS API key (optional)")
     args = parser.parse_args()
+    api_key = args.key or BLS_API_KEY or None
 
     init_master()
-    run_sub_scripts(start=args.start, end=args.end, api_key=args.key)
+    run_sub_scripts(start=args.start, end=args.end, api_key=api_key)
     
 if __name__ == "__main__":
     main()

@@ -16,7 +16,7 @@ Requirements:
   pip install requests pandas
 
 Usage:
-  python bls_quits_50states.py --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7 --out quits.csv
+  python bls_quits_50states.py --start 2022 --end 2025 --key YOUR_BLS_API_KEY --out quits.csv
   python bls_quits_50states.py --start 2022 --end 2025 --out quits.csv 
 """
 

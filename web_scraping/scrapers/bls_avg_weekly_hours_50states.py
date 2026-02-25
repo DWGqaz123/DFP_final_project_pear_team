@@ -10,7 +10,7 @@ Requirements:
   pip install requests pandas
 
 Usage:
-  python3 bls_avg_weekly_hours_50states.py --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7 --out data/weeklyhours.csv
+  python3 bls_avg_weekly_hours_50states.py --start 2022 --end 2025 --key YOUR_BLS_API_KEY --out data/weeklyhours.csv
 """
 
 from __future__ import annotations

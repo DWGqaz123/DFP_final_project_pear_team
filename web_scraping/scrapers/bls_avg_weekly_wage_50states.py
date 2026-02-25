@@ -7,7 +7,7 @@ SMU + {state_fips} + 00000 + 05 + 000000 + 11
 Example: California (06) => SMU06000000500000011
 
 Run:
-python3 bls_avg_weekly_earnings_50states.py --start 2022 --end 2024 --key 963729bfa50042e294f9e0516067fcb7 --out avg_weekly_earnings.csv
+python3 bls_avg_weekly_earnings_50states.py --start 2022 --end 2024 --key YOUR_BLS_API_KEY --out avg_weekly_earnings.csv
 """
 
 import argparse

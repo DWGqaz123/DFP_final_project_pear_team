@@ -17,7 +17,7 @@ Requirements:
 
 Usage:
   python bls_jobopenings_50states.py --start 2022 --end 2024 --out jobopenings.csv
-  python bls_jobopenings_50states.py --start 2022 --end 2024 --key 963729bfa50042e294f9e0516067fcb7 --out jobopenings.csv
+  python bls_jobopenings_50states.py --start 2022 --end 2024 --key YOUR_BLS_API_KEY --out jobopenings.csv
 """
 
 from __future__ import annotations

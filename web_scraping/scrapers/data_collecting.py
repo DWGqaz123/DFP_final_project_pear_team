@@ -17,6 +17,14 @@ import pandas as pd
 import re
 import json
 import time
+import sys
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from config import FBI_API_KEY
 
 
 
@@ -185,12 +193,23 @@ def scrape_crime_rates(api_key):
 # 5 Main Execution
 
 def main():
-    api_key = "wPBgMISeWBqfqIeh7Q7ImfLzHbbeFuxeAe9z50iN"
+    api_key = FBI_API_KEY
 
     # Collect datasets
     df_cost = scrape_cost_of_living()
     df_tax = scrape_income_tax()
-    df_crime = scrape_crime_rates(api_key)
+    if api_key:
+        df_crime = scrape_crime_rates(api_key)
+    else:
+        print("FBI_API_KEY is empty in config.py; skipping crime data scrape.")
+        df_crime = pd.DataFrame(
+            columns=[
+                "State",
+                "State_Abbreviation",
+                "Month",
+                "Violent_Crime_Rate_per_100k",
+            ]
+        )
 
     # Merge cost and tax
     df_merged = df_cost.merge(df_tax, on="State", how="left")
