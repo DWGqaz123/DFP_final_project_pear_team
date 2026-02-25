@@ -97,7 +97,8 @@ pip install -r requirements.txt
 ### Full pipeline (recommended)
 ```bash
 python3 main_run.py --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7
-
+or
+python main_run.py --start 2022 --end 2025 --key 963729bfa50042e294f9e0516067fcb7
 ```
 
 ---
